@@ -1,0 +1,757 @@
+Jul 25, 2017 10:42:29 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getSolution() : Tue Jul 25 10:42:29 CEST 2017
+
+
+Jul 25, 2017 10:42:29 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(solve_mapping_problem([ 
+reserved([p,DIGITAL_IO0sv0,pad,_],'digital_io$01238362304$0'),
+reserved([devicepackage,0,_],'digital_io$0567432502$0'),
+uri([devicepackage,0,21],'digital_io$0567432502$0'),
+reserved([p,DIGITAL_IO1sv0,pad,_],'digital_io$01748896481$1'),
+reserved([devicepackage,0,_],'digital_io$1689478505$1'),
+uri([devicepackage,0,22],'digital_io$1689478505$1'),
+reserved([scu,0,dco,_],'clock_xmc1$1911737770$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$01005053461$0'),
+reserved([p,0,pad,14],'cpu_ctrl_xmc1$01695105704$0'),
+reserved([p,0,pad,15],'cpu_ctrl_xmc1$01695105703$0'),
+reserved([cpu,0,exception,hardfault],'cpu_ctrl_xmc1$1199990160$0'),
+reserved([usic,_,channel,_],'uart$426864790$0'),
+reserved([p,_,pad,_],'uart$1687104611$0'),
+reserved([p,_,pad,_],'uart$1687104673$0'),
+reserved([cpu,0,nvic,interrupt,_],'uart$608506618$0'),
+reserved([cpu,0,nvic,interrupt,_],'uart$608506556$0'),
+reserved([devicepackage,0,_],'uart$01114417107$0'),
+reserved([devicepackage,0,_],'uart$01114417045$0'),
+signal('digital_io$01238362304$0',swreg_out,'digital_io$01238362304$0$swreg_out'),
+signal('digital_io$01238362304$0',pad,'digital_io$01238362304$0$pad'),
+signal('digital_io$0567432502$0',pin,'digital_io$0567432502$0$pin'),
+signal('digital_io$01748896481$1',swreg_out,'digital_io$01748896481$1$swreg_out'),
+signal('digital_io$01748896481$1',pad,'digital_io$01748896481$1$pad'),
+signal('digital_io$1689478505$1',pin,'digital_io$1689478505$1$pin'),
+signal('clock_xmc1$1911737770$0',clkout,'clock_xmc1$1911737770$0$clkout'),
+signal('clock_xmc1$01005053461$0',frtc,'clock_xmc1$01005053461$0$frtc'),
+signal('uart$426864790$0',dx0ins,'uart$426864790$0$dx0ins'),
+signal('uart$426864790$0',dx3ins,'uart$426864790$0$dx3ins'),
+signal('uart$426864790$0',dout0,'uart$426864790$0$dout0'),
+signal('uart$1687104611$0',pad,'uart$1687104611$0$pad'),
+signal('uart$1687104673$0',pad,'uart$1687104673$0$pad'),
+signal('uart$426864790$0',protocol_specific_int,'uart$426864790$0$protocol_specific_int'),
+signal('uart$426864790$0',standard_transmit_buffer_int,'uart$426864790$0$standard_transmit_buffer_int'),
+signal('uart$426864790$0',standard_receive_buffer_int,'uart$426864790$0$standard_receive_buffer_int'),
+signal('uart$426864790$0',alternate_receive_buffer_int,'uart$426864790$0$alternate_receive_buffer_int'),
+signal('uart$608506618$0',signal_in,'uart$608506618$0$signal_in'),
+signal('uart$608506556$0',signal_in,'uart$608506556$0$signal_in'),
+signal('uart$01114417107$0',pin,'uart$01114417107$0$pin'),
+signal('uart$01114417045$0',pin,'uart$01114417045$0$pin'),
+connected('digital_io$0567432502$0$pin','digital_io$01238362304$0$pad',1),
+connected('digital_io$01238362304$0$pad','digital_io$0567432502$0$pin',1),
+connected('digital_io$1689478505$1$pin','digital_io$01748896481$1$pad',1),
+connected('digital_io$01748896481$1$pad','digital_io$1689478505$1$pin',1),
+connected('clock_xmc1$1911737770$0$clkout','clock_xmc1$01005053461$0$frtc',1),
+connected('uart$01114417107$0$pin','uart$1687104611$0$pad',1),
+connected('uart$01114417045$0$pin','uart$1687104673$0$pad',1),
+connected('uart$426864790$0$dout0','uart$1687104673$0$pad',1),
+connected('uart$426864790$0$alternate_receive_buffer_int','uart$608506556$0$signal_in',1),
+connected('uart$426864790$0$standard_receive_buffer_int','uart$608506556$0$signal_in',1),
+connected('uart$426864790$0$standard_transmit_buffer_int','uart$608506618$0$signal_in',1),
+connected('uart$1687104611$0$pad','uart$01114417107$0$pin',1),
+connected('uart$1687104611$0$pad','uart$426864790$0$dx0ins',1),
+connected('uart$1687104673$0$pad','uart$01114417045$0$pin',1),
+uri_element_range(DIGITAL_IO1sv0,[0, 1, 2, 3, 4]),
+register_value('digital_io$01748896481$1',iocr_oe,1),
+register_value('uart$426864790$0',ccr_hpcen,0),
+register_value('uart$426864790$0',tbctr_size,4),
+register_value('uart$426864790$0',rbctr_size,4),
+uri_element_range(DIGITAL_IO0sv0,[0, 1, 2, 3, 4]),
+register_value('digital_io$01238362304$0',iocr_oe,1)
+ ],Vars,Regs,Appslocalvars),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Jul 25, 2017 10:42:29 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getSolution() :  Difference in ms 669
+
+
+Jul 25, 2017 10:42:29 AM java.util.logging.LogManager$RootLogger log
+INFO: [/scu/0/ccu/config, /clock_xmc1$01005053461$0, /scu/0/dco/2, /clock_xmc1$1911737770$0, /p/0/pad/15, /cpu_ctrl_xmc1$01695105703$0, /p/0/pad/14, /cpu_ctrl_xmc1$01695105704$0, /cpu/0/exception/hardfault, /cpu_ctrl_xmc1$1199990160$0, /p/1/pad/1, /digital_io$01238362304$0, /p/1/pad/0, /digital_io$01748896481$1, /devicepackage/0/21, /digital_io$0567432502$0, /devicepackage/0/22, /digital_io$1689478505$1, /devicepackage/0/17, /uart$01114417045$0, /devicepackage/0/11, /uart$01114417107$0, /p/2/pad/10, /uart$1687104611$0, /p/1/pad/5, /uart$1687104673$0, /usic/0/channel/0, /uart$426864790$0, /cpu/0/nvic/interrupt/10, /uart$608506556$0, /cpu/0/nvic/interrupt/11, /uart$608506618$0]
+
+
+Jul 25, 2017 10:42:29 AM java.util.logging.LogManager$RootLogger log
+INFO: [/p/1/pad/0/iocr_pcr, /0, /p/1/pad/0/iocr_oe, /1, /p/1/pad/0/hwsel_hw, /0, /p/1/pad/1/iocr_pcr, /0, /p/1/pad/1/iocr_oe, /1, /p/1/pad/1/hwsel_hw, /0, /p/1/pad/2/iocr_pcr, /0, /p/1/pad/2/iocr_oe, /0, /p/1/pad/2/hwsel_hw, /0, /p/1/pad/3/iocr_pcr, /0, /p/1/pad/3/iocr_oe, /0, /p/1/pad/3/hwsel_hw, /0, /p/1/pad/4/iocr_pcr, /0, /p/1/pad/4/iocr_oe, /0, /p/1/pad/4/hwsel_hw, /0, /p/1/pad/5/iocr_pcr, /2, /p/1/pad/5/iocr_oe, /1, /p/1/pad/5/hwsel_hw, /0, /p/1/pad/6/iocr_pcr, /0, /p/1/pad/6/iocr_oe, /0, /p/1/pad/6/hwsel_hw, /0, /p/2/pad/2/iocr_pcr, /0, /p/2/pad/2/iocr_oe, /0, /p/2/pad/2/hwsel_hw, /0, /p/2/pad/2/pdisc_pdis, /1, /p/2/pad/3/iocr_pcr, /0, /p/2/pad/3/iocr_oe, /0, /p/2/pad/3/pdisc_pdis, /1, /p/2/pad/4/iocr_pcr, /0, /p/2/pad/4/iocr_oe, /0, /p/2/pad/4/hwsel_hw, /0, /p/2/pad/4/pdisc_pdis, /1, /p/2/pad/5/iocr_pcr, /0, /p/2/pad/5/iocr_oe, /0, /p/2/pad/5/pdisc_pdis, /1, /p/2/pad/6/iocr_pcr, /0, /p/2/pad/6/iocr_oe, /0, /p/2/pad/6/hwsel_hw, /0, /p/2/pad/6/pdisc_pdis, /1, /p/2/pad/7/iocr_pcr, /0, /p/2/pad/7/iocr_oe, /0, /p/2/pad/7/hwsel_hw, /0, /p/2/pad/7/pdisc_pdis, /1, /p/2/pad/8/iocr_pcr, /0, /p/2/pad/8/iocr_oe, /0, /p/2/pad/8/hwsel_hw, /0, /p/2/pad/8/pdisc_pdis, /1, /p/2/pad/9/iocr_pcr, /0, /p/2/pad/9/iocr_oe, /0, /p/2/pad/9/hwsel_hw, /0, /p/2/pad/9/pdisc_pdis, /1, /p/0/pad/0/iocr_pcr, /0, /p/0/pad/0/iocr_oe, /0, /p/0/pad/0/hwsel_hw, /0, /p/0/pad/1/iocr_pcr, /0, /p/0/pad/1/iocr_oe, /0, /p/0/pad/1/hwsel_hw, /0, /p/0/pad/10/iocr_pcr, /0, /p/0/pad/10/iocr_oe, /0, /p/0/pad/10/hwsel_hw, /0, /p/0/pad/11/iocr_pcr, /0, /p/0/pad/11/iocr_oe, /0, /p/0/pad/11/hwsel_hw, /0, /p/0/pad/12/iocr_pcr, /0, /p/0/pad/12/iocr_oe, /0, /p/0/pad/12/hwsel_hw, /0, /p/0/pad/13/iocr_pcr, /0, /p/0/pad/13/iocr_oe, /0, /p/0/pad/13/hwsel_hw, /0, /p/0/pad/14/iocr_pcr, /0, /p/0/pad/14/iocr_oe, /0, /p/0/pad/14/hwsel_hw, /0, /p/0/pad/15/iocr_pcr, /0, /p/0/pad/15/iocr_oe, /0, /p/0/pad/15/hwsel_hw, /0, /p/0/pad/2/iocr_pcr, /0, /p/0/pad/2/iocr_oe, /0, /p/0/pad/2/hwsel_hw, /0, /p/0/pad/3/iocr_pcr, /0, /p/0/pad/3/iocr_oe, /0, /p/0/pad/3/hwsel_hw, /0, /p/0/pad/4/iocr_pcr, /0, /p/0/pad/4/iocr_oe, /0, /p/0/pad/4/hwsel_hw, /0, /p/0/pad/5/iocr_pcr, /0, /p/0/pad/5/iocr_oe, /0, /p/0/pad/5/hwsel_hw, /0, /p/0/pad/6/iocr_pcr, /0, /p/0/pad/6/iocr_oe, /0, /p/0/pad/6/hwsel_hw, /0, /p/0/pad/7/iocr_pcr, /0, /p/0/pad/7/iocr_oe, /0, /p/0/pad/7/hwsel_hw, /0, /p/0/pad/8/iocr_pcr, /0, /p/0/pad/8/iocr_oe, /0, /p/0/pad/8/hwsel_hw, /0, /p/0/pad/9/iocr_pcr, /0, /p/0/pad/9/iocr_oe, /0, /p/0/pad/9/hwsel_hw, /0, /p/2/pad/0/iocr_pcr, /0, /p/2/pad/0/iocr_oe, /0, /p/2/pad/0/hwsel_hw, /0, /p/2/pad/0/pdisc_pdis, /1, /p/2/pad/1/iocr_pcr, /0, /p/2/pad/1/iocr_oe, /0, /p/2/pad/1/hwsel_hw, /0, /p/2/pad/1/pdisc_pdis, /1, /p/2/pad/10/iocr_pcr, /0, /p/2/pad/10/iocr_oe, /0, /p/2/pad/10/hwsel_hw, /0, /p/2/pad/10/pdisc_pdis, /0, /p/2/pad/11/iocr_pcr, /0, /p/2/pad/11/iocr_oe, /0, /p/2/pad/11/hwsel_hw, /0, /p/2/pad/11/pdisc_pdis, /1, /bccu/0/channel/0/chconfig_dsel, /0, /bccu/0/channel/1/chconfig_dsel, /0, /bccu/0/channel/2/chconfig_dsel, /0, /bccu/0/channel/3/chconfig_dsel, /0, /bccu/0/channel/4/chconfig_dsel, /0, /bccu/0/channel/5/chconfig_dsel, /0, /bccu/0/channel/6/chconfig_dsel, /0, /bccu/0/channel/7/chconfig_dsel, /0, /bccu/0/channel/8/chconfig_dsel, /0, /bccu/0/packer_fifo_event/evier_eien, /0, /bccu/0/packer_fifo_event/evier_fien, /0, /bccu/0/trap/evier_tpien, /0, /bccu/0/trap/globcon_trapis, /0, /bccu/0/trigger/evier_t0ien, /0, /bccu/0/trigger/evier_t1ien, /0, /ccu4/0/cc4/0/ins_ev1is, /0, /ccu4/0/cc4/0/ins_ev0is, /0, /ccu4/0/cc4/0/ins_ev2is, /0, /ccu4/0/cc4/0/srs_cmsr, /0, /ccu4/0/cc4/0/srs_e0sr, /0, /ccu4/0/cc4/0/srs_e1sr, /0, /ccu4/0/cc4/0/srs_e2sr, /0, /ccu4/0/cc4/0/srs_posr, /0, /ccu4/0/cc4/1/ins_ev1is, /0, /ccu4/0/cc4/1/ins_ev0is, /0, /ccu4/0/cc4/1/ins_ev2is, /0, /ccu4/0/cc4/1/srs_cmsr, /0, /ccu4/0/cc4/1/cmc_tce, /0, /ccu4/0/cc4/1/srs_e0sr, /0, /ccu4/0/cc4/1/srs_e1sr, /0, /ccu4/0/cc4/1/srs_e2sr, /0, /ccu4/0/cc4/1/srs_posr, /0, /ccu4/0/cc4/2/ins_ev1is, /0, /ccu4/0/cc4/2/ins_ev0is, /0, /ccu4/0/cc4/2/ins_ev2is, /0, /ccu4/0/cc4/2/srs_cmsr, /0, /ccu4/0/cc4/2/cmc_tce, /0, /ccu4/0/cc4/2/srs_e0sr, /0, /ccu4/0/cc4/2/srs_e1sr, /0, /ccu4/0/cc4/2/srs_e2sr, /0, /ccu4/0/cc4/2/srs_posr, /0, /ccu4/0/cc4/3/ins_ev1is, /0, /ccu4/0/cc4/3/ins_ev0is, /0, /ccu4/0/cc4/3/ins_ev2is, /0, /ccu4/0/cc4/3/srs_cmsr, /0, /ccu4/0/cc4/3/cmc_tce, /0, /ccu4/0/cc4/3/srs_e0sr, /0, /ccu4/0/cc4/3/srs_e1sr, /0, /ccu4/0/cc4/3/srs_e2sr, /0, /ccu4/0/cc4/3/srs_posr, /0, /ccu4/0/global/gctrl_pcis, /0, /ccu8/0/cc8/1/ins_ev1is, /0, /ccu8/0/cc8/1/ins_ev0is, /0, /ccu8/0/cc8/1/ins_ev2is, /0, /ccu8/0/cc8/1/cmc_tce, /0, /ccu8/0/cc8/1/srs_e0sr, /0, /ccu8/0/cc8/1/srs_e1sr, /0, /ccu8/0/cc8/1/srs_e2sr, /0, /ccu8/0/cc8/1/srs_posr, /0, /ccu8/0/cc8/1/srs_cm1sr, /0, /ccu8/0/cc8/1/srs_cm2sr, /0, /ccu8/0/cc8/0/ins_ev1is, /0, /ccu8/0/cc8/0/ins_ev0is, /0, /ccu8/0/cc8/0/ins_ev2is, /0, /ccu8/0/cc8/0/srs_e0sr, /0, /ccu8/0/cc8/0/srs_e1sr, /0, /ccu8/0/cc8/0/srs_e2sr, /0, /ccu8/0/cc8/0/srs_posr, /0, /ccu8/0/cc8/0/srs_cm1sr, /0, /ccu8/0/cc8/0/srs_cm2sr, /0, /ccu8/0/cc8/3/ins_ev1is, /0, /ccu8/0/cc8/3/ins_ev0is, /0, /ccu8/0/cc8/3/ins_ev2is, /0, /ccu8/0/cc8/3/cmc_tce, /0, /ccu8/0/cc8/3/srs_e0sr, /0, /ccu8/0/cc8/3/srs_e1sr, /0, /ccu8/0/cc8/3/srs_e2sr, /0, /ccu8/0/cc8/3/srs_posr, /0, /ccu8/0/cc8/3/srs_cm1sr, /0, /ccu8/0/cc8/3/srs_cm2sr, /0, /ccu8/0/cc8/2/ins_ev1is, /0, /ccu8/0/cc8/2/ins_ev0is, /0, /ccu8/0/cc8/2/ins_ev2is, /0, /ccu8/0/cc8/2/cmc_tce, /0, /ccu8/0/cc8/2/srs_e0sr, /0, /ccu8/0/cc8/2/srs_e1sr, /0, /ccu8/0/cc8/2/srs_e2sr, /0, /ccu8/0/cc8/2/srs_posr, /0, /ccu8/0/cc8/2/srs_cm1sr, /0, /ccu8/0/cc8/2/srs_cm2sr, /0, /ccu8/0/global/gctrl_pcis, /0, /cpu/0/nvic/interrupt/0/iser_setena, /0, /cpu/0/nvic/interrupt/1/iser_setena, /0, /cpu/0/nvic/interrupt/10/iser_setena, /1, /cpu/0/nvic/interrupt/11/iser_setena, /1, /cpu/0/nvic/interrupt/12/iser_setena, /0, /cpu/0/nvic/interrupt/13/iser_setena, /0, /cpu/0/nvic/interrupt/14/iser_setena, /0, /cpu/0/nvic/interrupt/15/iser_setena, /0, /cpu/0/nvic/interrupt/16/iser_setena, /0, /cpu/0/nvic/interrupt/17/iser_setena, /0, /cpu/0/nvic/interrupt/18/iser_setena, /0, /cpu/0/nvic/interrupt/19/iser_setena, /0, /cpu/0/nvic/interrupt/2/iser_setena, /0, /cpu/0/nvic/interrupt/20/iser_setena, /0, /cpu/0/nvic/interrupt/21/iser_setena, /0, /cpu/0/nvic/interrupt/22/iser_setena, /0, /cpu/0/nvic/interrupt/23/iser_setena, /0, /cpu/0/nvic/interrupt/24/iser_setena, /0, /cpu/0/nvic/interrupt/25/iser_setena, /0, /cpu/0/nvic/interrupt/26/iser_setena, /0, /cpu/0/nvic/interrupt/27/iser_setena, /0, /cpu/0/nvic/interrupt/28/iser_setena, /0, /cpu/0/nvic/interrupt/29/iser_setena, /0, /cpu/0/nvic/interrupt/3/iser_setena, /0, /cpu/0/nvic/interrupt/30/iser_setena, /0, /cpu/0/nvic/interrupt/31/iser_setena, /0, /cpu/0/nvic/interrupt/4/iser_setena, /0, /cpu/0/nvic/interrupt/5/iser_setena, /0, /cpu/0/nvic/interrupt/6/iser_setena, /0, /cpu/0/nvic/interrupt/7/iser_setena, /0, /cpu/0/nvic/interrupt/9/iser_setena, /0, /eru/0/ers_etl/0/exicon_pe, /0, /eru/0/ers_etl/0/exicon_ocs, /0, /eru/0/ers_etl/0/exisel_exsxa, /0, /eru/0/ers_etl/0/exisel_exsxb, /0, /eru/0/ers_etl/1/exicon_pe, /0, /eru/0/ers_etl/1/exicon_ocs, /0, /eru/0/ers_etl/1/exisel_exsxa, /0, /eru/0/ers_etl/1/exisel_exsxb, /0, /eru/0/ers_etl/2/exicon_pe, /0, /eru/0/ers_etl/2/exicon_ocs, /0, /eru/0/ers_etl/2/exisel_exsxa, /0, /eru/0/ers_etl/2/exisel_exsxb, /0, /eru/0/ers_etl/3/exicon_pe, /0, /eru/0/ers_etl/3/exicon_ocs, /0, /eru/0/ers_etl/3/exisel_exsxa, /0, /eru/0/ers_etl/3/exisel_exsxb, /0, /eru/0/ogu/0/exocon_iss, /0, /eru/0/ogu/0/exocon_ipen0, /0, /eru/0/ogu/0/exocon_ipen1, /0, /eru/0/ogu/0/exocon_ipen2, /0, /eru/0/ogu/0/exocon_ipen3, /0, /eru/0/ogu/1/exocon_iss, /0, /eru/0/ogu/1/exocon_ipen0, /0, /eru/0/ogu/1/exocon_ipen1, /0, /eru/0/ogu/1/exocon_ipen2, /0, /eru/0/ogu/1/exocon_ipen3, /0, /eru/0/ogu/2/exocon_iss, /0, /eru/0/ogu/2/exocon_ipen0, /0, /eru/0/ogu/2/exocon_ipen1, /0, /eru/0/ogu/2/exocon_ipen2, /0, /eru/0/ogu/2/exocon_ipen3, /0, /eru/0/ogu/3/exocon_iss, /0, /eru/0/ogu/3/exocon_ipen0, /0, /eru/0/ogu/3/exocon_ipen1, /0, /eru/0/ogu/3/exocon_ipen2, /0, /eru/0/ogu/3/exocon_ipen3, /0, /posif/0/posif/hsc_qd/pconf_dsel, /0, /posif/0/posif/hsc_qd/pconf_ewis, /0, /posif/0/posif/hsc_qd/pconf_insel0, /0, /posif/0/posif/hsc_qd/pconf_insel1, /0, /posif/0/posif/hsc_qd/pconf_insel2, /0, /posif/0/posif/hsc_qd/pflge_eche, /0, /posif/0/posif/hsc_qd/pflge_chesel, /0, /posif/0/posif/hsc_qd/pflge_cnte, /0, /posif/0/posif/hsc_qd/pflge_cntsel, /0, /posif/0/posif/hsc_qd/pflge_dire, /0, /posif/0/posif/hsc_qd/pflge_dirsel, /0, /posif/0/posif/hsc_qd/pflge_erre, /0, /posif/0/posif/hsc_qd/pflge_errsel, /0, /posif/0/posif/hsc_qd/pflge_ehie, /0, /posif/0/posif/hsc_qd/pflge_hiesel, /0, /posif/0/posif/hsc_qd/pflge_indxe, /0, /posif/0/posif/hsc_qd/pflge_indsel, /0, /posif/0/posif/hsc_qd/pflge_pclke, /0, /posif/0/posif/hsc_qd/pflge_pclsel, /0, /posif/0/posif/hsc_qd/pflge_ewhe, /0, /posif/0/posif/hsc_qd/pflge_whesel, /0, /posif/0/posif/mcm/pconf_msets, /0, /posif/0/posif/mcm/pconf_msyns, /0, /posif/0/posif/mcm/pflge_emst, /0, /posif/0/posif/mcm/pflge_mstsel, /0, /scu/0/ccu/config/clkcr_rtcclksel, /0, /usic/0/channel/0/ccr_hpcen, /0, /usic/0/channel/0/dx1cr_dsel, /0, /usic/0/channel/0/dx0cr_dsel, /6, /usic/0/channel/0/dx5cr_dsel, /0, /usic/0/channel/0/dx3cr_dsel, /2, /usic/0/channel/0/dx4cr_dsel, /0, /usic/0/channel/0/dx2cr_dsel, /0, /usic/0/channel/0/rbctr_arbien, /1, /usic/0/channel/0/rbctr_arbinp, /1, /usic/0/channel/0/ccr_aien, /0, /usic/0/channel/0/inpr_ainp, /0, /usic/0/channel/0/ccr_brgien, /0, /usic/0/channel/0/inpr_pinp, /0, /usic/0/channel/0/ccr_dlien, /0, /usic/0/channel/0/rbctr_rberien, /0, /usic/0/channel/0/ccr_rsien, /0, /usic/0/channel/0/inpr_tbinp, /0, /usic/0/channel/0/rbctr_srbien, /1, /usic/0/channel/0/rbctr_srbinp, /1, /usic/0/channel/0/ccr_rien, /0, /usic/0/channel/0/inpr_rinp, /0, /usic/0/channel/0/tbctr_stbien, /1, /usic/0/channel/0/tbctr_stbinp, /2, /usic/0/channel/0/tbctr_tberien, /0, /usic/0/channel/0/tbctr_atbinp, /0, /usic/0/channel/0/ccr_tbien, /0, /usic/0/channel/0/ccr_tsien, /0, /usic/0/channel/0/inpr_tsinp, /0, /usic/0/channel/0/rbctr_dptr, /0, /usic/0/channel/0/rbctr_size, /4, /usic/0/channel/0/tbctr_dptr, /16, /usic/0/channel/0/tbctr_size, /4, /usic/0/channel/1/ccr_hpcen, /0, /usic/0/channel/1/dx1cr_dsel, /0, /usic/0/channel/1/dx0cr_dsel, /0, /usic/0/channel/1/dx5cr_dsel, /0, /usic/0/channel/1/dx3cr_dsel, /0, /usic/0/channel/1/dx4cr_dsel, /0, /usic/0/channel/1/dx2cr_dsel, /0, /usic/0/channel/1/rbctr_arbien, /0, /usic/0/channel/1/rbctr_arbinp, /0, /usic/0/channel/1/ccr_aien, /0, /usic/0/channel/1/inpr_ainp, /0, /usic/0/channel/1/ccr_brgien, /0, /usic/0/channel/1/inpr_pinp, /0, /usic/0/channel/1/ccr_dlien, /0, /usic/0/channel/1/rbctr_rberien, /0, /usic/0/channel/1/ccr_rsien, /0, /usic/0/channel/1/inpr_tbinp, /0, /usic/0/channel/1/rbctr_srbien, /0, /usic/0/channel/1/rbctr_srbinp, /0, /usic/0/channel/1/ccr_rien, /0, /usic/0/channel/1/inpr_rinp, /0, /usic/0/channel/1/tbctr_stbien, /0, /usic/0/channel/1/tbctr_stbinp, /0, /usic/0/channel/1/tbctr_tberien, /0, /usic/0/channel/1/tbctr_atbinp, /0, /usic/0/channel/1/ccr_tbien, /0, /usic/0/channel/1/ccr_tsien, /0, /usic/0/channel/1/inpr_tsinp, /0, /usic/0/channel/1/rbctr_dptr, /0, /usic/0/channel/1/rbctr_size, /0, /usic/0/channel/1/tbctr_dptr, /0, /usic/0/channel/1/tbctr_size, /0, /vadc/0/backgnd/brsctrl_xtsel, /0, /vadc/0/backgnd/brsctrl_gtsel, /0, /vadc/0/backgnd/globevnp_sev0np, /0, /vadc/0/emux/0/emuxsel_emuxgrp, /0, /vadc/0/emux/1/emuxsel_emuxgrp, /0, /vadc/0/global_result/globevnp_revnp, /0, /vadc/0/group/0/ch/0/gchctr_iclsel, /0, /vadc/0/group/0/ch/0/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/0/gchctr_resreg, /0, /vadc/0/group/0/ch/0/galias_alias0, /0, /vadc/0/group/0/ch/1/gchctr_iclsel, /0, /vadc/0/group/0/ch/1/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/1/gchctr_resreg, /0, /vadc/0/group/0/ch/1/galias_alias1, /0, /vadc/0/group/0/ch/2/gchctr_iclsel, /0, /vadc/0/group/0/ch/2/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/2/gchctr_resreg, /0, /vadc/0/group/0/ch/3/gchctr_iclsel, /0, /vadc/0/group/0/ch/3/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/3/gchctr_resreg, /0, /vadc/0/group/0/ch/4/gchctr_iclsel, /0, /vadc/0/group/0/ch/4/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/4/gchctr_resreg, /0, /vadc/0/group/0/ch/5/gchctr_iclsel, /0, /vadc/0/group/0/ch/5/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/5/gchctr_resreg, /0, /vadc/0/group/0/ch/6/gchctr_iclsel, /0, /vadc/0/group/0/ch/6/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/6/gchctr_resreg, /0, /vadc/0/group/0/ch/7/gchctr_iclsel, /0, /vadc/0/group/0/ch/7/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/7/gchctr_resreg, /0, /vadc/0/group/0/queue/gqctrl0_xtsel, /0, /vadc/0/group/0/queue/gqctrl0_gtsel, /0, /vadc/0/group/0/queue/gsevnp_sev0np, /0, /vadc/0/group/0/result/10/grevnp_revnp, /0, /vadc/0/group/0/result/11/grevnp_revnp, /0, /vadc/0/group/0/result/12/grevnp_revnp, /0, /vadc/0/group/0/result/13/grevnp_revnp, /0, /vadc/0/group/0/result/14/grevnp_revnp, /0, /vadc/0/group/0/result/4/grevnp_revnp, /0, /vadc/0/group/0/result/5/grevnp_revnp, /0, /vadc/0/group/0/result/6/grevnp_revnp, /0, /vadc/0/group/0/result/8/grevnp_revnp, /0, /vadc/0/group/0/result/9/grevnp_revnp, /0, /vadc/0/group/0/result_adv/0/grevnp_revnp, /0, /vadc/0/group/0/result_adv/1/grevnp_revnp, /0, /vadc/0/group/0/result_adv/2/grevnp_revnp, /0, /vadc/0/group/0/result_adv/3/grevnp_revnp, /0, /vadc/0/group/0/result_filter/15/grevnp_revnp, /0, /vadc/0/group/0/result_filter/7/grevnp_revnp, /0, /vadc/0/group/0/scan/gasctrl_xtsel, /0, /vadc/0/group/0/scan/gasctrl_gtsel, /0, /vadc/0/group/0/scan/gsevnp_sev1np, /0, /vadc/0/group/0/sync/gsynctr_stsel, /0, /vadc/0/group/0/sync/gsynctr_evalr1, /0, /vadc/0/group/0/sync/gsynctr_evalr2, /0, /vadc/0/group/0/sync/gsynctr_evalr3, /0, /vadc/0/group/1/ch/0/gchctr_iclsel, /0, /vadc/0/group/1/ch/0/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/0/gchctr_resreg, /0, /vadc/0/group/1/ch/0/galias_alias0, /0, /vadc/0/group/1/ch/1/gchctr_iclsel, /0, /vadc/0/group/1/ch/1/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/1/gchctr_resreg, /0, /vadc/0/group/1/ch/1/galias_alias1, /0, /vadc/0/group/1/ch/2/gchctr_iclsel, /0, /vadc/0/group/1/ch/2/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/2/gchctr_resreg, /0, /vadc/0/group/1/ch/3/gchctr_iclsel, /0, /vadc/0/group/1/ch/3/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/3/gchctr_resreg, /0, /vadc/0/group/1/ch/4/gchctr_iclsel, /0, /vadc/0/group/1/ch/4/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/4/gchctr_resreg, /0, /vadc/0/group/1/ch/5/gchctr_iclsel, /0, /vadc/0/group/1/ch/5/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/5/gchctr_resreg, /0, /vadc/0/group/1/ch/6/gchctr_iclsel, /0, /vadc/0/group/1/ch/6/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/6/gchctr_resreg, /0, /vadc/0/group/1/ch/7/gchctr_iclsel, /0, /vadc/0/group/1/ch/7/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/7/gchctr_resreg, /0, /vadc/0/group/1/queue/gqctrl0_xtsel, /0, /vadc/0/group/1/queue/gqctrl0_gtsel, /0, /vadc/0/group/1/queue/gsevnp_sev0np, /0, /vadc/0/group/1/result/10/grevnp_revnp, /0, /vadc/0/group/1/result/11/grevnp_revnp, /0, /vadc/0/group/1/result/12/grevnp_revnp, /0, /vadc/0/group/1/result/13/grevnp_revnp, /0, /vadc/0/group/1/result/14/grevnp_revnp, /0, /vadc/0/group/1/result/4/grevnp_revnp, /0, /vadc/0/group/1/result/5/grevnp_revnp, /0, /vadc/0/group/1/result/6/grevnp_revnp, /0, /vadc/0/group/1/result/8/grevnp_revnp, /0, /vadc/0/group/1/result/9/grevnp_revnp, /0, /vadc/0/group/1/result_adv/0/grevnp_revnp, /0, /vadc/0/group/1/result_adv/1/grevnp_revnp, /0, /vadc/0/group/1/result_adv/2/grevnp_revnp, /0, /vadc/0/group/1/result_adv/3/grevnp_revnp, /0, /vadc/0/group/1/result_filter/15/grevnp_revnp, /0, /vadc/0/group/1/result_filter/7/grevnp_revnp, /0, /vadc/0/group/1/scan/gasctrl_xtsel, /0, /vadc/0/group/1/scan/gasctrl_gtsel, /0, /vadc/0/group/1/scan/gsevnp_sev1np, /0, /vadc/0/group/1/sync/gsynctr_stsel, /0, /vadc/0/group/1/sync/gsynctr_evalr1, /0, /vadc/0/group/1/sync/gsynctr_evalr2, /0, /vadc/0/group/1/sync/gsynctr_evalr3, /0]
+
+
+Jul 25, 2017 11:31:42 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getSolution() : Tue Jul 25 11:31:42 CEST 2017
+
+
+Jul 25, 2017 11:31:42 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(solve_mapping_problem([ 
+reserved([p,DIGITAL_IO0sv0,pad,_],'digital_io$01238362304$0'),
+reserved([devicepackage,0,_],'digital_io$0567432502$0'),
+uri([devicepackage,0,21],'digital_io$0567432502$0'),
+reserved([p,DIGITAL_IO1sv0,pad,_],'digital_io$01748896481$1'),
+reserved([devicepackage,0,_],'digital_io$1689478505$1'),
+uri([devicepackage,0,22],'digital_io$1689478505$1'),
+reserved([scu,0,dco,_],'clock_xmc1$1911737770$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$01005053461$0'),
+reserved([p,0,pad,14],'cpu_ctrl_xmc1$01695105704$0'),
+reserved([p,0,pad,15],'cpu_ctrl_xmc1$01695105703$0'),
+reserved([cpu,0,exception,hardfault],'cpu_ctrl_xmc1$1199990160$0'),
+reserved([usic,_,channel,_],'uart$426864790$0'),
+reserved([p,_,pad,_],'uart$1687104611$0'),
+reserved([p,_,pad,_],'uart$1687104673$0'),
+reserved([cpu,0,nvic,interrupt,_],'uart$608506618$0'),
+reserved([cpu,0,nvic,interrupt,_],'uart$608506556$0'),
+reserved([devicepackage,0,_],'uart$01114417107$0'),
+reserved([devicepackage,0,_],'uart$01114417045$0'),
+signal('digital_io$01238362304$0',swreg_out,'digital_io$01238362304$0$swreg_out'),
+signal('digital_io$01238362304$0',pad,'digital_io$01238362304$0$pad'),
+signal('digital_io$0567432502$0',pin,'digital_io$0567432502$0$pin'),
+signal('digital_io$01748896481$1',swreg_out,'digital_io$01748896481$1$swreg_out'),
+signal('digital_io$01748896481$1',pad,'digital_io$01748896481$1$pad'),
+signal('digital_io$1689478505$1',pin,'digital_io$1689478505$1$pin'),
+signal('clock_xmc1$1911737770$0',clkout,'clock_xmc1$1911737770$0$clkout'),
+signal('clock_xmc1$01005053461$0',frtc,'clock_xmc1$01005053461$0$frtc'),
+signal('uart$426864790$0',dx0ins,'uart$426864790$0$dx0ins'),
+signal('uart$426864790$0',dx3ins,'uart$426864790$0$dx3ins'),
+signal('uart$426864790$0',dout0,'uart$426864790$0$dout0'),
+signal('uart$1687104611$0',pad,'uart$1687104611$0$pad'),
+signal('uart$1687104673$0',pad,'uart$1687104673$0$pad'),
+signal('uart$426864790$0',transmit_buffer_int,'uart$426864790$0$transmit_buffer_int'),
+signal('uart$426864790$0',protocol_specific_int,'uart$426864790$0$protocol_specific_int'),
+signal('uart$426864790$0',standard_receive_buffer_int,'uart$426864790$0$standard_receive_buffer_int'),
+signal('uart$426864790$0',alternate_receive_buffer_int,'uart$426864790$0$alternate_receive_buffer_int'),
+signal('uart$608506618$0',signal_in,'uart$608506618$0$signal_in'),
+signal('uart$608506556$0',signal_in,'uart$608506556$0$signal_in'),
+signal('uart$01114417107$0',pin,'uart$01114417107$0$pin'),
+signal('uart$01114417045$0',pin,'uart$01114417045$0$pin'),
+connected('digital_io$0567432502$0$pin','digital_io$01238362304$0$pad',1),
+connected('digital_io$01238362304$0$pad','digital_io$0567432502$0$pin',1),
+connected('digital_io$1689478505$1$pin','digital_io$01748896481$1$pad',1),
+connected('digital_io$01748896481$1$pad','digital_io$1689478505$1$pin',1),
+connected('clock_xmc1$1911737770$0$clkout','clock_xmc1$01005053461$0$frtc',1),
+connected('uart$01114417107$0$pin','uart$1687104611$0$pad',1),
+connected('uart$01114417045$0$pin','uart$1687104673$0$pad',1),
+connected('uart$426864790$0$dout0','uart$1687104673$0$pad',1),
+connected('uart$426864790$0$alternate_receive_buffer_int','uart$608506556$0$signal_in',1),
+connected('uart$426864790$0$standard_receive_buffer_int','uart$608506556$0$signal_in',1),
+connected('uart$1687104611$0$pad','uart$01114417107$0$pin',1),
+connected('uart$1687104611$0$pad','uart$426864790$0$dx0ins',1),
+connected('uart$426864790$0$transmit_buffer_int','uart$608506618$0$signal_in',1),
+connected('uart$1687104673$0$pad','uart$01114417045$0$pin',1),
+uri_element_range(DIGITAL_IO1sv0,[0, 1, 2, 3, 4]),
+register_value('digital_io$01748896481$1',iocr_oe,1),
+register_value('uart$426864790$0',ccr_hpcen,0),
+register_value('uart$426864790$0',tbctr_size,0),
+register_value('uart$426864790$0',rbctr_size,4),
+uri_element_range(DIGITAL_IO0sv0,[0, 1, 2, 3, 4]),
+register_value('digital_io$01238362304$0',iocr_oe,1)
+ ],Vars,Regs,Appslocalvars),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Jul 25, 2017 11:31:42 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getSolution() :  Difference in ms 144
+
+
+Jul 25, 2017 11:31:42 AM java.util.logging.LogManager$RootLogger log
+INFO: [/scu/0/ccu/config, /clock_xmc1$01005053461$0, /scu/0/dco/2, /clock_xmc1$1911737770$0, /p/0/pad/15, /cpu_ctrl_xmc1$01695105703$0, /p/0/pad/14, /cpu_ctrl_xmc1$01695105704$0, /cpu/0/exception/hardfault, /cpu_ctrl_xmc1$1199990160$0, /p/1/pad/1, /digital_io$01238362304$0, /p/1/pad/0, /digital_io$01748896481$1, /devicepackage/0/21, /digital_io$0567432502$0, /devicepackage/0/22, /digital_io$1689478505$1, /devicepackage/0/17, /uart$01114417045$0, /devicepackage/0/11, /uart$01114417107$0, /p/2/pad/10, /uart$1687104611$0, /p/1/pad/5, /uart$1687104673$0, /usic/0/channel/0, /uart$426864790$0, /cpu/0/nvic/interrupt/10, /uart$608506556$0, /cpu/0/nvic/interrupt/11, /uart$608506618$0]
+
+
+Jul 25, 2017 11:31:42 AM java.util.logging.LogManager$RootLogger log
+INFO: [/p/1/pad/0/iocr_pcr, /0, /p/1/pad/0/iocr_oe, /1, /p/1/pad/0/hwsel_hw, /0, /p/1/pad/1/iocr_pcr, /0, /p/1/pad/1/iocr_oe, /1, /p/1/pad/1/hwsel_hw, /0, /p/1/pad/2/iocr_pcr, /0, /p/1/pad/2/iocr_oe, /0, /p/1/pad/2/hwsel_hw, /0, /p/1/pad/3/iocr_pcr, /0, /p/1/pad/3/iocr_oe, /0, /p/1/pad/3/hwsel_hw, /0, /p/1/pad/4/iocr_pcr, /0, /p/1/pad/4/iocr_oe, /0, /p/1/pad/4/hwsel_hw, /0, /p/1/pad/5/iocr_pcr, /2, /p/1/pad/5/iocr_oe, /1, /p/1/pad/5/hwsel_hw, /0, /p/1/pad/6/iocr_pcr, /0, /p/1/pad/6/iocr_oe, /0, /p/1/pad/6/hwsel_hw, /0, /p/2/pad/2/iocr_pcr, /0, /p/2/pad/2/iocr_oe, /0, /p/2/pad/2/hwsel_hw, /0, /p/2/pad/2/pdisc_pdis, /1, /p/2/pad/3/iocr_pcr, /0, /p/2/pad/3/iocr_oe, /0, /p/2/pad/3/pdisc_pdis, /1, /p/2/pad/4/iocr_pcr, /0, /p/2/pad/4/iocr_oe, /0, /p/2/pad/4/hwsel_hw, /0, /p/2/pad/4/pdisc_pdis, /1, /p/2/pad/5/iocr_pcr, /0, /p/2/pad/5/iocr_oe, /0, /p/2/pad/5/pdisc_pdis, /1, /p/2/pad/6/iocr_pcr, /0, /p/2/pad/6/iocr_oe, /0, /p/2/pad/6/hwsel_hw, /0, /p/2/pad/6/pdisc_pdis, /1, /p/2/pad/7/iocr_pcr, /0, /p/2/pad/7/iocr_oe, /0, /p/2/pad/7/hwsel_hw, /0, /p/2/pad/7/pdisc_pdis, /1, /p/2/pad/8/iocr_pcr, /0, /p/2/pad/8/iocr_oe, /0, /p/2/pad/8/hwsel_hw, /0, /p/2/pad/8/pdisc_pdis, /1, /p/2/pad/9/iocr_pcr, /0, /p/2/pad/9/iocr_oe, /0, /p/2/pad/9/hwsel_hw, /0, /p/2/pad/9/pdisc_pdis, /1, /p/0/pad/0/iocr_pcr, /0, /p/0/pad/0/iocr_oe, /0, /p/0/pad/0/hwsel_hw, /0, /p/0/pad/1/iocr_pcr, /0, /p/0/pad/1/iocr_oe, /0, /p/0/pad/1/hwsel_hw, /0, /p/0/pad/10/iocr_pcr, /0, /p/0/pad/10/iocr_oe, /0, /p/0/pad/10/hwsel_hw, /0, /p/0/pad/11/iocr_pcr, /0, /p/0/pad/11/iocr_oe, /0, /p/0/pad/11/hwsel_hw, /0, /p/0/pad/12/iocr_pcr, /0, /p/0/pad/12/iocr_oe, /0, /p/0/pad/12/hwsel_hw, /0, /p/0/pad/13/iocr_pcr, /0, /p/0/pad/13/iocr_oe, /0, /p/0/pad/13/hwsel_hw, /0, /p/0/pad/14/iocr_pcr, /0, /p/0/pad/14/iocr_oe, /0, /p/0/pad/14/hwsel_hw, /0, /p/0/pad/15/iocr_pcr, /0, /p/0/pad/15/iocr_oe, /0, /p/0/pad/15/hwsel_hw, /0, /p/0/pad/2/iocr_pcr, /0, /p/0/pad/2/iocr_oe, /0, /p/0/pad/2/hwsel_hw, /0, /p/0/pad/3/iocr_pcr, /0, /p/0/pad/3/iocr_oe, /0, /p/0/pad/3/hwsel_hw, /0, /p/0/pad/4/iocr_pcr, /0, /p/0/pad/4/iocr_oe, /0, /p/0/pad/4/hwsel_hw, /0, /p/0/pad/5/iocr_pcr, /0, /p/0/pad/5/iocr_oe, /0, /p/0/pad/5/hwsel_hw, /0, /p/0/pad/6/iocr_pcr, /0, /p/0/pad/6/iocr_oe, /0, /p/0/pad/6/hwsel_hw, /0, /p/0/pad/7/iocr_pcr, /0, /p/0/pad/7/iocr_oe, /0, /p/0/pad/7/hwsel_hw, /0, /p/0/pad/8/iocr_pcr, /0, /p/0/pad/8/iocr_oe, /0, /p/0/pad/8/hwsel_hw, /0, /p/0/pad/9/iocr_pcr, /0, /p/0/pad/9/iocr_oe, /0, /p/0/pad/9/hwsel_hw, /0, /p/2/pad/0/iocr_pcr, /0, /p/2/pad/0/iocr_oe, /0, /p/2/pad/0/hwsel_hw, /0, /p/2/pad/0/pdisc_pdis, /1, /p/2/pad/1/iocr_pcr, /0, /p/2/pad/1/iocr_oe, /0, /p/2/pad/1/hwsel_hw, /0, /p/2/pad/1/pdisc_pdis, /1, /p/2/pad/10/iocr_pcr, /0, /p/2/pad/10/iocr_oe, /0, /p/2/pad/10/hwsel_hw, /0, /p/2/pad/10/pdisc_pdis, /0, /p/2/pad/11/iocr_pcr, /0, /p/2/pad/11/iocr_oe, /0, /p/2/pad/11/hwsel_hw, /0, /p/2/pad/11/pdisc_pdis, /1, /bccu/0/channel/0/chconfig_dsel, /0, /bccu/0/channel/1/chconfig_dsel, /0, /bccu/0/channel/2/chconfig_dsel, /0, /bccu/0/channel/3/chconfig_dsel, /0, /bccu/0/channel/4/chconfig_dsel, /0, /bccu/0/channel/5/chconfig_dsel, /0, /bccu/0/channel/6/chconfig_dsel, /0, /bccu/0/channel/7/chconfig_dsel, /0, /bccu/0/channel/8/chconfig_dsel, /0, /bccu/0/packer_fifo_event/evier_eien, /0, /bccu/0/packer_fifo_event/evier_fien, /0, /bccu/0/trap/evier_tpien, /0, /bccu/0/trap/globcon_trapis, /0, /bccu/0/trigger/evier_t0ien, /0, /bccu/0/trigger/evier_t1ien, /0, /ccu4/0/cc4/0/ins_ev1is, /0, /ccu4/0/cc4/0/ins_ev0is, /0, /ccu4/0/cc4/0/ins_ev2is, /0, /ccu4/0/cc4/0/srs_cmsr, /0, /ccu4/0/cc4/0/srs_e0sr, /0, /ccu4/0/cc4/0/srs_e1sr, /0, /ccu4/0/cc4/0/srs_e2sr, /0, /ccu4/0/cc4/0/srs_posr, /0, /ccu4/0/cc4/1/ins_ev1is, /0, /ccu4/0/cc4/1/ins_ev0is, /0, /ccu4/0/cc4/1/ins_ev2is, /0, /ccu4/0/cc4/1/srs_cmsr, /0, /ccu4/0/cc4/1/cmc_tce, /0, /ccu4/0/cc4/1/srs_e0sr, /0, /ccu4/0/cc4/1/srs_e1sr, /0, /ccu4/0/cc4/1/srs_e2sr, /0, /ccu4/0/cc4/1/srs_posr, /0, /ccu4/0/cc4/2/ins_ev1is, /0, /ccu4/0/cc4/2/ins_ev0is, /0, /ccu4/0/cc4/2/ins_ev2is, /0, /ccu4/0/cc4/2/srs_cmsr, /0, /ccu4/0/cc4/2/cmc_tce, /0, /ccu4/0/cc4/2/srs_e0sr, /0, /ccu4/0/cc4/2/srs_e1sr, /0, /ccu4/0/cc4/2/srs_e2sr, /0, /ccu4/0/cc4/2/srs_posr, /0, /ccu4/0/cc4/3/ins_ev1is, /0, /ccu4/0/cc4/3/ins_ev0is, /0, /ccu4/0/cc4/3/ins_ev2is, /0, /ccu4/0/cc4/3/srs_cmsr, /0, /ccu4/0/cc4/3/cmc_tce, /0, /ccu4/0/cc4/3/srs_e0sr, /0, /ccu4/0/cc4/3/srs_e1sr, /0, /ccu4/0/cc4/3/srs_e2sr, /0, /ccu4/0/cc4/3/srs_posr, /0, /ccu4/0/global/gctrl_pcis, /0, /ccu8/0/cc8/1/ins_ev1is, /0, /ccu8/0/cc8/1/ins_ev0is, /0, /ccu8/0/cc8/1/ins_ev2is, /0, /ccu8/0/cc8/1/cmc_tce, /0, /ccu8/0/cc8/1/srs_e0sr, /0, /ccu8/0/cc8/1/srs_e1sr, /0, /ccu8/0/cc8/1/srs_e2sr, /0, /ccu8/0/cc8/1/srs_posr, /0, /ccu8/0/cc8/1/srs_cm1sr, /0, /ccu8/0/cc8/1/srs_cm2sr, /0, /ccu8/0/cc8/0/ins_ev1is, /0, /ccu8/0/cc8/0/ins_ev0is, /0, /ccu8/0/cc8/0/ins_ev2is, /0, /ccu8/0/cc8/0/srs_e0sr, /0, /ccu8/0/cc8/0/srs_e1sr, /0, /ccu8/0/cc8/0/srs_e2sr, /0, /ccu8/0/cc8/0/srs_posr, /0, /ccu8/0/cc8/0/srs_cm1sr, /0, /ccu8/0/cc8/0/srs_cm2sr, /0, /ccu8/0/cc8/3/ins_ev1is, /0, /ccu8/0/cc8/3/ins_ev0is, /0, /ccu8/0/cc8/3/ins_ev2is, /0, /ccu8/0/cc8/3/cmc_tce, /0, /ccu8/0/cc8/3/srs_e0sr, /0, /ccu8/0/cc8/3/srs_e1sr, /0, /ccu8/0/cc8/3/srs_e2sr, /0, /ccu8/0/cc8/3/srs_posr, /0, /ccu8/0/cc8/3/srs_cm1sr, /0, /ccu8/0/cc8/3/srs_cm2sr, /0, /ccu8/0/cc8/2/ins_ev1is, /0, /ccu8/0/cc8/2/ins_ev0is, /0, /ccu8/0/cc8/2/ins_ev2is, /0, /ccu8/0/cc8/2/cmc_tce, /0, /ccu8/0/cc8/2/srs_e0sr, /0, /ccu8/0/cc8/2/srs_e1sr, /0, /ccu8/0/cc8/2/srs_e2sr, /0, /ccu8/0/cc8/2/srs_posr, /0, /ccu8/0/cc8/2/srs_cm1sr, /0, /ccu8/0/cc8/2/srs_cm2sr, /0, /ccu8/0/global/gctrl_pcis, /0, /cpu/0/nvic/interrupt/0/iser_setena, /0, /cpu/0/nvic/interrupt/1/iser_setena, /0, /cpu/0/nvic/interrupt/10/iser_setena, /1, /cpu/0/nvic/interrupt/11/iser_setena, /1, /cpu/0/nvic/interrupt/12/iser_setena, /0, /cpu/0/nvic/interrupt/13/iser_setena, /0, /cpu/0/nvic/interrupt/14/iser_setena, /0, /cpu/0/nvic/interrupt/15/iser_setena, /0, /cpu/0/nvic/interrupt/16/iser_setena, /0, /cpu/0/nvic/interrupt/17/iser_setena, /0, /cpu/0/nvic/interrupt/18/iser_setena, /0, /cpu/0/nvic/interrupt/19/iser_setena, /0, /cpu/0/nvic/interrupt/2/iser_setena, /0, /cpu/0/nvic/interrupt/20/iser_setena, /0, /cpu/0/nvic/interrupt/21/iser_setena, /0, /cpu/0/nvic/interrupt/22/iser_setena, /0, /cpu/0/nvic/interrupt/23/iser_setena, /0, /cpu/0/nvic/interrupt/24/iser_setena, /0, /cpu/0/nvic/interrupt/25/iser_setena, /0, /cpu/0/nvic/interrupt/26/iser_setena, /0, /cpu/0/nvic/interrupt/27/iser_setena, /0, /cpu/0/nvic/interrupt/28/iser_setena, /0, /cpu/0/nvic/interrupt/29/iser_setena, /0, /cpu/0/nvic/interrupt/3/iser_setena, /0, /cpu/0/nvic/interrupt/30/iser_setena, /0, /cpu/0/nvic/interrupt/31/iser_setena, /0, /cpu/0/nvic/interrupt/4/iser_setena, /0, /cpu/0/nvic/interrupt/5/iser_setena, /0, /cpu/0/nvic/interrupt/6/iser_setena, /0, /cpu/0/nvic/interrupt/7/iser_setena, /0, /cpu/0/nvic/interrupt/9/iser_setena, /0, /eru/0/ers_etl/0/exicon_pe, /0, /eru/0/ers_etl/0/exicon_ocs, /0, /eru/0/ers_etl/0/exisel_exsxa, /0, /eru/0/ers_etl/0/exisel_exsxb, /0, /eru/0/ers_etl/1/exicon_pe, /0, /eru/0/ers_etl/1/exicon_ocs, /0, /eru/0/ers_etl/1/exisel_exsxa, /0, /eru/0/ers_etl/1/exisel_exsxb, /0, /eru/0/ers_etl/2/exicon_pe, /0, /eru/0/ers_etl/2/exicon_ocs, /0, /eru/0/ers_etl/2/exisel_exsxa, /0, /eru/0/ers_etl/2/exisel_exsxb, /0, /eru/0/ers_etl/3/exicon_pe, /0, /eru/0/ers_etl/3/exicon_ocs, /0, /eru/0/ers_etl/3/exisel_exsxa, /0, /eru/0/ers_etl/3/exisel_exsxb, /0, /eru/0/ogu/0/exocon_iss, /0, /eru/0/ogu/0/exocon_ipen0, /0, /eru/0/ogu/0/exocon_ipen1, /0, /eru/0/ogu/0/exocon_ipen2, /0, /eru/0/ogu/0/exocon_ipen3, /0, /eru/0/ogu/1/exocon_iss, /0, /eru/0/ogu/1/exocon_ipen0, /0, /eru/0/ogu/1/exocon_ipen1, /0, /eru/0/ogu/1/exocon_ipen2, /0, /eru/0/ogu/1/exocon_ipen3, /0, /eru/0/ogu/2/exocon_iss, /0, /eru/0/ogu/2/exocon_ipen0, /0, /eru/0/ogu/2/exocon_ipen1, /0, /eru/0/ogu/2/exocon_ipen2, /0, /eru/0/ogu/2/exocon_ipen3, /0, /eru/0/ogu/3/exocon_iss, /0, /eru/0/ogu/3/exocon_ipen0, /0, /eru/0/ogu/3/exocon_ipen1, /0, /eru/0/ogu/3/exocon_ipen2, /0, /eru/0/ogu/3/exocon_ipen3, /0, /posif/0/posif/hsc_qd/pconf_dsel, /0, /posif/0/posif/hsc_qd/pconf_ewis, /0, /posif/0/posif/hsc_qd/pconf_insel0, /0, /posif/0/posif/hsc_qd/pconf_insel1, /0, /posif/0/posif/hsc_qd/pconf_insel2, /0, /posif/0/posif/hsc_qd/pflge_eche, /0, /posif/0/posif/hsc_qd/pflge_chesel, /0, /posif/0/posif/hsc_qd/pflge_cnte, /0, /posif/0/posif/hsc_qd/pflge_cntsel, /0, /posif/0/posif/hsc_qd/pflge_dire, /0, /posif/0/posif/hsc_qd/pflge_dirsel, /0, /posif/0/posif/hsc_qd/pflge_erre, /0, /posif/0/posif/hsc_qd/pflge_errsel, /0, /posif/0/posif/hsc_qd/pflge_ehie, /0, /posif/0/posif/hsc_qd/pflge_hiesel, /0, /posif/0/posif/hsc_qd/pflge_indxe, /0, /posif/0/posif/hsc_qd/pflge_indsel, /0, /posif/0/posif/hsc_qd/pflge_pclke, /0, /posif/0/posif/hsc_qd/pflge_pclsel, /0, /posif/0/posif/hsc_qd/pflge_ewhe, /0, /posif/0/posif/hsc_qd/pflge_whesel, /0, /posif/0/posif/mcm/pconf_msets, /0, /posif/0/posif/mcm/pconf_msyns, /0, /posif/0/posif/mcm/pflge_emst, /0, /posif/0/posif/mcm/pflge_mstsel, /0, /scu/0/ccu/config/clkcr_rtcclksel, /0, /usic/0/channel/0/ccr_hpcen, /0, /usic/0/channel/0/dx1cr_dsel, /0, /usic/0/channel/0/dx0cr_dsel, /6, /usic/0/channel/0/dx5cr_dsel, /0, /usic/0/channel/0/dx3cr_dsel, /2, /usic/0/channel/0/dx4cr_dsel, /0, /usic/0/channel/0/dx2cr_dsel, /0, /usic/0/channel/0/rbctr_arbien, /1, /usic/0/channel/0/rbctr_arbinp, /1, /usic/0/channel/0/ccr_aien, /0, /usic/0/channel/0/inpr_ainp, /0, /usic/0/channel/0/ccr_brgien, /0, /usic/0/channel/0/inpr_pinp, /0, /usic/0/channel/0/ccr_dlien, /0, /usic/0/channel/0/rbctr_rberien, /0, /usic/0/channel/0/ccr_rsien, /0, /usic/0/channel/0/inpr_tbinp, /2, /usic/0/channel/0/rbctr_srbien, /1, /usic/0/channel/0/rbctr_srbinp, /1, /usic/0/channel/0/ccr_rien, /0, /usic/0/channel/0/inpr_rinp, /0, /usic/0/channel/0/tbctr_stbien, /0, /usic/0/channel/0/tbctr_stbinp, /0, /usic/0/channel/0/tbctr_tberien, /0, /usic/0/channel/0/tbctr_atbinp, /0, /usic/0/channel/0/ccr_tbien, /1, /usic/0/channel/0/ccr_tsien, /0, /usic/0/channel/0/inpr_tsinp, /0, /usic/0/channel/0/rbctr_dptr, /0, /usic/0/channel/0/rbctr_size, /4, /usic/0/channel/0/tbctr_dptr, /0, /usic/0/channel/0/tbctr_size, /0, /usic/0/channel/1/ccr_hpcen, /0, /usic/0/channel/1/dx1cr_dsel, /0, /usic/0/channel/1/dx0cr_dsel, /0, /usic/0/channel/1/dx5cr_dsel, /0, /usic/0/channel/1/dx3cr_dsel, /0, /usic/0/channel/1/dx4cr_dsel, /0, /usic/0/channel/1/dx2cr_dsel, /0, /usic/0/channel/1/rbctr_arbien, /0, /usic/0/channel/1/rbctr_arbinp, /0, /usic/0/channel/1/ccr_aien, /0, /usic/0/channel/1/inpr_ainp, /0, /usic/0/channel/1/ccr_brgien, /0, /usic/0/channel/1/inpr_pinp, /0, /usic/0/channel/1/ccr_dlien, /0, /usic/0/channel/1/rbctr_rberien, /0, /usic/0/channel/1/ccr_rsien, /0, /usic/0/channel/1/inpr_tbinp, /0, /usic/0/channel/1/rbctr_srbien, /0, /usic/0/channel/1/rbctr_srbinp, /0, /usic/0/channel/1/ccr_rien, /0, /usic/0/channel/1/inpr_rinp, /0, /usic/0/channel/1/tbctr_stbien, /0, /usic/0/channel/1/tbctr_stbinp, /0, /usic/0/channel/1/tbctr_tberien, /0, /usic/0/channel/1/tbctr_atbinp, /0, /usic/0/channel/1/ccr_tbien, /0, /usic/0/channel/1/ccr_tsien, /0, /usic/0/channel/1/inpr_tsinp, /0, /usic/0/channel/1/rbctr_dptr, /0, /usic/0/channel/1/rbctr_size, /0, /usic/0/channel/1/tbctr_dptr, /0, /usic/0/channel/1/tbctr_size, /0, /vadc/0/backgnd/brsctrl_xtsel, /0, /vadc/0/backgnd/brsctrl_gtsel, /0, /vadc/0/backgnd/globevnp_sev0np, /0, /vadc/0/emux/0/emuxsel_emuxgrp, /0, /vadc/0/emux/1/emuxsel_emuxgrp, /0, /vadc/0/global_result/globevnp_revnp, /0, /vadc/0/group/0/ch/0/gchctr_iclsel, /0, /vadc/0/group/0/ch/0/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/0/gchctr_resreg, /0, /vadc/0/group/0/ch/0/galias_alias0, /0, /vadc/0/group/0/ch/1/gchctr_iclsel, /0, /vadc/0/group/0/ch/1/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/1/gchctr_resreg, /0, /vadc/0/group/0/ch/1/galias_alias1, /0, /vadc/0/group/0/ch/2/gchctr_iclsel, /0, /vadc/0/group/0/ch/2/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/2/gchctr_resreg, /0, /vadc/0/group/0/ch/3/gchctr_iclsel, /0, /vadc/0/group/0/ch/3/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/3/gchctr_resreg, /0, /vadc/0/group/0/ch/4/gchctr_iclsel, /0, /vadc/0/group/0/ch/4/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/4/gchctr_resreg, /0, /vadc/0/group/0/ch/5/gchctr_iclsel, /0, /vadc/0/group/0/ch/5/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/5/gchctr_resreg, /0, /vadc/0/group/0/ch/6/gchctr_iclsel, /0, /vadc/0/group/0/ch/6/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/6/gchctr_resreg, /0, /vadc/0/group/0/ch/7/gchctr_iclsel, /0, /vadc/0/group/0/ch/7/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/7/gchctr_resreg, /0, /vadc/0/group/0/queue/gqctrl0_xtsel, /0, /vadc/0/group/0/queue/gqctrl0_gtsel, /0, /vadc/0/group/0/queue/gsevnp_sev0np, /0, /vadc/0/group/0/result/10/grevnp_revnp, /0, /vadc/0/group/0/result/11/grevnp_revnp, /0, /vadc/0/group/0/result/12/grevnp_revnp, /0, /vadc/0/group/0/result/13/grevnp_revnp, /0, /vadc/0/group/0/result/14/grevnp_revnp, /0, /vadc/0/group/0/result/4/grevnp_revnp, /0, /vadc/0/group/0/result/5/grevnp_revnp, /0, /vadc/0/group/0/result/6/grevnp_revnp, /0, /vadc/0/group/0/result/8/grevnp_revnp, /0, /vadc/0/group/0/result/9/grevnp_revnp, /0, /vadc/0/group/0/result_adv/0/grevnp_revnp, /0, /vadc/0/group/0/result_adv/1/grevnp_revnp, /0, /vadc/0/group/0/result_adv/2/grevnp_revnp, /0, /vadc/0/group/0/result_adv/3/grevnp_revnp, /0, /vadc/0/group/0/result_filter/15/grevnp_revnp, /0, /vadc/0/group/0/result_filter/7/grevnp_revnp, /0, /vadc/0/group/0/scan/gasctrl_xtsel, /0, /vadc/0/group/0/scan/gasctrl_gtsel, /0, /vadc/0/group/0/scan/gsevnp_sev1np, /0, /vadc/0/group/0/sync/gsynctr_stsel, /0, /vadc/0/group/0/sync/gsynctr_evalr1, /0, /vadc/0/group/0/sync/gsynctr_evalr2, /0, /vadc/0/group/0/sync/gsynctr_evalr3, /0, /vadc/0/group/1/ch/0/gchctr_iclsel, /0, /vadc/0/group/1/ch/0/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/0/gchctr_resreg, /0, /vadc/0/group/1/ch/0/galias_alias0, /0, /vadc/0/group/1/ch/1/gchctr_iclsel, /0, /vadc/0/group/1/ch/1/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/1/gchctr_resreg, /0, /vadc/0/group/1/ch/1/galias_alias1, /0, /vadc/0/group/1/ch/2/gchctr_iclsel, /0, /vadc/0/group/1/ch/2/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/2/gchctr_resreg, /0, /vadc/0/group/1/ch/3/gchctr_iclsel, /0, /vadc/0/group/1/ch/3/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/3/gchctr_resreg, /0, /vadc/0/group/1/ch/4/gchctr_iclsel, /0, /vadc/0/group/1/ch/4/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/4/gchctr_resreg, /0, /vadc/0/group/1/ch/5/gchctr_iclsel, /0, /vadc/0/group/1/ch/5/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/5/gchctr_resreg, /0, /vadc/0/group/1/ch/6/gchctr_iclsel, /0, /vadc/0/group/1/ch/6/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/6/gchctr_resreg, /0, /vadc/0/group/1/ch/7/gchctr_iclsel, /0, /vadc/0/group/1/ch/7/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/7/gchctr_resreg, /0, /vadc/0/group/1/queue/gqctrl0_xtsel, /0, /vadc/0/group/1/queue/gqctrl0_gtsel, /0, /vadc/0/group/1/queue/gsevnp_sev0np, /0, /vadc/0/group/1/result/10/grevnp_revnp, /0, /vadc/0/group/1/result/11/grevnp_revnp, /0, /vadc/0/group/1/result/12/grevnp_revnp, /0, /vadc/0/group/1/result/13/grevnp_revnp, /0, /vadc/0/group/1/result/14/grevnp_revnp, /0, /vadc/0/group/1/result/4/grevnp_revnp, /0, /vadc/0/group/1/result/5/grevnp_revnp, /0, /vadc/0/group/1/result/6/grevnp_revnp, /0, /vadc/0/group/1/result/8/grevnp_revnp, /0, /vadc/0/group/1/result/9/grevnp_revnp, /0, /vadc/0/group/1/result_adv/0/grevnp_revnp, /0, /vadc/0/group/1/result_adv/1/grevnp_revnp, /0, /vadc/0/group/1/result_adv/2/grevnp_revnp, /0, /vadc/0/group/1/result_adv/3/grevnp_revnp, /0, /vadc/0/group/1/result_filter/15/grevnp_revnp, /0, /vadc/0/group/1/result_filter/7/grevnp_revnp, /0, /vadc/0/group/1/scan/gasctrl_xtsel, /0, /vadc/0/group/1/scan/gasctrl_gtsel, /0, /vadc/0/group/1/scan/gsevnp_sev1np, /0, /vadc/0/group/1/sync/gsynctr_stsel, /0, /vadc/0/group/1/sync/gsynctr_evalr1, /0, /vadc/0/group/1/sync/gsynctr_evalr2, /0, /vadc/0/group/1/sync/gsynctr_evalr3, /0]
+
+
+Jul 25, 2017 11:31:45 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getSolution() : Tue Jul 25 11:31:45 CEST 2017
+
+
+Jul 25, 2017 11:31:45 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(solve_mapping_problem([ 
+reserved([p,DIGITAL_IO0sv0,pad,_],'digital_io$01238362304$0'),
+reserved([devicepackage,0,_],'digital_io$0567432502$0'),
+uri([devicepackage,0,21],'digital_io$0567432502$0'),
+reserved([p,DIGITAL_IO1sv0,pad,_],'digital_io$01748896481$1'),
+reserved([devicepackage,0,_],'digital_io$1689478505$1'),
+uri([devicepackage,0,22],'digital_io$1689478505$1'),
+reserved([scu,0,dco,_],'clock_xmc1$1911737770$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$01005053461$0'),
+reserved([p,0,pad,14],'cpu_ctrl_xmc1$01695105704$0'),
+reserved([p,0,pad,15],'cpu_ctrl_xmc1$01695105703$0'),
+reserved([cpu,0,exception,hardfault],'cpu_ctrl_xmc1$1199990160$0'),
+reserved([usic,_,channel,_],'uart$426864790$0'),
+reserved([p,_,pad,_],'uart$1687104611$0'),
+reserved([p,_,pad,_],'uart$1687104673$0'),
+reserved([cpu,0,nvic,interrupt,_],'uart$608506618$0'),
+reserved([cpu,0,nvic,interrupt,_],'uart$608506556$0'),
+reserved([devicepackage,0,_],'uart$01114417107$0'),
+reserved([devicepackage,0,_],'uart$01114417045$0'),
+signal('digital_io$01238362304$0',swreg_out,'digital_io$01238362304$0$swreg_out'),
+signal('digital_io$01238362304$0',pad,'digital_io$01238362304$0$pad'),
+signal('digital_io$0567432502$0',pin,'digital_io$0567432502$0$pin'),
+signal('digital_io$01748896481$1',swreg_out,'digital_io$01748896481$1$swreg_out'),
+signal('digital_io$01748896481$1',pad,'digital_io$01748896481$1$pad'),
+signal('digital_io$1689478505$1',pin,'digital_io$1689478505$1$pin'),
+signal('clock_xmc1$1911737770$0',clkout,'clock_xmc1$1911737770$0$clkout'),
+signal('clock_xmc1$01005053461$0',frtc,'clock_xmc1$01005053461$0$frtc'),
+signal('uart$426864790$0',dx0ins,'uart$426864790$0$dx0ins'),
+signal('uart$426864790$0',dx3ins,'uart$426864790$0$dx3ins'),
+signal('uart$426864790$0',dout0,'uart$426864790$0$dout0'),
+signal('uart$1687104611$0',pad,'uart$1687104611$0$pad'),
+signal('uart$1687104673$0',pad,'uart$1687104673$0$pad'),
+signal('uart$426864790$0',transmit_buffer_int,'uart$426864790$0$transmit_buffer_int'),
+signal('uart$426864790$0',protocol_specific_int,'uart$426864790$0$protocol_specific_int'),
+signal('uart$426864790$0',standard_receive_buffer_int,'uart$426864790$0$standard_receive_buffer_int'),
+signal('uart$426864790$0',alternate_receive_buffer_int,'uart$426864790$0$alternate_receive_buffer_int'),
+signal('uart$608506618$0',signal_in,'uart$608506618$0$signal_in'),
+signal('uart$608506556$0',signal_in,'uart$608506556$0$signal_in'),
+signal('uart$01114417107$0',pin,'uart$01114417107$0$pin'),
+signal('uart$01114417045$0',pin,'uart$01114417045$0$pin'),
+connected('digital_io$0567432502$0$pin','digital_io$01238362304$0$pad',1),
+connected('digital_io$01238362304$0$pad','digital_io$0567432502$0$pin',1),
+connected('digital_io$1689478505$1$pin','digital_io$01748896481$1$pad',1),
+connected('digital_io$01748896481$1$pad','digital_io$1689478505$1$pin',1),
+connected('clock_xmc1$1911737770$0$clkout','clock_xmc1$01005053461$0$frtc',1),
+connected('uart$01114417107$0$pin','uart$1687104611$0$pad',1),
+connected('uart$01114417045$0$pin','uart$1687104673$0$pad',1),
+connected('uart$426864790$0$dout0','uart$1687104673$0$pad',1),
+connected('uart$426864790$0$alternate_receive_buffer_int','uart$608506556$0$signal_in',1),
+connected('uart$426864790$0$standard_receive_buffer_int','uart$608506556$0$signal_in',1),
+connected('uart$1687104611$0$pad','uart$01114417107$0$pin',1),
+connected('uart$1687104611$0$pad','uart$426864790$0$dx0ins',1),
+connected('uart$426864790$0$transmit_buffer_int','uart$608506618$0$signal_in',1),
+connected('uart$1687104673$0$pad','uart$01114417045$0$pin',1),
+uri_element_range(DIGITAL_IO1sv0,[0, 1, 2, 3, 4]),
+register_value('digital_io$01748896481$1',iocr_oe,1),
+register_value('uart$426864790$0',ccr_hpcen,0),
+register_value('uart$426864790$0',tbctr_size,0),
+register_value('uart$426864790$0',rbctr_size,5),
+uri_element_range(DIGITAL_IO0sv0,[0, 1, 2, 3, 4]),
+register_value('digital_io$01238362304$0',iocr_oe,1)
+ ],Vars,Regs,Appslocalvars),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Jul 25, 2017 11:31:45 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getSolution() :  Difference in ms 162
+
+
+Jul 25, 2017 11:31:45 AM java.util.logging.LogManager$RootLogger log
+INFO: [/scu/0/ccu/config, /clock_xmc1$01005053461$0, /scu/0/dco/2, /clock_xmc1$1911737770$0, /p/0/pad/15, /cpu_ctrl_xmc1$01695105703$0, /p/0/pad/14, /cpu_ctrl_xmc1$01695105704$0, /cpu/0/exception/hardfault, /cpu_ctrl_xmc1$1199990160$0, /p/1/pad/1, /digital_io$01238362304$0, /p/1/pad/0, /digital_io$01748896481$1, /devicepackage/0/21, /digital_io$0567432502$0, /devicepackage/0/22, /digital_io$1689478505$1, /devicepackage/0/17, /uart$01114417045$0, /devicepackage/0/11, /uart$01114417107$0, /p/2/pad/10, /uart$1687104611$0, /p/1/pad/5, /uart$1687104673$0, /usic/0/channel/0, /uart$426864790$0, /cpu/0/nvic/interrupt/10, /uart$608506556$0, /cpu/0/nvic/interrupt/11, /uart$608506618$0]
+
+
+Jul 25, 2017 11:31:45 AM java.util.logging.LogManager$RootLogger log
+INFO: [/p/1/pad/0/iocr_pcr, /0, /p/1/pad/0/iocr_oe, /1, /p/1/pad/0/hwsel_hw, /0, /p/1/pad/1/iocr_pcr, /0, /p/1/pad/1/iocr_oe, /1, /p/1/pad/1/hwsel_hw, /0, /p/1/pad/2/iocr_pcr, /0, /p/1/pad/2/iocr_oe, /0, /p/1/pad/2/hwsel_hw, /0, /p/1/pad/3/iocr_pcr, /0, /p/1/pad/3/iocr_oe, /0, /p/1/pad/3/hwsel_hw, /0, /p/1/pad/4/iocr_pcr, /0, /p/1/pad/4/iocr_oe, /0, /p/1/pad/4/hwsel_hw, /0, /p/1/pad/5/iocr_pcr, /2, /p/1/pad/5/iocr_oe, /1, /p/1/pad/5/hwsel_hw, /0, /p/1/pad/6/iocr_pcr, /0, /p/1/pad/6/iocr_oe, /0, /p/1/pad/6/hwsel_hw, /0, /p/2/pad/2/iocr_pcr, /0, /p/2/pad/2/iocr_oe, /0, /p/2/pad/2/hwsel_hw, /0, /p/2/pad/2/pdisc_pdis, /1, /p/2/pad/3/iocr_pcr, /0, /p/2/pad/3/iocr_oe, /0, /p/2/pad/3/pdisc_pdis, /1, /p/2/pad/4/iocr_pcr, /0, /p/2/pad/4/iocr_oe, /0, /p/2/pad/4/hwsel_hw, /0, /p/2/pad/4/pdisc_pdis, /1, /p/2/pad/5/iocr_pcr, /0, /p/2/pad/5/iocr_oe, /0, /p/2/pad/5/pdisc_pdis, /1, /p/2/pad/6/iocr_pcr, /0, /p/2/pad/6/iocr_oe, /0, /p/2/pad/6/hwsel_hw, /0, /p/2/pad/6/pdisc_pdis, /1, /p/2/pad/7/iocr_pcr, /0, /p/2/pad/7/iocr_oe, /0, /p/2/pad/7/hwsel_hw, /0, /p/2/pad/7/pdisc_pdis, /1, /p/2/pad/8/iocr_pcr, /0, /p/2/pad/8/iocr_oe, /0, /p/2/pad/8/hwsel_hw, /0, /p/2/pad/8/pdisc_pdis, /1, /p/2/pad/9/iocr_pcr, /0, /p/2/pad/9/iocr_oe, /0, /p/2/pad/9/hwsel_hw, /0, /p/2/pad/9/pdisc_pdis, /1, /p/0/pad/0/iocr_pcr, /0, /p/0/pad/0/iocr_oe, /0, /p/0/pad/0/hwsel_hw, /0, /p/0/pad/1/iocr_pcr, /0, /p/0/pad/1/iocr_oe, /0, /p/0/pad/1/hwsel_hw, /0, /p/0/pad/10/iocr_pcr, /0, /p/0/pad/10/iocr_oe, /0, /p/0/pad/10/hwsel_hw, /0, /p/0/pad/11/iocr_pcr, /0, /p/0/pad/11/iocr_oe, /0, /p/0/pad/11/hwsel_hw, /0, /p/0/pad/12/iocr_pcr, /0, /p/0/pad/12/iocr_oe, /0, /p/0/pad/12/hwsel_hw, /0, /p/0/pad/13/iocr_pcr, /0, /p/0/pad/13/iocr_oe, /0, /p/0/pad/13/hwsel_hw, /0, /p/0/pad/14/iocr_pcr, /0, /p/0/pad/14/iocr_oe, /0, /p/0/pad/14/hwsel_hw, /0, /p/0/pad/15/iocr_pcr, /0, /p/0/pad/15/iocr_oe, /0, /p/0/pad/15/hwsel_hw, /0, /p/0/pad/2/iocr_pcr, /0, /p/0/pad/2/iocr_oe, /0, /p/0/pad/2/hwsel_hw, /0, /p/0/pad/3/iocr_pcr, /0, /p/0/pad/3/iocr_oe, /0, /p/0/pad/3/hwsel_hw, /0, /p/0/pad/4/iocr_pcr, /0, /p/0/pad/4/iocr_oe, /0, /p/0/pad/4/hwsel_hw, /0, /p/0/pad/5/iocr_pcr, /0, /p/0/pad/5/iocr_oe, /0, /p/0/pad/5/hwsel_hw, /0, /p/0/pad/6/iocr_pcr, /0, /p/0/pad/6/iocr_oe, /0, /p/0/pad/6/hwsel_hw, /0, /p/0/pad/7/iocr_pcr, /0, /p/0/pad/7/iocr_oe, /0, /p/0/pad/7/hwsel_hw, /0, /p/0/pad/8/iocr_pcr, /0, /p/0/pad/8/iocr_oe, /0, /p/0/pad/8/hwsel_hw, /0, /p/0/pad/9/iocr_pcr, /0, /p/0/pad/9/iocr_oe, /0, /p/0/pad/9/hwsel_hw, /0, /p/2/pad/0/iocr_pcr, /0, /p/2/pad/0/iocr_oe, /0, /p/2/pad/0/hwsel_hw, /0, /p/2/pad/0/pdisc_pdis, /1, /p/2/pad/1/iocr_pcr, /0, /p/2/pad/1/iocr_oe, /0, /p/2/pad/1/hwsel_hw, /0, /p/2/pad/1/pdisc_pdis, /1, /p/2/pad/10/iocr_pcr, /0, /p/2/pad/10/iocr_oe, /0, /p/2/pad/10/hwsel_hw, /0, /p/2/pad/10/pdisc_pdis, /0, /p/2/pad/11/iocr_pcr, /0, /p/2/pad/11/iocr_oe, /0, /p/2/pad/11/hwsel_hw, /0, /p/2/pad/11/pdisc_pdis, /1, /bccu/0/channel/0/chconfig_dsel, /0, /bccu/0/channel/1/chconfig_dsel, /0, /bccu/0/channel/2/chconfig_dsel, /0, /bccu/0/channel/3/chconfig_dsel, /0, /bccu/0/channel/4/chconfig_dsel, /0, /bccu/0/channel/5/chconfig_dsel, /0, /bccu/0/channel/6/chconfig_dsel, /0, /bccu/0/channel/7/chconfig_dsel, /0, /bccu/0/channel/8/chconfig_dsel, /0, /bccu/0/packer_fifo_event/evier_eien, /0, /bccu/0/packer_fifo_event/evier_fien, /0, /bccu/0/trap/evier_tpien, /0, /bccu/0/trap/globcon_trapis, /0, /bccu/0/trigger/evier_t0ien, /0, /bccu/0/trigger/evier_t1ien, /0, /ccu4/0/cc4/0/ins_ev1is, /0, /ccu4/0/cc4/0/ins_ev0is, /0, /ccu4/0/cc4/0/ins_ev2is, /0, /ccu4/0/cc4/0/srs_cmsr, /0, /ccu4/0/cc4/0/srs_e0sr, /0, /ccu4/0/cc4/0/srs_e1sr, /0, /ccu4/0/cc4/0/srs_e2sr, /0, /ccu4/0/cc4/0/srs_posr, /0, /ccu4/0/cc4/1/ins_ev1is, /0, /ccu4/0/cc4/1/ins_ev0is, /0, /ccu4/0/cc4/1/ins_ev2is, /0, /ccu4/0/cc4/1/srs_cmsr, /0, /ccu4/0/cc4/1/cmc_tce, /0, /ccu4/0/cc4/1/srs_e0sr, /0, /ccu4/0/cc4/1/srs_e1sr, /0, /ccu4/0/cc4/1/srs_e2sr, /0, /ccu4/0/cc4/1/srs_posr, /0, /ccu4/0/cc4/2/ins_ev1is, /0, /ccu4/0/cc4/2/ins_ev0is, /0, /ccu4/0/cc4/2/ins_ev2is, /0, /ccu4/0/cc4/2/srs_cmsr, /0, /ccu4/0/cc4/2/cmc_tce, /0, /ccu4/0/cc4/2/srs_e0sr, /0, /ccu4/0/cc4/2/srs_e1sr, /0, /ccu4/0/cc4/2/srs_e2sr, /0, /ccu4/0/cc4/2/srs_posr, /0, /ccu4/0/cc4/3/ins_ev1is, /0, /ccu4/0/cc4/3/ins_ev0is, /0, /ccu4/0/cc4/3/ins_ev2is, /0, /ccu4/0/cc4/3/srs_cmsr, /0, /ccu4/0/cc4/3/cmc_tce, /0, /ccu4/0/cc4/3/srs_e0sr, /0, /ccu4/0/cc4/3/srs_e1sr, /0, /ccu4/0/cc4/3/srs_e2sr, /0, /ccu4/0/cc4/3/srs_posr, /0, /ccu4/0/global/gctrl_pcis, /0, /ccu8/0/cc8/1/ins_ev1is, /0, /ccu8/0/cc8/1/ins_ev0is, /0, /ccu8/0/cc8/1/ins_ev2is, /0, /ccu8/0/cc8/1/cmc_tce, /0, /ccu8/0/cc8/1/srs_e0sr, /0, /ccu8/0/cc8/1/srs_e1sr, /0, /ccu8/0/cc8/1/srs_e2sr, /0, /ccu8/0/cc8/1/srs_posr, /0, /ccu8/0/cc8/1/srs_cm1sr, /0, /ccu8/0/cc8/1/srs_cm2sr, /0, /ccu8/0/cc8/0/ins_ev1is, /0, /ccu8/0/cc8/0/ins_ev0is, /0, /ccu8/0/cc8/0/ins_ev2is, /0, /ccu8/0/cc8/0/srs_e0sr, /0, /ccu8/0/cc8/0/srs_e1sr, /0, /ccu8/0/cc8/0/srs_e2sr, /0, /ccu8/0/cc8/0/srs_posr, /0, /ccu8/0/cc8/0/srs_cm1sr, /0, /ccu8/0/cc8/0/srs_cm2sr, /0, /ccu8/0/cc8/3/ins_ev1is, /0, /ccu8/0/cc8/3/ins_ev0is, /0, /ccu8/0/cc8/3/ins_ev2is, /0, /ccu8/0/cc8/3/cmc_tce, /0, /ccu8/0/cc8/3/srs_e0sr, /0, /ccu8/0/cc8/3/srs_e1sr, /0, /ccu8/0/cc8/3/srs_e2sr, /0, /ccu8/0/cc8/3/srs_posr, /0, /ccu8/0/cc8/3/srs_cm1sr, /0, /ccu8/0/cc8/3/srs_cm2sr, /0, /ccu8/0/cc8/2/ins_ev1is, /0, /ccu8/0/cc8/2/ins_ev0is, /0, /ccu8/0/cc8/2/ins_ev2is, /0, /ccu8/0/cc8/2/cmc_tce, /0, /ccu8/0/cc8/2/srs_e0sr, /0, /ccu8/0/cc8/2/srs_e1sr, /0, /ccu8/0/cc8/2/srs_e2sr, /0, /ccu8/0/cc8/2/srs_posr, /0, /ccu8/0/cc8/2/srs_cm1sr, /0, /ccu8/0/cc8/2/srs_cm2sr, /0, /ccu8/0/global/gctrl_pcis, /0, /cpu/0/nvic/interrupt/0/iser_setena, /0, /cpu/0/nvic/interrupt/1/iser_setena, /0, /cpu/0/nvic/interrupt/10/iser_setena, /1, /cpu/0/nvic/interrupt/11/iser_setena, /1, /cpu/0/nvic/interrupt/12/iser_setena, /0, /cpu/0/nvic/interrupt/13/iser_setena, /0, /cpu/0/nvic/interrupt/14/iser_setena, /0, /cpu/0/nvic/interrupt/15/iser_setena, /0, /cpu/0/nvic/interrupt/16/iser_setena, /0, /cpu/0/nvic/interrupt/17/iser_setena, /0, /cpu/0/nvic/interrupt/18/iser_setena, /0, /cpu/0/nvic/interrupt/19/iser_setena, /0, /cpu/0/nvic/interrupt/2/iser_setena, /0, /cpu/0/nvic/interrupt/20/iser_setena, /0, /cpu/0/nvic/interrupt/21/iser_setena, /0, /cpu/0/nvic/interrupt/22/iser_setena, /0, /cpu/0/nvic/interrupt/23/iser_setena, /0, /cpu/0/nvic/interrupt/24/iser_setena, /0, /cpu/0/nvic/interrupt/25/iser_setena, /0, /cpu/0/nvic/interrupt/26/iser_setena, /0, /cpu/0/nvic/interrupt/27/iser_setena, /0, /cpu/0/nvic/interrupt/28/iser_setena, /0, /cpu/0/nvic/interrupt/29/iser_setena, /0, /cpu/0/nvic/interrupt/3/iser_setena, /0, /cpu/0/nvic/interrupt/30/iser_setena, /0, /cpu/0/nvic/interrupt/31/iser_setena, /0, /cpu/0/nvic/interrupt/4/iser_setena, /0, /cpu/0/nvic/interrupt/5/iser_setena, /0, /cpu/0/nvic/interrupt/6/iser_setena, /0, /cpu/0/nvic/interrupt/7/iser_setena, /0, /cpu/0/nvic/interrupt/9/iser_setena, /0, /eru/0/ers_etl/0/exicon_pe, /0, /eru/0/ers_etl/0/exicon_ocs, /0, /eru/0/ers_etl/0/exisel_exsxa, /0, /eru/0/ers_etl/0/exisel_exsxb, /0, /eru/0/ers_etl/1/exicon_pe, /0, /eru/0/ers_etl/1/exicon_ocs, /0, /eru/0/ers_etl/1/exisel_exsxa, /0, /eru/0/ers_etl/1/exisel_exsxb, /0, /eru/0/ers_etl/2/exicon_pe, /0, /eru/0/ers_etl/2/exicon_ocs, /0, /eru/0/ers_etl/2/exisel_exsxa, /0, /eru/0/ers_etl/2/exisel_exsxb, /0, /eru/0/ers_etl/3/exicon_pe, /0, /eru/0/ers_etl/3/exicon_ocs, /0, /eru/0/ers_etl/3/exisel_exsxa, /0, /eru/0/ers_etl/3/exisel_exsxb, /0, /eru/0/ogu/0/exocon_iss, /0, /eru/0/ogu/0/exocon_ipen0, /0, /eru/0/ogu/0/exocon_ipen1, /0, /eru/0/ogu/0/exocon_ipen2, /0, /eru/0/ogu/0/exocon_ipen3, /0, /eru/0/ogu/1/exocon_iss, /0, /eru/0/ogu/1/exocon_ipen0, /0, /eru/0/ogu/1/exocon_ipen1, /0, /eru/0/ogu/1/exocon_ipen2, /0, /eru/0/ogu/1/exocon_ipen3, /0, /eru/0/ogu/2/exocon_iss, /0, /eru/0/ogu/2/exocon_ipen0, /0, /eru/0/ogu/2/exocon_ipen1, /0, /eru/0/ogu/2/exocon_ipen2, /0, /eru/0/ogu/2/exocon_ipen3, /0, /eru/0/ogu/3/exocon_iss, /0, /eru/0/ogu/3/exocon_ipen0, /0, /eru/0/ogu/3/exocon_ipen1, /0, /eru/0/ogu/3/exocon_ipen2, /0, /eru/0/ogu/3/exocon_ipen3, /0, /posif/0/posif/hsc_qd/pconf_dsel, /0, /posif/0/posif/hsc_qd/pconf_ewis, /0, /posif/0/posif/hsc_qd/pconf_insel0, /0, /posif/0/posif/hsc_qd/pconf_insel1, /0, /posif/0/posif/hsc_qd/pconf_insel2, /0, /posif/0/posif/hsc_qd/pflge_eche, /0, /posif/0/posif/hsc_qd/pflge_chesel, /0, /posif/0/posif/hsc_qd/pflge_cnte, /0, /posif/0/posif/hsc_qd/pflge_cntsel, /0, /posif/0/posif/hsc_qd/pflge_dire, /0, /posif/0/posif/hsc_qd/pflge_dirsel, /0, /posif/0/posif/hsc_qd/pflge_erre, /0, /posif/0/posif/hsc_qd/pflge_errsel, /0, /posif/0/posif/hsc_qd/pflge_ehie, /0, /posif/0/posif/hsc_qd/pflge_hiesel, /0, /posif/0/posif/hsc_qd/pflge_indxe, /0, /posif/0/posif/hsc_qd/pflge_indsel, /0, /posif/0/posif/hsc_qd/pflge_pclke, /0, /posif/0/posif/hsc_qd/pflge_pclsel, /0, /posif/0/posif/hsc_qd/pflge_ewhe, /0, /posif/0/posif/hsc_qd/pflge_whesel, /0, /posif/0/posif/mcm/pconf_msets, /0, /posif/0/posif/mcm/pconf_msyns, /0, /posif/0/posif/mcm/pflge_emst, /0, /posif/0/posif/mcm/pflge_mstsel, /0, /scu/0/ccu/config/clkcr_rtcclksel, /0, /usic/0/channel/0/ccr_hpcen, /0, /usic/0/channel/0/dx1cr_dsel, /0, /usic/0/channel/0/dx0cr_dsel, /6, /usic/0/channel/0/dx5cr_dsel, /0, /usic/0/channel/0/dx3cr_dsel, /2, /usic/0/channel/0/dx4cr_dsel, /0, /usic/0/channel/0/dx2cr_dsel, /0, /usic/0/channel/0/rbctr_arbien, /1, /usic/0/channel/0/rbctr_arbinp, /1, /usic/0/channel/0/ccr_aien, /0, /usic/0/channel/0/inpr_ainp, /0, /usic/0/channel/0/ccr_brgien, /0, /usic/0/channel/0/inpr_pinp, /0, /usic/0/channel/0/ccr_dlien, /0, /usic/0/channel/0/rbctr_rberien, /0, /usic/0/channel/0/ccr_rsien, /0, /usic/0/channel/0/inpr_tbinp, /2, /usic/0/channel/0/rbctr_srbien, /1, /usic/0/channel/0/rbctr_srbinp, /1, /usic/0/channel/0/ccr_rien, /0, /usic/0/channel/0/inpr_rinp, /0, /usic/0/channel/0/tbctr_stbien, /0, /usic/0/channel/0/tbctr_stbinp, /0, /usic/0/channel/0/tbctr_tberien, /0, /usic/0/channel/0/tbctr_atbinp, /0, /usic/0/channel/0/ccr_tbien, /1, /usic/0/channel/0/ccr_tsien, /0, /usic/0/channel/0/inpr_tsinp, /0, /usic/0/channel/0/rbctr_dptr, /0, /usic/0/channel/0/rbctr_size, /5, /usic/0/channel/0/tbctr_dptr, /0, /usic/0/channel/0/tbctr_size, /0, /usic/0/channel/1/ccr_hpcen, /0, /usic/0/channel/1/dx1cr_dsel, /0, /usic/0/channel/1/dx0cr_dsel, /0, /usic/0/channel/1/dx5cr_dsel, /0, /usic/0/channel/1/dx3cr_dsel, /0, /usic/0/channel/1/dx4cr_dsel, /0, /usic/0/channel/1/dx2cr_dsel, /0, /usic/0/channel/1/rbctr_arbien, /0, /usic/0/channel/1/rbctr_arbinp, /0, /usic/0/channel/1/ccr_aien, /0, /usic/0/channel/1/inpr_ainp, /0, /usic/0/channel/1/ccr_brgien, /0, /usic/0/channel/1/inpr_pinp, /0, /usic/0/channel/1/ccr_dlien, /0, /usic/0/channel/1/rbctr_rberien, /0, /usic/0/channel/1/ccr_rsien, /0, /usic/0/channel/1/inpr_tbinp, /0, /usic/0/channel/1/rbctr_srbien, /0, /usic/0/channel/1/rbctr_srbinp, /0, /usic/0/channel/1/ccr_rien, /0, /usic/0/channel/1/inpr_rinp, /0, /usic/0/channel/1/tbctr_stbien, /0, /usic/0/channel/1/tbctr_stbinp, /0, /usic/0/channel/1/tbctr_tberien, /0, /usic/0/channel/1/tbctr_atbinp, /0, /usic/0/channel/1/ccr_tbien, /0, /usic/0/channel/1/ccr_tsien, /0, /usic/0/channel/1/inpr_tsinp, /0, /usic/0/channel/1/rbctr_dptr, /0, /usic/0/channel/1/rbctr_size, /0, /usic/0/channel/1/tbctr_dptr, /0, /usic/0/channel/1/tbctr_size, /0, /vadc/0/backgnd/brsctrl_xtsel, /0, /vadc/0/backgnd/brsctrl_gtsel, /0, /vadc/0/backgnd/globevnp_sev0np, /0, /vadc/0/emux/0/emuxsel_emuxgrp, /0, /vadc/0/emux/1/emuxsel_emuxgrp, /0, /vadc/0/global_result/globevnp_revnp, /0, /vadc/0/group/0/ch/0/gchctr_iclsel, /0, /vadc/0/group/0/ch/0/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/0/gchctr_resreg, /0, /vadc/0/group/0/ch/0/galias_alias0, /0, /vadc/0/group/0/ch/1/gchctr_iclsel, /0, /vadc/0/group/0/ch/1/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/1/gchctr_resreg, /0, /vadc/0/group/0/ch/1/galias_alias1, /0, /vadc/0/group/0/ch/2/gchctr_iclsel, /0, /vadc/0/group/0/ch/2/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/2/gchctr_resreg, /0, /vadc/0/group/0/ch/3/gchctr_iclsel, /0, /vadc/0/group/0/ch/3/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/3/gchctr_resreg, /0, /vadc/0/group/0/ch/4/gchctr_iclsel, /0, /vadc/0/group/0/ch/4/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/4/gchctr_resreg, /0, /vadc/0/group/0/ch/5/gchctr_iclsel, /0, /vadc/0/group/0/ch/5/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/5/gchctr_resreg, /0, /vadc/0/group/0/ch/6/gchctr_iclsel, /0, /vadc/0/group/0/ch/6/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/6/gchctr_resreg, /0, /vadc/0/group/0/ch/7/gchctr_iclsel, /0, /vadc/0/group/0/ch/7/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/7/gchctr_resreg, /0, /vadc/0/group/0/queue/gqctrl0_xtsel, /0, /vadc/0/group/0/queue/gqctrl0_gtsel, /0, /vadc/0/group/0/queue/gsevnp_sev0np, /0, /vadc/0/group/0/result/10/grevnp_revnp, /0, /vadc/0/group/0/result/11/grevnp_revnp, /0, /vadc/0/group/0/result/12/grevnp_revnp, /0, /vadc/0/group/0/result/13/grevnp_revnp, /0, /vadc/0/group/0/result/14/grevnp_revnp, /0, /vadc/0/group/0/result/4/grevnp_revnp, /0, /vadc/0/group/0/result/5/grevnp_revnp, /0, /vadc/0/group/0/result/6/grevnp_revnp, /0, /vadc/0/group/0/result/8/grevnp_revnp, /0, /vadc/0/group/0/result/9/grevnp_revnp, /0, /vadc/0/group/0/result_adv/0/grevnp_revnp, /0, /vadc/0/group/0/result_adv/1/grevnp_revnp, /0, /vadc/0/group/0/result_adv/2/grevnp_revnp, /0, /vadc/0/group/0/result_adv/3/grevnp_revnp, /0, /vadc/0/group/0/result_filter/15/grevnp_revnp, /0, /vadc/0/group/0/result_filter/7/grevnp_revnp, /0, /vadc/0/group/0/scan/gasctrl_xtsel, /0, /vadc/0/group/0/scan/gasctrl_gtsel, /0, /vadc/0/group/0/scan/gsevnp_sev1np, /0, /vadc/0/group/0/sync/gsynctr_stsel, /0, /vadc/0/group/0/sync/gsynctr_evalr1, /0, /vadc/0/group/0/sync/gsynctr_evalr2, /0, /vadc/0/group/0/sync/gsynctr_evalr3, /0, /vadc/0/group/1/ch/0/gchctr_iclsel, /0, /vadc/0/group/1/ch/0/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/0/gchctr_resreg, /0, /vadc/0/group/1/ch/0/galias_alias0, /0, /vadc/0/group/1/ch/1/gchctr_iclsel, /0, /vadc/0/group/1/ch/1/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/1/gchctr_resreg, /0, /vadc/0/group/1/ch/1/galias_alias1, /0, /vadc/0/group/1/ch/2/gchctr_iclsel, /0, /vadc/0/group/1/ch/2/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/2/gchctr_resreg, /0, /vadc/0/group/1/ch/3/gchctr_iclsel, /0, /vadc/0/group/1/ch/3/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/3/gchctr_resreg, /0, /vadc/0/group/1/ch/4/gchctr_iclsel, /0, /vadc/0/group/1/ch/4/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/4/gchctr_resreg, /0, /vadc/0/group/1/ch/5/gchctr_iclsel, /0, /vadc/0/group/1/ch/5/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/5/gchctr_resreg, /0, /vadc/0/group/1/ch/6/gchctr_iclsel, /0, /vadc/0/group/1/ch/6/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/6/gchctr_resreg, /0, /vadc/0/group/1/ch/7/gchctr_iclsel, /0, /vadc/0/group/1/ch/7/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/7/gchctr_resreg, /0, /vadc/0/group/1/queue/gqctrl0_xtsel, /0, /vadc/0/group/1/queue/gqctrl0_gtsel, /0, /vadc/0/group/1/queue/gsevnp_sev0np, /0, /vadc/0/group/1/result/10/grevnp_revnp, /0, /vadc/0/group/1/result/11/grevnp_revnp, /0, /vadc/0/group/1/result/12/grevnp_revnp, /0, /vadc/0/group/1/result/13/grevnp_revnp, /0, /vadc/0/group/1/result/14/grevnp_revnp, /0, /vadc/0/group/1/result/4/grevnp_revnp, /0, /vadc/0/group/1/result/5/grevnp_revnp, /0, /vadc/0/group/1/result/6/grevnp_revnp, /0, /vadc/0/group/1/result/8/grevnp_revnp, /0, /vadc/0/group/1/result/9/grevnp_revnp, /0, /vadc/0/group/1/result_adv/0/grevnp_revnp, /0, /vadc/0/group/1/result_adv/1/grevnp_revnp, /0, /vadc/0/group/1/result_adv/2/grevnp_revnp, /0, /vadc/0/group/1/result_adv/3/grevnp_revnp, /0, /vadc/0/group/1/result_filter/15/grevnp_revnp, /0, /vadc/0/group/1/result_filter/7/grevnp_revnp, /0, /vadc/0/group/1/scan/gasctrl_xtsel, /0, /vadc/0/group/1/scan/gasctrl_gtsel, /0, /vadc/0/group/1/scan/gsevnp_sev1np, /0, /vadc/0/group/1/sync/gsynctr_stsel, /0, /vadc/0/group/1/sync/gsynctr_evalr1, /0, /vadc/0/group/1/sync/gsynctr_evalr2, /0, /vadc/0/group/1/sync/gsynctr_evalr3, /0]
+
+
+Jul 25, 2017 11:32:09 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getSolution() : Tue Jul 25 11:32:09 CEST 2017
+
+
+Jul 25, 2017 11:32:09 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(solve_mapping_problem([ 
+reserved([p,DIGITAL_IO0sv0,pad,_],'digital_io$01238362304$0'),
+reserved([devicepackage,0,_],'digital_io$0567432502$0'),
+uri([devicepackage,0,21],'digital_io$0567432502$0'),
+reserved([p,DIGITAL_IO1sv0,pad,_],'digital_io$01748896481$1'),
+reserved([devicepackage,0,_],'digital_io$1689478505$1'),
+uri([devicepackage,0,22],'digital_io$1689478505$1'),
+reserved([scu,0,dco,_],'clock_xmc1$1911737770$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$01005053461$0'),
+reserved([p,0,pad,14],'cpu_ctrl_xmc1$01695105704$0'),
+reserved([p,0,pad,15],'cpu_ctrl_xmc1$01695105703$0'),
+reserved([cpu,0,exception,hardfault],'cpu_ctrl_xmc1$1199990160$0'),
+reserved([usic,_,channel,_],'uart$426864790$0'),
+reserved([p,_,pad,_],'uart$1687104611$0'),
+reserved([p,_,pad,_],'uart$1687104673$0'),
+reserved([cpu,0,nvic,interrupt,_],'uart$608506556$0'),
+reserved([devicepackage,0,_],'uart$01114417107$0'),
+reserved([devicepackage,0,_],'uart$01114417045$0'),
+signal('digital_io$01238362304$0',swreg_out,'digital_io$01238362304$0$swreg_out'),
+signal('digital_io$01238362304$0',pad,'digital_io$01238362304$0$pad'),
+signal('digital_io$0567432502$0',pin,'digital_io$0567432502$0$pin'),
+signal('digital_io$01748896481$1',swreg_out,'digital_io$01748896481$1$swreg_out'),
+signal('digital_io$01748896481$1',pad,'digital_io$01748896481$1$pad'),
+signal('digital_io$1689478505$1',pin,'digital_io$1689478505$1$pin'),
+signal('clock_xmc1$1911737770$0',clkout,'clock_xmc1$1911737770$0$clkout'),
+signal('clock_xmc1$01005053461$0',frtc,'clock_xmc1$01005053461$0$frtc'),
+signal('uart$426864790$0',dx0ins,'uart$426864790$0$dx0ins'),
+signal('uart$426864790$0',dx3ins,'uart$426864790$0$dx3ins'),
+signal('uart$426864790$0',dout0,'uart$426864790$0$dout0'),
+signal('uart$1687104611$0',pad,'uart$1687104611$0$pad'),
+signal('uart$1687104673$0',pad,'uart$1687104673$0$pad'),
+signal('uart$426864790$0',transmit_buffer_int,'uart$426864790$0$transmit_buffer_int'),
+signal('uart$426864790$0',protocol_specific_int,'uart$426864790$0$protocol_specific_int'),
+signal('uart$426864790$0',standard_receive_buffer_int,'uart$426864790$0$standard_receive_buffer_int'),
+signal('uart$426864790$0',alternate_receive_buffer_int,'uart$426864790$0$alternate_receive_buffer_int'),
+signal('uart$608506556$0',signal_in,'uart$608506556$0$signal_in'),
+signal('uart$01114417107$0',pin,'uart$01114417107$0$pin'),
+signal('uart$01114417045$0',pin,'uart$01114417045$0$pin'),
+connected('digital_io$0567432502$0$pin','digital_io$01238362304$0$pad',1),
+connected('digital_io$01238362304$0$pad','digital_io$0567432502$0$pin',1),
+connected('digital_io$1689478505$1$pin','digital_io$01748896481$1$pad',1),
+connected('digital_io$01748896481$1$pad','digital_io$1689478505$1$pin',1),
+connected('clock_xmc1$1911737770$0$clkout','clock_xmc1$01005053461$0$frtc',1),
+connected('uart$01114417107$0$pin','uart$1687104611$0$pad',1),
+connected('uart$01114417045$0$pin','uart$1687104673$0$pad',1),
+connected('uart$426864790$0$dout0','uart$1687104673$0$pad',1),
+connected('uart$426864790$0$alternate_receive_buffer_int','uart$608506556$0$signal_in',1),
+connected('uart$426864790$0$standard_receive_buffer_int','uart$608506556$0$signal_in',1),
+connected('uart$1687104611$0$pad','uart$01114417107$0$pin',1),
+connected('uart$1687104611$0$pad','uart$426864790$0$dx0ins',1),
+connected('uart$1687104673$0$pad','uart$01114417045$0$pin',1),
+uri_element_range(DIGITAL_IO1sv0,[0, 1, 2, 3, 4]),
+register_value('digital_io$01748896481$1',iocr_oe,1),
+register_value('uart$426864790$0',ccr_hpcen,0),
+register_value('uart$426864790$0',tbctr_size,0),
+register_value('uart$426864790$0',rbctr_size,5),
+uri_element_range(DIGITAL_IO0sv0,[0, 1, 2, 3, 4]),
+register_value('digital_io$01238362304$0',iocr_oe,1)
+ ],Vars,Regs,Appslocalvars),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Jul 25, 2017 11:32:09 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getSolution() :  Difference in ms 133
+
+
+Jul 25, 2017 11:32:09 AM java.util.logging.LogManager$RootLogger log
+INFO: [/scu/0/ccu/config, /clock_xmc1$01005053461$0, /scu/0/dco/2, /clock_xmc1$1911737770$0, /p/0/pad/15, /cpu_ctrl_xmc1$01695105703$0, /p/0/pad/14, /cpu_ctrl_xmc1$01695105704$0, /cpu/0/exception/hardfault, /cpu_ctrl_xmc1$1199990160$0, /p/1/pad/1, /digital_io$01238362304$0, /p/1/pad/0, /digital_io$01748896481$1, /devicepackage/0/21, /digital_io$0567432502$0, /devicepackage/0/22, /digital_io$1689478505$1, /devicepackage/0/17, /uart$01114417045$0, /devicepackage/0/11, /uart$01114417107$0, /p/2/pad/10, /uart$1687104611$0, /p/1/pad/5, /uart$1687104673$0, /usic/0/channel/0, /uart$426864790$0, /cpu/0/nvic/interrupt/10, /uart$608506556$0]
+
+
+Jul 25, 2017 11:32:09 AM java.util.logging.LogManager$RootLogger log
+INFO: [/p/1/pad/0/iocr_pcr, /0, /p/1/pad/0/iocr_oe, /1, /p/1/pad/0/hwsel_hw, /0, /p/1/pad/1/iocr_pcr, /0, /p/1/pad/1/iocr_oe, /1, /p/1/pad/1/hwsel_hw, /0, /p/1/pad/2/iocr_pcr, /0, /p/1/pad/2/iocr_oe, /0, /p/1/pad/2/hwsel_hw, /0, /p/1/pad/3/iocr_pcr, /0, /p/1/pad/3/iocr_oe, /0, /p/1/pad/3/hwsel_hw, /0, /p/1/pad/4/iocr_pcr, /0, /p/1/pad/4/iocr_oe, /0, /p/1/pad/4/hwsel_hw, /0, /p/1/pad/5/iocr_pcr, /2, /p/1/pad/5/iocr_oe, /1, /p/1/pad/5/hwsel_hw, /0, /p/1/pad/6/iocr_pcr, /0, /p/1/pad/6/iocr_oe, /0, /p/1/pad/6/hwsel_hw, /0, /p/2/pad/2/iocr_pcr, /0, /p/2/pad/2/iocr_oe, /0, /p/2/pad/2/hwsel_hw, /0, /p/2/pad/2/pdisc_pdis, /1, /p/2/pad/3/iocr_pcr, /0, /p/2/pad/3/iocr_oe, /0, /p/2/pad/3/pdisc_pdis, /1, /p/2/pad/4/iocr_pcr, /0, /p/2/pad/4/iocr_oe, /0, /p/2/pad/4/hwsel_hw, /0, /p/2/pad/4/pdisc_pdis, /1, /p/2/pad/5/iocr_pcr, /0, /p/2/pad/5/iocr_oe, /0, /p/2/pad/5/pdisc_pdis, /1, /p/2/pad/6/iocr_pcr, /0, /p/2/pad/6/iocr_oe, /0, /p/2/pad/6/hwsel_hw, /0, /p/2/pad/6/pdisc_pdis, /1, /p/2/pad/7/iocr_pcr, /0, /p/2/pad/7/iocr_oe, /0, /p/2/pad/7/hwsel_hw, /0, /p/2/pad/7/pdisc_pdis, /1, /p/2/pad/8/iocr_pcr, /0, /p/2/pad/8/iocr_oe, /0, /p/2/pad/8/hwsel_hw, /0, /p/2/pad/8/pdisc_pdis, /1, /p/2/pad/9/iocr_pcr, /0, /p/2/pad/9/iocr_oe, /0, /p/2/pad/9/hwsel_hw, /0, /p/2/pad/9/pdisc_pdis, /1, /p/0/pad/0/iocr_pcr, /0, /p/0/pad/0/iocr_oe, /0, /p/0/pad/0/hwsel_hw, /0, /p/0/pad/1/iocr_pcr, /0, /p/0/pad/1/iocr_oe, /0, /p/0/pad/1/hwsel_hw, /0, /p/0/pad/10/iocr_pcr, /0, /p/0/pad/10/iocr_oe, /0, /p/0/pad/10/hwsel_hw, /0, /p/0/pad/11/iocr_pcr, /0, /p/0/pad/11/iocr_oe, /0, /p/0/pad/11/hwsel_hw, /0, /p/0/pad/12/iocr_pcr, /0, /p/0/pad/12/iocr_oe, /0, /p/0/pad/12/hwsel_hw, /0, /p/0/pad/13/iocr_pcr, /0, /p/0/pad/13/iocr_oe, /0, /p/0/pad/13/hwsel_hw, /0, /p/0/pad/14/iocr_pcr, /0, /p/0/pad/14/iocr_oe, /0, /p/0/pad/14/hwsel_hw, /0, /p/0/pad/15/iocr_pcr, /0, /p/0/pad/15/iocr_oe, /0, /p/0/pad/15/hwsel_hw, /0, /p/0/pad/2/iocr_pcr, /0, /p/0/pad/2/iocr_oe, /0, /p/0/pad/2/hwsel_hw, /0, /p/0/pad/3/iocr_pcr, /0, /p/0/pad/3/iocr_oe, /0, /p/0/pad/3/hwsel_hw, /0, /p/0/pad/4/iocr_pcr, /0, /p/0/pad/4/iocr_oe, /0, /p/0/pad/4/hwsel_hw, /0, /p/0/pad/5/iocr_pcr, /0, /p/0/pad/5/iocr_oe, /0, /p/0/pad/5/hwsel_hw, /0, /p/0/pad/6/iocr_pcr, /0, /p/0/pad/6/iocr_oe, /0, /p/0/pad/6/hwsel_hw, /0, /p/0/pad/7/iocr_pcr, /0, /p/0/pad/7/iocr_oe, /0, /p/0/pad/7/hwsel_hw, /0, /p/0/pad/8/iocr_pcr, /0, /p/0/pad/8/iocr_oe, /0, /p/0/pad/8/hwsel_hw, /0, /p/0/pad/9/iocr_pcr, /0, /p/0/pad/9/iocr_oe, /0, /p/0/pad/9/hwsel_hw, /0, /p/2/pad/0/iocr_pcr, /0, /p/2/pad/0/iocr_oe, /0, /p/2/pad/0/hwsel_hw, /0, /p/2/pad/0/pdisc_pdis, /1, /p/2/pad/1/iocr_pcr, /0, /p/2/pad/1/iocr_oe, /0, /p/2/pad/1/hwsel_hw, /0, /p/2/pad/1/pdisc_pdis, /1, /p/2/pad/10/iocr_pcr, /0, /p/2/pad/10/iocr_oe, /0, /p/2/pad/10/hwsel_hw, /0, /p/2/pad/10/pdisc_pdis, /0, /p/2/pad/11/iocr_pcr, /0, /p/2/pad/11/iocr_oe, /0, /p/2/pad/11/hwsel_hw, /0, /p/2/pad/11/pdisc_pdis, /1, /bccu/0/channel/0/chconfig_dsel, /0, /bccu/0/channel/1/chconfig_dsel, /0, /bccu/0/channel/2/chconfig_dsel, /0, /bccu/0/channel/3/chconfig_dsel, /0, /bccu/0/channel/4/chconfig_dsel, /0, /bccu/0/channel/5/chconfig_dsel, /0, /bccu/0/channel/6/chconfig_dsel, /0, /bccu/0/channel/7/chconfig_dsel, /0, /bccu/0/channel/8/chconfig_dsel, /0, /bccu/0/packer_fifo_event/evier_eien, /0, /bccu/0/packer_fifo_event/evier_fien, /0, /bccu/0/trap/evier_tpien, /0, /bccu/0/trap/globcon_trapis, /0, /bccu/0/trigger/evier_t0ien, /0, /bccu/0/trigger/evier_t1ien, /0, /ccu4/0/cc4/0/ins_ev1is, /0, /ccu4/0/cc4/0/ins_ev0is, /0, /ccu4/0/cc4/0/ins_ev2is, /0, /ccu4/0/cc4/0/srs_cmsr, /0, /ccu4/0/cc4/0/srs_e0sr, /0, /ccu4/0/cc4/0/srs_e1sr, /0, /ccu4/0/cc4/0/srs_e2sr, /0, /ccu4/0/cc4/0/srs_posr, /0, /ccu4/0/cc4/1/ins_ev1is, /0, /ccu4/0/cc4/1/ins_ev0is, /0, /ccu4/0/cc4/1/ins_ev2is, /0, /ccu4/0/cc4/1/srs_cmsr, /0, /ccu4/0/cc4/1/cmc_tce, /0, /ccu4/0/cc4/1/srs_e0sr, /0, /ccu4/0/cc4/1/srs_e1sr, /0, /ccu4/0/cc4/1/srs_e2sr, /0, /ccu4/0/cc4/1/srs_posr, /0, /ccu4/0/cc4/2/ins_ev1is, /0, /ccu4/0/cc4/2/ins_ev0is, /0, /ccu4/0/cc4/2/ins_ev2is, /0, /ccu4/0/cc4/2/srs_cmsr, /0, /ccu4/0/cc4/2/cmc_tce, /0, /ccu4/0/cc4/2/srs_e0sr, /0, /ccu4/0/cc4/2/srs_e1sr, /0, /ccu4/0/cc4/2/srs_e2sr, /0, /ccu4/0/cc4/2/srs_posr, /0, /ccu4/0/cc4/3/ins_ev1is, /0, /ccu4/0/cc4/3/ins_ev0is, /0, /ccu4/0/cc4/3/ins_ev2is, /0, /ccu4/0/cc4/3/srs_cmsr, /0, /ccu4/0/cc4/3/cmc_tce, /0, /ccu4/0/cc4/3/srs_e0sr, /0, /ccu4/0/cc4/3/srs_e1sr, /0, /ccu4/0/cc4/3/srs_e2sr, /0, /ccu4/0/cc4/3/srs_posr, /0, /ccu4/0/global/gctrl_pcis, /0, /ccu8/0/cc8/1/ins_ev1is, /0, /ccu8/0/cc8/1/ins_ev0is, /0, /ccu8/0/cc8/1/ins_ev2is, /0, /ccu8/0/cc8/1/cmc_tce, /0, /ccu8/0/cc8/1/srs_e0sr, /0, /ccu8/0/cc8/1/srs_e1sr, /0, /ccu8/0/cc8/1/srs_e2sr, /0, /ccu8/0/cc8/1/srs_posr, /0, /ccu8/0/cc8/1/srs_cm1sr, /0, /ccu8/0/cc8/1/srs_cm2sr, /0, /ccu8/0/cc8/0/ins_ev1is, /0, /ccu8/0/cc8/0/ins_ev0is, /0, /ccu8/0/cc8/0/ins_ev2is, /0, /ccu8/0/cc8/0/srs_e0sr, /0, /ccu8/0/cc8/0/srs_e1sr, /0, /ccu8/0/cc8/0/srs_e2sr, /0, /ccu8/0/cc8/0/srs_posr, /0, /ccu8/0/cc8/0/srs_cm1sr, /0, /ccu8/0/cc8/0/srs_cm2sr, /0, /ccu8/0/cc8/3/ins_ev1is, /0, /ccu8/0/cc8/3/ins_ev0is, /0, /ccu8/0/cc8/3/ins_ev2is, /0, /ccu8/0/cc8/3/cmc_tce, /0, /ccu8/0/cc8/3/srs_e0sr, /0, /ccu8/0/cc8/3/srs_e1sr, /0, /ccu8/0/cc8/3/srs_e2sr, /0, /ccu8/0/cc8/3/srs_posr, /0, /ccu8/0/cc8/3/srs_cm1sr, /0, /ccu8/0/cc8/3/srs_cm2sr, /0, /ccu8/0/cc8/2/ins_ev1is, /0, /ccu8/0/cc8/2/ins_ev0is, /0, /ccu8/0/cc8/2/ins_ev2is, /0, /ccu8/0/cc8/2/cmc_tce, /0, /ccu8/0/cc8/2/srs_e0sr, /0, /ccu8/0/cc8/2/srs_e1sr, /0, /ccu8/0/cc8/2/srs_e2sr, /0, /ccu8/0/cc8/2/srs_posr, /0, /ccu8/0/cc8/2/srs_cm1sr, /0, /ccu8/0/cc8/2/srs_cm2sr, /0, /ccu8/0/global/gctrl_pcis, /0, /cpu/0/nvic/interrupt/0/iser_setena, /0, /cpu/0/nvic/interrupt/1/iser_setena, /0, /cpu/0/nvic/interrupt/10/iser_setena, /1, /cpu/0/nvic/interrupt/11/iser_setena, /0, /cpu/0/nvic/interrupt/12/iser_setena, /0, /cpu/0/nvic/interrupt/13/iser_setena, /0, /cpu/0/nvic/interrupt/14/iser_setena, /0, /cpu/0/nvic/interrupt/15/iser_setena, /0, /cpu/0/nvic/interrupt/16/iser_setena, /0, /cpu/0/nvic/interrupt/17/iser_setena, /0, /cpu/0/nvic/interrupt/18/iser_setena, /0, /cpu/0/nvic/interrupt/19/iser_setena, /0, /cpu/0/nvic/interrupt/2/iser_setena, /0, /cpu/0/nvic/interrupt/20/iser_setena, /0, /cpu/0/nvic/interrupt/21/iser_setena, /0, /cpu/0/nvic/interrupt/22/iser_setena, /0, /cpu/0/nvic/interrupt/23/iser_setena, /0, /cpu/0/nvic/interrupt/24/iser_setena, /0, /cpu/0/nvic/interrupt/25/iser_setena, /0, /cpu/0/nvic/interrupt/26/iser_setena, /0, /cpu/0/nvic/interrupt/27/iser_setena, /0, /cpu/0/nvic/interrupt/28/iser_setena, /0, /cpu/0/nvic/interrupt/29/iser_setena, /0, /cpu/0/nvic/interrupt/3/iser_setena, /0, /cpu/0/nvic/interrupt/30/iser_setena, /0, /cpu/0/nvic/interrupt/31/iser_setena, /0, /cpu/0/nvic/interrupt/4/iser_setena, /0, /cpu/0/nvic/interrupt/5/iser_setena, /0, /cpu/0/nvic/interrupt/6/iser_setena, /0, /cpu/0/nvic/interrupt/7/iser_setena, /0, /cpu/0/nvic/interrupt/9/iser_setena, /0, /eru/0/ers_etl/0/exicon_pe, /0, /eru/0/ers_etl/0/exicon_ocs, /0, /eru/0/ers_etl/0/exisel_exsxa, /0, /eru/0/ers_etl/0/exisel_exsxb, /0, /eru/0/ers_etl/1/exicon_pe, /0, /eru/0/ers_etl/1/exicon_ocs, /0, /eru/0/ers_etl/1/exisel_exsxa, /0, /eru/0/ers_etl/1/exisel_exsxb, /0, /eru/0/ers_etl/2/exicon_pe, /0, /eru/0/ers_etl/2/exicon_ocs, /0, /eru/0/ers_etl/2/exisel_exsxa, /0, /eru/0/ers_etl/2/exisel_exsxb, /0, /eru/0/ers_etl/3/exicon_pe, /0, /eru/0/ers_etl/3/exicon_ocs, /0, /eru/0/ers_etl/3/exisel_exsxa, /0, /eru/0/ers_etl/3/exisel_exsxb, /0, /eru/0/ogu/0/exocon_iss, /0, /eru/0/ogu/0/exocon_ipen0, /0, /eru/0/ogu/0/exocon_ipen1, /0, /eru/0/ogu/0/exocon_ipen2, /0, /eru/0/ogu/0/exocon_ipen3, /0, /eru/0/ogu/1/exocon_iss, /0, /eru/0/ogu/1/exocon_ipen0, /0, /eru/0/ogu/1/exocon_ipen1, /0, /eru/0/ogu/1/exocon_ipen2, /0, /eru/0/ogu/1/exocon_ipen3, /0, /eru/0/ogu/2/exocon_iss, /0, /eru/0/ogu/2/exocon_ipen0, /0, /eru/0/ogu/2/exocon_ipen1, /0, /eru/0/ogu/2/exocon_ipen2, /0, /eru/0/ogu/2/exocon_ipen3, /0, /eru/0/ogu/3/exocon_iss, /0, /eru/0/ogu/3/exocon_ipen0, /0, /eru/0/ogu/3/exocon_ipen1, /0, /eru/0/ogu/3/exocon_ipen2, /0, /eru/0/ogu/3/exocon_ipen3, /0, /posif/0/posif/hsc_qd/pconf_dsel, /0, /posif/0/posif/hsc_qd/pconf_ewis, /0, /posif/0/posif/hsc_qd/pconf_insel0, /0, /posif/0/posif/hsc_qd/pconf_insel1, /0, /posif/0/posif/hsc_qd/pconf_insel2, /0, /posif/0/posif/hsc_qd/pflge_eche, /0, /posif/0/posif/hsc_qd/pflge_chesel, /0, /posif/0/posif/hsc_qd/pflge_cnte, /0, /posif/0/posif/hsc_qd/pflge_cntsel, /0, /posif/0/posif/hsc_qd/pflge_dire, /0, /posif/0/posif/hsc_qd/pflge_dirsel, /0, /posif/0/posif/hsc_qd/pflge_erre, /0, /posif/0/posif/hsc_qd/pflge_errsel, /0, /posif/0/posif/hsc_qd/pflge_ehie, /0, /posif/0/posif/hsc_qd/pflge_hiesel, /0, /posif/0/posif/hsc_qd/pflge_indxe, /0, /posif/0/posif/hsc_qd/pflge_indsel, /0, /posif/0/posif/hsc_qd/pflge_pclke, /0, /posif/0/posif/hsc_qd/pflge_pclsel, /0, /posif/0/posif/hsc_qd/pflge_ewhe, /0, /posif/0/posif/hsc_qd/pflge_whesel, /0, /posif/0/posif/mcm/pconf_msets, /0, /posif/0/posif/mcm/pconf_msyns, /0, /posif/0/posif/mcm/pflge_emst, /0, /posif/0/posif/mcm/pflge_mstsel, /0, /scu/0/ccu/config/clkcr_rtcclksel, /0, /usic/0/channel/0/ccr_hpcen, /0, /usic/0/channel/0/dx1cr_dsel, /0, /usic/0/channel/0/dx0cr_dsel, /6, /usic/0/channel/0/dx5cr_dsel, /0, /usic/0/channel/0/dx3cr_dsel, /2, /usic/0/channel/0/dx4cr_dsel, /0, /usic/0/channel/0/dx2cr_dsel, /0, /usic/0/channel/0/rbctr_arbien, /1, /usic/0/channel/0/rbctr_arbinp, /1, /usic/0/channel/0/ccr_aien, /0, /usic/0/channel/0/inpr_ainp, /0, /usic/0/channel/0/ccr_brgien, /0, /usic/0/channel/0/inpr_pinp, /0, /usic/0/channel/0/ccr_dlien, /0, /usic/0/channel/0/rbctr_rberien, /0, /usic/0/channel/0/ccr_rsien, /0, /usic/0/channel/0/inpr_tbinp, /0, /usic/0/channel/0/rbctr_srbien, /1, /usic/0/channel/0/rbctr_srbinp, /1, /usic/0/channel/0/ccr_rien, /0, /usic/0/channel/0/inpr_rinp, /0, /usic/0/channel/0/tbctr_stbien, /0, /usic/0/channel/0/tbctr_stbinp, /0, /usic/0/channel/0/tbctr_tberien, /0, /usic/0/channel/0/tbctr_atbinp, /0, /usic/0/channel/0/ccr_tbien, /0, /usic/0/channel/0/ccr_tsien, /0, /usic/0/channel/0/inpr_tsinp, /0, /usic/0/channel/0/rbctr_dptr, /0, /usic/0/channel/0/rbctr_size, /5, /usic/0/channel/0/tbctr_dptr, /0, /usic/0/channel/0/tbctr_size, /0, /usic/0/channel/1/ccr_hpcen, /0, /usic/0/channel/1/dx1cr_dsel, /0, /usic/0/channel/1/dx0cr_dsel, /0, /usic/0/channel/1/dx5cr_dsel, /0, /usic/0/channel/1/dx3cr_dsel, /0, /usic/0/channel/1/dx4cr_dsel, /0, /usic/0/channel/1/dx2cr_dsel, /0, /usic/0/channel/1/rbctr_arbien, /0, /usic/0/channel/1/rbctr_arbinp, /0, /usic/0/channel/1/ccr_aien, /0, /usic/0/channel/1/inpr_ainp, /0, /usic/0/channel/1/ccr_brgien, /0, /usic/0/channel/1/inpr_pinp, /0, /usic/0/channel/1/ccr_dlien, /0, /usic/0/channel/1/rbctr_rberien, /0, /usic/0/channel/1/ccr_rsien, /0, /usic/0/channel/1/inpr_tbinp, /0, /usic/0/channel/1/rbctr_srbien, /0, /usic/0/channel/1/rbctr_srbinp, /0, /usic/0/channel/1/ccr_rien, /0, /usic/0/channel/1/inpr_rinp, /0, /usic/0/channel/1/tbctr_stbien, /0, /usic/0/channel/1/tbctr_stbinp, /0, /usic/0/channel/1/tbctr_tberien, /0, /usic/0/channel/1/tbctr_atbinp, /0, /usic/0/channel/1/ccr_tbien, /0, /usic/0/channel/1/ccr_tsien, /0, /usic/0/channel/1/inpr_tsinp, /0, /usic/0/channel/1/rbctr_dptr, /0, /usic/0/channel/1/rbctr_size, /0, /usic/0/channel/1/tbctr_dptr, /0, /usic/0/channel/1/tbctr_size, /0, /vadc/0/backgnd/brsctrl_xtsel, /0, /vadc/0/backgnd/brsctrl_gtsel, /0, /vadc/0/backgnd/globevnp_sev0np, /0, /vadc/0/emux/0/emuxsel_emuxgrp, /0, /vadc/0/emux/1/emuxsel_emuxgrp, /0, /vadc/0/global_result/globevnp_revnp, /0, /vadc/0/group/0/ch/0/gchctr_iclsel, /0, /vadc/0/group/0/ch/0/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/0/gchctr_resreg, /0, /vadc/0/group/0/ch/0/galias_alias0, /0, /vadc/0/group/0/ch/1/gchctr_iclsel, /0, /vadc/0/group/0/ch/1/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/1/gchctr_resreg, /0, /vadc/0/group/0/ch/1/galias_alias1, /0, /vadc/0/group/0/ch/2/gchctr_iclsel, /0, /vadc/0/group/0/ch/2/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/2/gchctr_resreg, /0, /vadc/0/group/0/ch/3/gchctr_iclsel, /0, /vadc/0/group/0/ch/3/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/3/gchctr_resreg, /0, /vadc/0/group/0/ch/4/gchctr_iclsel, /0, /vadc/0/group/0/ch/4/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/4/gchctr_resreg, /0, /vadc/0/group/0/ch/5/gchctr_iclsel, /0, /vadc/0/group/0/ch/5/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/5/gchctr_resreg, /0, /vadc/0/group/0/ch/6/gchctr_iclsel, /0, /vadc/0/group/0/ch/6/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/6/gchctr_resreg, /0, /vadc/0/group/0/ch/7/gchctr_iclsel, /0, /vadc/0/group/0/ch/7/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/7/gchctr_resreg, /0, /vadc/0/group/0/queue/gqctrl0_xtsel, /0, /vadc/0/group/0/queue/gqctrl0_gtsel, /0, /vadc/0/group/0/queue/gsevnp_sev0np, /0, /vadc/0/group/0/result/10/grevnp_revnp, /0, /vadc/0/group/0/result/11/grevnp_revnp, /0, /vadc/0/group/0/result/12/grevnp_revnp, /0, /vadc/0/group/0/result/13/grevnp_revnp, /0, /vadc/0/group/0/result/14/grevnp_revnp, /0, /vadc/0/group/0/result/4/grevnp_revnp, /0, /vadc/0/group/0/result/5/grevnp_revnp, /0, /vadc/0/group/0/result/6/grevnp_revnp, /0, /vadc/0/group/0/result/8/grevnp_revnp, /0, /vadc/0/group/0/result/9/grevnp_revnp, /0, /vadc/0/group/0/result_adv/0/grevnp_revnp, /0, /vadc/0/group/0/result_adv/1/grevnp_revnp, /0, /vadc/0/group/0/result_adv/2/grevnp_revnp, /0, /vadc/0/group/0/result_adv/3/grevnp_revnp, /0, /vadc/0/group/0/result_filter/15/grevnp_revnp, /0, /vadc/0/group/0/result_filter/7/grevnp_revnp, /0, /vadc/0/group/0/scan/gasctrl_xtsel, /0, /vadc/0/group/0/scan/gasctrl_gtsel, /0, /vadc/0/group/0/scan/gsevnp_sev1np, /0, /vadc/0/group/0/sync/gsynctr_stsel, /0, /vadc/0/group/0/sync/gsynctr_evalr1, /0, /vadc/0/group/0/sync/gsynctr_evalr2, /0, /vadc/0/group/0/sync/gsynctr_evalr3, /0, /vadc/0/group/1/ch/0/gchctr_iclsel, /0, /vadc/0/group/1/ch/0/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/0/gchctr_resreg, /0, /vadc/0/group/1/ch/0/galias_alias0, /0, /vadc/0/group/1/ch/1/gchctr_iclsel, /0, /vadc/0/group/1/ch/1/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/1/gchctr_resreg, /0, /vadc/0/group/1/ch/1/galias_alias1, /0, /vadc/0/group/1/ch/2/gchctr_iclsel, /0, /vadc/0/group/1/ch/2/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/2/gchctr_resreg, /0, /vadc/0/group/1/ch/3/gchctr_iclsel, /0, /vadc/0/group/1/ch/3/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/3/gchctr_resreg, /0, /vadc/0/group/1/ch/4/gchctr_iclsel, /0, /vadc/0/group/1/ch/4/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/4/gchctr_resreg, /0, /vadc/0/group/1/ch/5/gchctr_iclsel, /0, /vadc/0/group/1/ch/5/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/5/gchctr_resreg, /0, /vadc/0/group/1/ch/6/gchctr_iclsel, /0, /vadc/0/group/1/ch/6/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/6/gchctr_resreg, /0, /vadc/0/group/1/ch/7/gchctr_iclsel, /0, /vadc/0/group/1/ch/7/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/7/gchctr_resreg, /0, /vadc/0/group/1/queue/gqctrl0_xtsel, /0, /vadc/0/group/1/queue/gqctrl0_gtsel, /0, /vadc/0/group/1/queue/gsevnp_sev0np, /0, /vadc/0/group/1/result/10/grevnp_revnp, /0, /vadc/0/group/1/result/11/grevnp_revnp, /0, /vadc/0/group/1/result/12/grevnp_revnp, /0, /vadc/0/group/1/result/13/grevnp_revnp, /0, /vadc/0/group/1/result/14/grevnp_revnp, /0, /vadc/0/group/1/result/4/grevnp_revnp, /0, /vadc/0/group/1/result/5/grevnp_revnp, /0, /vadc/0/group/1/result/6/grevnp_revnp, /0, /vadc/0/group/1/result/8/grevnp_revnp, /0, /vadc/0/group/1/result/9/grevnp_revnp, /0, /vadc/0/group/1/result_adv/0/grevnp_revnp, /0, /vadc/0/group/1/result_adv/1/grevnp_revnp, /0, /vadc/0/group/1/result_adv/2/grevnp_revnp, /0, /vadc/0/group/1/result_adv/3/grevnp_revnp, /0, /vadc/0/group/1/result_filter/15/grevnp_revnp, /0, /vadc/0/group/1/result_filter/7/grevnp_revnp, /0, /vadc/0/group/1/scan/gasctrl_xtsel, /0, /vadc/0/group/1/scan/gasctrl_gtsel, /0, /vadc/0/group/1/scan/gsevnp_sev1np, /0, /vadc/0/group/1/sync/gsynctr_stsel, /0, /vadc/0/group/1/sync/gsynctr_evalr1, /0, /vadc/0/group/1/sync/gsynctr_evalr2, /0, /vadc/0/group/1/sync/gsynctr_evalr3, /0]
+
+
+Jul 25, 2017 11:32:11 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getSolution() : Tue Jul 25 11:32:11 CEST 2017
+
+
+Jul 25, 2017 11:32:11 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(solve_mapping_problem([ 
+reserved([p,DIGITAL_IO0sv0,pad,_],'digital_io$01238362304$0'),
+reserved([devicepackage,0,_],'digital_io$0567432502$0'),
+uri([devicepackage,0,21],'digital_io$0567432502$0'),
+reserved([p,DIGITAL_IO1sv0,pad,_],'digital_io$01748896481$1'),
+reserved([devicepackage,0,_],'digital_io$1689478505$1'),
+uri([devicepackage,0,22],'digital_io$1689478505$1'),
+reserved([scu,0,dco,_],'clock_xmc1$1911737770$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$01005053461$0'),
+reserved([usic,_,channel,_],'uart$426864790$0'),
+reserved([p,_,pad,_],'uart$1687104611$0'),
+reserved([p,_,pad,_],'uart$1687104673$0'),
+reserved([cpu,0,nvic,interrupt,_],'uart$608506556$0'),
+reserved([devicepackage,0,_],'uart$01114417107$0'),
+reserved([devicepackage,0,_],'uart$01114417045$0'),
+signal('digital_io$01238362304$0',swreg_out,'digital_io$01238362304$0$swreg_out'),
+signal('digital_io$01238362304$0',pad,'digital_io$01238362304$0$pad'),
+signal('digital_io$0567432502$0',pin,'digital_io$0567432502$0$pin'),
+signal('digital_io$01748896481$1',swreg_out,'digital_io$01748896481$1$swreg_out'),
+signal('digital_io$01748896481$1',pad,'digital_io$01748896481$1$pad'),
+signal('digital_io$1689478505$1',pin,'digital_io$1689478505$1$pin'),
+signal('clock_xmc1$1911737770$0',clkout,'clock_xmc1$1911737770$0$clkout'),
+signal('clock_xmc1$01005053461$0',frtc,'clock_xmc1$01005053461$0$frtc'),
+signal('uart$426864790$0',dx0ins,'uart$426864790$0$dx0ins'),
+signal('uart$426864790$0',dx3ins,'uart$426864790$0$dx3ins'),
+signal('uart$426864790$0',dout0,'uart$426864790$0$dout0'),
+signal('uart$1687104611$0',pad,'uart$1687104611$0$pad'),
+signal('uart$1687104673$0',pad,'uart$1687104673$0$pad'),
+signal('uart$426864790$0',transmit_buffer_int,'uart$426864790$0$transmit_buffer_int'),
+signal('uart$426864790$0',protocol_specific_int,'uart$426864790$0$protocol_specific_int'),
+signal('uart$426864790$0',standard_receive_buffer_int,'uart$426864790$0$standard_receive_buffer_int'),
+signal('uart$426864790$0',alternate_receive_buffer_int,'uart$426864790$0$alternate_receive_buffer_int'),
+signal('uart$608506556$0',signal_in,'uart$608506556$0$signal_in'),
+signal('uart$01114417107$0',pin,'uart$01114417107$0$pin'),
+signal('uart$01114417045$0',pin,'uart$01114417045$0$pin'),
+connected('digital_io$0567432502$0$pin','digital_io$01238362304$0$pad',1),
+connected('digital_io$01238362304$0$pad','digital_io$0567432502$0$pin',1),
+connected('digital_io$1689478505$1$pin','digital_io$01748896481$1$pad',1),
+connected('digital_io$01748896481$1$pad','digital_io$1689478505$1$pin',1),
+connected('clock_xmc1$1911737770$0$clkout','clock_xmc1$01005053461$0$frtc',1),
+connected('uart$01114417107$0$pin','uart$1687104611$0$pad',1),
+connected('uart$01114417045$0$pin','uart$1687104673$0$pad',1),
+connected('uart$426864790$0$dout0','uart$1687104673$0$pad',1),
+connected('uart$426864790$0$alternate_receive_buffer_int','uart$608506556$0$signal_in',1),
+connected('uart$426864790$0$standard_receive_buffer_int','uart$608506556$0$signal_in',1),
+connected('uart$1687104611$0$pad','uart$01114417107$0$pin',1),
+connected('uart$1687104611$0$pad','uart$426864790$0$dx0ins',1),
+connected('uart$1687104673$0$pad','uart$01114417045$0$pin',1),
+uri_element_range(DIGITAL_IO1sv0,[0, 1, 2, 3, 4]),
+register_value('digital_io$01748896481$1',iocr_oe,1),
+register_value('uart$426864790$0',ccr_hpcen,0),
+register_value('uart$426864790$0',tbctr_size,0),
+register_value('uart$426864790$0',rbctr_size,5),
+uri_element_range(DIGITAL_IO0sv0,[0, 1, 2, 3, 4]),
+register_value('digital_io$01238362304$0',iocr_oe,1)
+ ],Vars,Regs,Appslocalvars),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Jul 25, 2017 11:32:11 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getSolution() :  Difference in ms 131
+
+
+Jul 25, 2017 11:32:12 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getSolution() : Tue Jul 25 11:32:12 CEST 2017
+
+
+Jul 25, 2017 11:32:12 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(solve_mapping_problem([ 
+reserved([p,DIGITAL_IO0sv0,pad,_],'digital_io$01238362304$0'),
+reserved([devicepackage,0,_],'digital_io$0567432502$0'),
+uri([devicepackage,0,21],'digital_io$0567432502$0'),
+reserved([p,DIGITAL_IO1sv0,pad,_],'digital_io$01748896481$1'),
+reserved([devicepackage,0,_],'digital_io$1689478505$1'),
+uri([devicepackage,0,22],'digital_io$1689478505$1'),
+reserved([scu,0,dco,_],'clock_xmc1$1911737770$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$01005053461$0'),
+reserved([usic,_,channel,_],'uart$426864790$0'),
+reserved([p,_,pad,_],'uart$1687104611$0'),
+reserved([p,_,pad,_],'uart$1687104673$0'),
+reserved([devicepackage,0,_],'uart$01114417107$0'),
+reserved([devicepackage,0,_],'uart$01114417045$0'),
+signal('digital_io$01238362304$0',swreg_out,'digital_io$01238362304$0$swreg_out'),
+signal('digital_io$01238362304$0',pad,'digital_io$01238362304$0$pad'),
+signal('digital_io$0567432502$0',pin,'digital_io$0567432502$0$pin'),
+signal('digital_io$01748896481$1',swreg_out,'digital_io$01748896481$1$swreg_out'),
+signal('digital_io$01748896481$1',pad,'digital_io$01748896481$1$pad'),
+signal('digital_io$1689478505$1',pin,'digital_io$1689478505$1$pin'),
+signal('clock_xmc1$1911737770$0',clkout,'clock_xmc1$1911737770$0$clkout'),
+signal('clock_xmc1$01005053461$0',frtc,'clock_xmc1$01005053461$0$frtc'),
+signal('uart$426864790$0',dx0ins,'uart$426864790$0$dx0ins'),
+signal('uart$426864790$0',dx3ins,'uart$426864790$0$dx3ins'),
+signal('uart$426864790$0',dout0,'uart$426864790$0$dout0'),
+signal('uart$1687104611$0',pad,'uart$1687104611$0$pad'),
+signal('uart$1687104673$0',pad,'uart$1687104673$0$pad'),
+signal('uart$426864790$0',transmit_buffer_int,'uart$426864790$0$transmit_buffer_int'),
+signal('uart$426864790$0',protocol_specific_int,'uart$426864790$0$protocol_specific_int'),
+signal('uart$426864790$0',standard_receive_buffer_int,'uart$426864790$0$standard_receive_buffer_int'),
+signal('uart$426864790$0',alternate_receive_buffer_int,'uart$426864790$0$alternate_receive_buffer_int'),
+signal('uart$01114417107$0',pin,'uart$01114417107$0$pin'),
+signal('uart$01114417045$0',pin,'uart$01114417045$0$pin'),
+connected('digital_io$0567432502$0$pin','digital_io$01238362304$0$pad',1),
+connected('digital_io$01238362304$0$pad','digital_io$0567432502$0$pin',1),
+connected('digital_io$1689478505$1$pin','digital_io$01748896481$1$pad',1),
+connected('digital_io$01748896481$1$pad','digital_io$1689478505$1$pin',1),
+connected('clock_xmc1$1911737770$0$clkout','clock_xmc1$01005053461$0$frtc',1),
+connected('uart$01114417107$0$pin','uart$1687104611$0$pad',1),
+connected('uart$01114417045$0$pin','uart$1687104673$0$pad',1),
+connected('uart$426864790$0$dout0','uart$1687104673$0$pad',1),
+connected('uart$1687104611$0$pad','uart$01114417107$0$pin',1),
+connected('uart$1687104611$0$pad','uart$426864790$0$dx0ins',1),
+connected('uart$1687104673$0$pad','uart$01114417045$0$pin',1),
+uri_element_range(DIGITAL_IO1sv0,[0, 1, 2, 3, 4]),
+register_value('digital_io$01748896481$1',iocr_oe,1),
+register_value('uart$426864790$0',ccr_hpcen,0),
+register_value('uart$426864790$0',tbctr_size,0),
+register_value('uart$426864790$0',rbctr_size,5),
+uri_element_range(DIGITAL_IO0sv0,[0, 1, 2, 3, 4]),
+register_value('digital_io$01238362304$0',iocr_oe,1)
+ ],Vars,Regs,Appslocalvars),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Jul 25, 2017 11:32:12 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getSolution() :  Difference in ms 132
+
+
+Jul 25, 2017 11:32:12 AM java.util.logging.LogManager$RootLogger log
+INFO: [/scu/0/ccu/config, /clock_xmc1$01005053461$0, /scu/0/dco/2, /clock_xmc1$1911737770$0, /p/1/pad/1, /digital_io$01238362304$0, /p/1/pad/0, /digital_io$01748896481$1, /devicepackage/0/21, /digital_io$0567432502$0, /devicepackage/0/22, /digital_io$1689478505$1, /devicepackage/0/17, /uart$01114417045$0, /devicepackage/0/11, /uart$01114417107$0, /p/2/pad/10, /uart$1687104611$0, /p/1/pad/5, /uart$1687104673$0, /usic/0/channel/0, /uart$426864790$0]
+
+
+Jul 25, 2017 11:32:12 AM java.util.logging.LogManager$RootLogger log
+INFO: [/p/1/pad/0/iocr_pcr, /0, /p/1/pad/0/iocr_oe, /1, /p/1/pad/0/hwsel_hw, /0, /p/1/pad/1/iocr_pcr, /0, /p/1/pad/1/iocr_oe, /1, /p/1/pad/1/hwsel_hw, /0, /p/1/pad/2/iocr_pcr, /0, /p/1/pad/2/iocr_oe, /0, /p/1/pad/2/hwsel_hw, /0, /p/1/pad/3/iocr_pcr, /0, /p/1/pad/3/iocr_oe, /0, /p/1/pad/3/hwsel_hw, /0, /p/1/pad/4/iocr_pcr, /0, /p/1/pad/4/iocr_oe, /0, /p/1/pad/4/hwsel_hw, /0, /p/1/pad/5/iocr_pcr, /2, /p/1/pad/5/iocr_oe, /1, /p/1/pad/5/hwsel_hw, /0, /p/1/pad/6/iocr_pcr, /0, /p/1/pad/6/iocr_oe, /0, /p/1/pad/6/hwsel_hw, /0, /p/2/pad/2/iocr_pcr, /0, /p/2/pad/2/iocr_oe, /0, /p/2/pad/2/hwsel_hw, /0, /p/2/pad/2/pdisc_pdis, /1, /p/2/pad/3/iocr_pcr, /0, /p/2/pad/3/iocr_oe, /0, /p/2/pad/3/pdisc_pdis, /1, /p/2/pad/4/iocr_pcr, /0, /p/2/pad/4/iocr_oe, /0, /p/2/pad/4/hwsel_hw, /0, /p/2/pad/4/pdisc_pdis, /1, /p/2/pad/5/iocr_pcr, /0, /p/2/pad/5/iocr_oe, /0, /p/2/pad/5/pdisc_pdis, /1, /p/2/pad/6/iocr_pcr, /0, /p/2/pad/6/iocr_oe, /0, /p/2/pad/6/hwsel_hw, /0, /p/2/pad/6/pdisc_pdis, /1, /p/2/pad/7/iocr_pcr, /0, /p/2/pad/7/iocr_oe, /0, /p/2/pad/7/hwsel_hw, /0, /p/2/pad/7/pdisc_pdis, /1, /p/2/pad/8/iocr_pcr, /0, /p/2/pad/8/iocr_oe, /0, /p/2/pad/8/hwsel_hw, /0, /p/2/pad/8/pdisc_pdis, /1, /p/2/pad/9/iocr_pcr, /0, /p/2/pad/9/iocr_oe, /0, /p/2/pad/9/hwsel_hw, /0, /p/2/pad/9/pdisc_pdis, /1, /p/0/pad/0/iocr_pcr, /0, /p/0/pad/0/iocr_oe, /0, /p/0/pad/0/hwsel_hw, /0, /p/0/pad/1/iocr_pcr, /0, /p/0/pad/1/iocr_oe, /0, /p/0/pad/1/hwsel_hw, /0, /p/0/pad/10/iocr_pcr, /0, /p/0/pad/10/iocr_oe, /0, /p/0/pad/10/hwsel_hw, /0, /p/0/pad/11/iocr_pcr, /0, /p/0/pad/11/iocr_oe, /0, /p/0/pad/11/hwsel_hw, /0, /p/0/pad/12/iocr_pcr, /0, /p/0/pad/12/iocr_oe, /0, /p/0/pad/12/hwsel_hw, /0, /p/0/pad/13/iocr_pcr, /0, /p/0/pad/13/iocr_oe, /0, /p/0/pad/13/hwsel_hw, /0, /p/0/pad/14/iocr_pcr, /0, /p/0/pad/14/iocr_oe, /0, /p/0/pad/14/hwsel_hw, /0, /p/0/pad/15/iocr_pcr, /0, /p/0/pad/15/iocr_oe, /0, /p/0/pad/15/hwsel_hw, /0, /p/0/pad/2/iocr_pcr, /0, /p/0/pad/2/iocr_oe, /0, /p/0/pad/2/hwsel_hw, /0, /p/0/pad/3/iocr_pcr, /0, /p/0/pad/3/iocr_oe, /0, /p/0/pad/3/hwsel_hw, /0, /p/0/pad/4/iocr_pcr, /0, /p/0/pad/4/iocr_oe, /0, /p/0/pad/4/hwsel_hw, /0, /p/0/pad/5/iocr_pcr, /0, /p/0/pad/5/iocr_oe, /0, /p/0/pad/5/hwsel_hw, /0, /p/0/pad/6/iocr_pcr, /0, /p/0/pad/6/iocr_oe, /0, /p/0/pad/6/hwsel_hw, /0, /p/0/pad/7/iocr_pcr, /0, /p/0/pad/7/iocr_oe, /0, /p/0/pad/7/hwsel_hw, /0, /p/0/pad/8/iocr_pcr, /0, /p/0/pad/8/iocr_oe, /0, /p/0/pad/8/hwsel_hw, /0, /p/0/pad/9/iocr_pcr, /0, /p/0/pad/9/iocr_oe, /0, /p/0/pad/9/hwsel_hw, /0, /p/2/pad/0/iocr_pcr, /0, /p/2/pad/0/iocr_oe, /0, /p/2/pad/0/hwsel_hw, /0, /p/2/pad/0/pdisc_pdis, /1, /p/2/pad/1/iocr_pcr, /0, /p/2/pad/1/iocr_oe, /0, /p/2/pad/1/hwsel_hw, /0, /p/2/pad/1/pdisc_pdis, /1, /p/2/pad/10/iocr_pcr, /0, /p/2/pad/10/iocr_oe, /0, /p/2/pad/10/hwsel_hw, /0, /p/2/pad/10/pdisc_pdis, /0, /p/2/pad/11/iocr_pcr, /0, /p/2/pad/11/iocr_oe, /0, /p/2/pad/11/hwsel_hw, /0, /p/2/pad/11/pdisc_pdis, /1, /bccu/0/channel/0/chconfig_dsel, /0, /bccu/0/channel/1/chconfig_dsel, /0, /bccu/0/channel/2/chconfig_dsel, /0, /bccu/0/channel/3/chconfig_dsel, /0, /bccu/0/channel/4/chconfig_dsel, /0, /bccu/0/channel/5/chconfig_dsel, /0, /bccu/0/channel/6/chconfig_dsel, /0, /bccu/0/channel/7/chconfig_dsel, /0, /bccu/0/channel/8/chconfig_dsel, /0, /bccu/0/packer_fifo_event/evier_eien, /0, /bccu/0/packer_fifo_event/evier_fien, /0, /bccu/0/trap/evier_tpien, /0, /bccu/0/trap/globcon_trapis, /0, /bccu/0/trigger/evier_t0ien, /0, /bccu/0/trigger/evier_t1ien, /0, /ccu4/0/cc4/0/ins_ev1is, /0, /ccu4/0/cc4/0/ins_ev0is, /0, /ccu4/0/cc4/0/ins_ev2is, /0, /ccu4/0/cc4/0/srs_cmsr, /0, /ccu4/0/cc4/0/srs_e0sr, /0, /ccu4/0/cc4/0/srs_e1sr, /0, /ccu4/0/cc4/0/srs_e2sr, /0, /ccu4/0/cc4/0/srs_posr, /0, /ccu4/0/cc4/1/ins_ev1is, /0, /ccu4/0/cc4/1/ins_ev0is, /0, /ccu4/0/cc4/1/ins_ev2is, /0, /ccu4/0/cc4/1/srs_cmsr, /0, /ccu4/0/cc4/1/cmc_tce, /0, /ccu4/0/cc4/1/srs_e0sr, /0, /ccu4/0/cc4/1/srs_e1sr, /0, /ccu4/0/cc4/1/srs_e2sr, /0, /ccu4/0/cc4/1/srs_posr, /0, /ccu4/0/cc4/2/ins_ev1is, /0, /ccu4/0/cc4/2/ins_ev0is, /0, /ccu4/0/cc4/2/ins_ev2is, /0, /ccu4/0/cc4/2/srs_cmsr, /0, /ccu4/0/cc4/2/cmc_tce, /0, /ccu4/0/cc4/2/srs_e0sr, /0, /ccu4/0/cc4/2/srs_e1sr, /0, /ccu4/0/cc4/2/srs_e2sr, /0, /ccu4/0/cc4/2/srs_posr, /0, /ccu4/0/cc4/3/ins_ev1is, /0, /ccu4/0/cc4/3/ins_ev0is, /0, /ccu4/0/cc4/3/ins_ev2is, /0, /ccu4/0/cc4/3/srs_cmsr, /0, /ccu4/0/cc4/3/cmc_tce, /0, /ccu4/0/cc4/3/srs_e0sr, /0, /ccu4/0/cc4/3/srs_e1sr, /0, /ccu4/0/cc4/3/srs_e2sr, /0, /ccu4/0/cc4/3/srs_posr, /0, /ccu4/0/global/gctrl_pcis, /0, /ccu8/0/cc8/1/ins_ev1is, /0, /ccu8/0/cc8/1/ins_ev0is, /0, /ccu8/0/cc8/1/ins_ev2is, /0, /ccu8/0/cc8/1/cmc_tce, /0, /ccu8/0/cc8/1/srs_e0sr, /0, /ccu8/0/cc8/1/srs_e1sr, /0, /ccu8/0/cc8/1/srs_e2sr, /0, /ccu8/0/cc8/1/srs_posr, /0, /ccu8/0/cc8/1/srs_cm1sr, /0, /ccu8/0/cc8/1/srs_cm2sr, /0, /ccu8/0/cc8/0/ins_ev1is, /0, /ccu8/0/cc8/0/ins_ev0is, /0, /ccu8/0/cc8/0/ins_ev2is, /0, /ccu8/0/cc8/0/srs_e0sr, /0, /ccu8/0/cc8/0/srs_e1sr, /0, /ccu8/0/cc8/0/srs_e2sr, /0, /ccu8/0/cc8/0/srs_posr, /0, /ccu8/0/cc8/0/srs_cm1sr, /0, /ccu8/0/cc8/0/srs_cm2sr, /0, /ccu8/0/cc8/3/ins_ev1is, /0, /ccu8/0/cc8/3/ins_ev0is, /0, /ccu8/0/cc8/3/ins_ev2is, /0, /ccu8/0/cc8/3/cmc_tce, /0, /ccu8/0/cc8/3/srs_e0sr, /0, /ccu8/0/cc8/3/srs_e1sr, /0, /ccu8/0/cc8/3/srs_e2sr, /0, /ccu8/0/cc8/3/srs_posr, /0, /ccu8/0/cc8/3/srs_cm1sr, /0, /ccu8/0/cc8/3/srs_cm2sr, /0, /ccu8/0/cc8/2/ins_ev1is, /0, /ccu8/0/cc8/2/ins_ev0is, /0, /ccu8/0/cc8/2/ins_ev2is, /0, /ccu8/0/cc8/2/cmc_tce, /0, /ccu8/0/cc8/2/srs_e0sr, /0, /ccu8/0/cc8/2/srs_e1sr, /0, /ccu8/0/cc8/2/srs_e2sr, /0, /ccu8/0/cc8/2/srs_posr, /0, /ccu8/0/cc8/2/srs_cm1sr, /0, /ccu8/0/cc8/2/srs_cm2sr, /0, /ccu8/0/global/gctrl_pcis, /0, /cpu/0/nvic/interrupt/0/iser_setena, /0, /cpu/0/nvic/interrupt/1/iser_setena, /0, /cpu/0/nvic/interrupt/10/iser_setena, /0, /cpu/0/nvic/interrupt/11/iser_setena, /0, /cpu/0/nvic/interrupt/12/iser_setena, /0, /cpu/0/nvic/interrupt/13/iser_setena, /0, /cpu/0/nvic/interrupt/14/iser_setena, /0, /cpu/0/nvic/interrupt/15/iser_setena, /0, /cpu/0/nvic/interrupt/16/iser_setena, /0, /cpu/0/nvic/interrupt/17/iser_setena, /0, /cpu/0/nvic/interrupt/18/iser_setena, /0, /cpu/0/nvic/interrupt/19/iser_setena, /0, /cpu/0/nvic/interrupt/2/iser_setena, /0, /cpu/0/nvic/interrupt/20/iser_setena, /0, /cpu/0/nvic/interrupt/21/iser_setena, /0, /cpu/0/nvic/interrupt/22/iser_setena, /0, /cpu/0/nvic/interrupt/23/iser_setena, /0, /cpu/0/nvic/interrupt/24/iser_setena, /0, /cpu/0/nvic/interrupt/25/iser_setena, /0, /cpu/0/nvic/interrupt/26/iser_setena, /0, /cpu/0/nvic/interrupt/27/iser_setena, /0, /cpu/0/nvic/interrupt/28/iser_setena, /0, /cpu/0/nvic/interrupt/29/iser_setena, /0, /cpu/0/nvic/interrupt/3/iser_setena, /0, /cpu/0/nvic/interrupt/30/iser_setena, /0, /cpu/0/nvic/interrupt/31/iser_setena, /0, /cpu/0/nvic/interrupt/4/iser_setena, /0, /cpu/0/nvic/interrupt/5/iser_setena, /0, /cpu/0/nvic/interrupt/6/iser_setena, /0, /cpu/0/nvic/interrupt/7/iser_setena, /0, /cpu/0/nvic/interrupt/9/iser_setena, /0, /eru/0/ers_etl/0/exicon_pe, /0, /eru/0/ers_etl/0/exicon_ocs, /0, /eru/0/ers_etl/0/exisel_exsxa, /0, /eru/0/ers_etl/0/exisel_exsxb, /0, /eru/0/ers_etl/1/exicon_pe, /0, /eru/0/ers_etl/1/exicon_ocs, /0, /eru/0/ers_etl/1/exisel_exsxa, /0, /eru/0/ers_etl/1/exisel_exsxb, /0, /eru/0/ers_etl/2/exicon_pe, /0, /eru/0/ers_etl/2/exicon_ocs, /0, /eru/0/ers_etl/2/exisel_exsxa, /0, /eru/0/ers_etl/2/exisel_exsxb, /0, /eru/0/ers_etl/3/exicon_pe, /0, /eru/0/ers_etl/3/exicon_ocs, /0, /eru/0/ers_etl/3/exisel_exsxa, /0, /eru/0/ers_etl/3/exisel_exsxb, /0, /eru/0/ogu/0/exocon_iss, /0, /eru/0/ogu/0/exocon_ipen0, /0, /eru/0/ogu/0/exocon_ipen1, /0, /eru/0/ogu/0/exocon_ipen2, /0, /eru/0/ogu/0/exocon_ipen3, /0, /eru/0/ogu/1/exocon_iss, /0, /eru/0/ogu/1/exocon_ipen0, /0, /eru/0/ogu/1/exocon_ipen1, /0, /eru/0/ogu/1/exocon_ipen2, /0, /eru/0/ogu/1/exocon_ipen3, /0, /eru/0/ogu/2/exocon_iss, /0, /eru/0/ogu/2/exocon_ipen0, /0, /eru/0/ogu/2/exocon_ipen1, /0, /eru/0/ogu/2/exocon_ipen2, /0, /eru/0/ogu/2/exocon_ipen3, /0, /eru/0/ogu/3/exocon_iss, /0, /eru/0/ogu/3/exocon_ipen0, /0, /eru/0/ogu/3/exocon_ipen1, /0, /eru/0/ogu/3/exocon_ipen2, /0, /eru/0/ogu/3/exocon_ipen3, /0, /posif/0/posif/hsc_qd/pconf_dsel, /0, /posif/0/posif/hsc_qd/pconf_ewis, /0, /posif/0/posif/hsc_qd/pconf_insel0, /0, /posif/0/posif/hsc_qd/pconf_insel1, /0, /posif/0/posif/hsc_qd/pconf_insel2, /0, /posif/0/posif/hsc_qd/pflge_eche, /0, /posif/0/posif/hsc_qd/pflge_chesel, /0, /posif/0/posif/hsc_qd/pflge_cnte, /0, /posif/0/posif/hsc_qd/pflge_cntsel, /0, /posif/0/posif/hsc_qd/pflge_dire, /0, /posif/0/posif/hsc_qd/pflge_dirsel, /0, /posif/0/posif/hsc_qd/pflge_erre, /0, /posif/0/posif/hsc_qd/pflge_errsel, /0, /posif/0/posif/hsc_qd/pflge_ehie, /0, /posif/0/posif/hsc_qd/pflge_hiesel, /0, /posif/0/posif/hsc_qd/pflge_indxe, /0, /posif/0/posif/hsc_qd/pflge_indsel, /0, /posif/0/posif/hsc_qd/pflge_pclke, /0, /posif/0/posif/hsc_qd/pflge_pclsel, /0, /posif/0/posif/hsc_qd/pflge_ewhe, /0, /posif/0/posif/hsc_qd/pflge_whesel, /0, /posif/0/posif/mcm/pconf_msets, /0, /posif/0/posif/mcm/pconf_msyns, /0, /posif/0/posif/mcm/pflge_emst, /0, /posif/0/posif/mcm/pflge_mstsel, /0, /scu/0/ccu/config/clkcr_rtcclksel, /0, /usic/0/channel/0/ccr_hpcen, /0, /usic/0/channel/0/dx1cr_dsel, /0, /usic/0/channel/0/dx0cr_dsel, /6, /usic/0/channel/0/dx5cr_dsel, /0, /usic/0/channel/0/dx3cr_dsel, /2, /usic/0/channel/0/dx4cr_dsel, /0, /usic/0/channel/0/dx2cr_dsel, /0, /usic/0/channel/0/rbctr_arbien, /0, /usic/0/channel/0/rbctr_arbinp, /0, /usic/0/channel/0/ccr_aien, /0, /usic/0/channel/0/inpr_ainp, /0, /usic/0/channel/0/ccr_brgien, /0, /usic/0/channel/0/inpr_pinp, /0, /usic/0/channel/0/ccr_dlien, /0, /usic/0/channel/0/rbctr_rberien, /0, /usic/0/channel/0/ccr_rsien, /0, /usic/0/channel/0/inpr_tbinp, /0, /usic/0/channel/0/rbctr_srbien, /0, /usic/0/channel/0/rbctr_srbinp, /0, /usic/0/channel/0/ccr_rien, /0, /usic/0/channel/0/inpr_rinp, /0, /usic/0/channel/0/tbctr_stbien, /0, /usic/0/channel/0/tbctr_stbinp, /0, /usic/0/channel/0/tbctr_tberien, /0, /usic/0/channel/0/tbctr_atbinp, /0, /usic/0/channel/0/ccr_tbien, /0, /usic/0/channel/0/ccr_tsien, /0, /usic/0/channel/0/inpr_tsinp, /0, /usic/0/channel/0/rbctr_dptr, /0, /usic/0/channel/0/rbctr_size, /5, /usic/0/channel/0/tbctr_dptr, /0, /usic/0/channel/0/tbctr_size, /0, /usic/0/channel/1/ccr_hpcen, /0, /usic/0/channel/1/dx1cr_dsel, /0, /usic/0/channel/1/dx0cr_dsel, /0, /usic/0/channel/1/dx5cr_dsel, /0, /usic/0/channel/1/dx3cr_dsel, /0, /usic/0/channel/1/dx4cr_dsel, /0, /usic/0/channel/1/dx2cr_dsel, /0, /usic/0/channel/1/rbctr_arbien, /0, /usic/0/channel/1/rbctr_arbinp, /0, /usic/0/channel/1/ccr_aien, /0, /usic/0/channel/1/inpr_ainp, /0, /usic/0/channel/1/ccr_brgien, /0, /usic/0/channel/1/inpr_pinp, /0, /usic/0/channel/1/ccr_dlien, /0, /usic/0/channel/1/rbctr_rberien, /0, /usic/0/channel/1/ccr_rsien, /0, /usic/0/channel/1/inpr_tbinp, /0, /usic/0/channel/1/rbctr_srbien, /0, /usic/0/channel/1/rbctr_srbinp, /0, /usic/0/channel/1/ccr_rien, /0, /usic/0/channel/1/inpr_rinp, /0, /usic/0/channel/1/tbctr_stbien, /0, /usic/0/channel/1/tbctr_stbinp, /0, /usic/0/channel/1/tbctr_tberien, /0, /usic/0/channel/1/tbctr_atbinp, /0, /usic/0/channel/1/ccr_tbien, /0, /usic/0/channel/1/ccr_tsien, /0, /usic/0/channel/1/inpr_tsinp, /0, /usic/0/channel/1/rbctr_dptr, /0, /usic/0/channel/1/rbctr_size, /0, /usic/0/channel/1/tbctr_dptr, /0, /usic/0/channel/1/tbctr_size, /0, /vadc/0/backgnd/brsctrl_xtsel, /0, /vadc/0/backgnd/brsctrl_gtsel, /0, /vadc/0/backgnd/globevnp_sev0np, /0, /vadc/0/emux/0/emuxsel_emuxgrp, /0, /vadc/0/emux/1/emuxsel_emuxgrp, /0, /vadc/0/global_result/globevnp_revnp, /0, /vadc/0/group/0/ch/0/gchctr_iclsel, /0, /vadc/0/group/0/ch/0/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/0/gchctr_resreg, /0, /vadc/0/group/0/ch/0/galias_alias0, /0, /vadc/0/group/0/ch/1/gchctr_iclsel, /0, /vadc/0/group/0/ch/1/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/1/gchctr_resreg, /0, /vadc/0/group/0/ch/1/galias_alias1, /0, /vadc/0/group/0/ch/2/gchctr_iclsel, /0, /vadc/0/group/0/ch/2/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/2/gchctr_resreg, /0, /vadc/0/group/0/ch/3/gchctr_iclsel, /0, /vadc/0/group/0/ch/3/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/3/gchctr_resreg, /0, /vadc/0/group/0/ch/4/gchctr_iclsel, /0, /vadc/0/group/0/ch/4/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/4/gchctr_resreg, /0, /vadc/0/group/0/ch/5/gchctr_iclsel, /0, /vadc/0/group/0/ch/5/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/5/gchctr_resreg, /0, /vadc/0/group/0/ch/6/gchctr_iclsel, /0, /vadc/0/group/0/ch/6/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/6/gchctr_resreg, /0, /vadc/0/group/0/ch/7/gchctr_iclsel, /0, /vadc/0/group/0/ch/7/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/7/gchctr_resreg, /0, /vadc/0/group/0/queue/gqctrl0_xtsel, /0, /vadc/0/group/0/queue/gqctrl0_gtsel, /0, /vadc/0/group/0/queue/gsevnp_sev0np, /0, /vadc/0/group/0/result/10/grevnp_revnp, /0, /vadc/0/group/0/result/11/grevnp_revnp, /0, /vadc/0/group/0/result/12/grevnp_revnp, /0, /vadc/0/group/0/result/13/grevnp_revnp, /0, /vadc/0/group/0/result/14/grevnp_revnp, /0, /vadc/0/group/0/result/4/grevnp_revnp, /0, /vadc/0/group/0/result/5/grevnp_revnp, /0, /vadc/0/group/0/result/6/grevnp_revnp, /0, /vadc/0/group/0/result/8/grevnp_revnp, /0, /vadc/0/group/0/result/9/grevnp_revnp, /0, /vadc/0/group/0/result_adv/0/grevnp_revnp, /0, /vadc/0/group/0/result_adv/1/grevnp_revnp, /0, /vadc/0/group/0/result_adv/2/grevnp_revnp, /0, /vadc/0/group/0/result_adv/3/grevnp_revnp, /0, /vadc/0/group/0/result_filter/15/grevnp_revnp, /0, /vadc/0/group/0/result_filter/7/grevnp_revnp, /0, /vadc/0/group/0/scan/gasctrl_xtsel, /0, /vadc/0/group/0/scan/gasctrl_gtsel, /0, /vadc/0/group/0/scan/gsevnp_sev1np, /0, /vadc/0/group/0/sync/gsynctr_stsel, /0, /vadc/0/group/0/sync/gsynctr_evalr1, /0, /vadc/0/group/0/sync/gsynctr_evalr2, /0, /vadc/0/group/0/sync/gsynctr_evalr3, /0, /vadc/0/group/1/ch/0/gchctr_iclsel, /0, /vadc/0/group/1/ch/0/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/0/gchctr_resreg, /0, /vadc/0/group/1/ch/0/galias_alias0, /0, /vadc/0/group/1/ch/1/gchctr_iclsel, /0, /vadc/0/group/1/ch/1/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/1/gchctr_resreg, /0, /vadc/0/group/1/ch/1/galias_alias1, /0, /vadc/0/group/1/ch/2/gchctr_iclsel, /0, /vadc/0/group/1/ch/2/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/2/gchctr_resreg, /0, /vadc/0/group/1/ch/3/gchctr_iclsel, /0, /vadc/0/group/1/ch/3/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/3/gchctr_resreg, /0, /vadc/0/group/1/ch/4/gchctr_iclsel, /0, /vadc/0/group/1/ch/4/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/4/gchctr_resreg, /0, /vadc/0/group/1/ch/5/gchctr_iclsel, /0, /vadc/0/group/1/ch/5/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/5/gchctr_resreg, /0, /vadc/0/group/1/ch/6/gchctr_iclsel, /0, /vadc/0/group/1/ch/6/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/6/gchctr_resreg, /0, /vadc/0/group/1/ch/7/gchctr_iclsel, /0, /vadc/0/group/1/ch/7/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/7/gchctr_resreg, /0, /vadc/0/group/1/queue/gqctrl0_xtsel, /0, /vadc/0/group/1/queue/gqctrl0_gtsel, /0, /vadc/0/group/1/queue/gsevnp_sev0np, /0, /vadc/0/group/1/result/10/grevnp_revnp, /0, /vadc/0/group/1/result/11/grevnp_revnp, /0, /vadc/0/group/1/result/12/grevnp_revnp, /0, /vadc/0/group/1/result/13/grevnp_revnp, /0, /vadc/0/group/1/result/14/grevnp_revnp, /0, /vadc/0/group/1/result/4/grevnp_revnp, /0, /vadc/0/group/1/result/5/grevnp_revnp, /0, /vadc/0/group/1/result/6/grevnp_revnp, /0, /vadc/0/group/1/result/8/grevnp_revnp, /0, /vadc/0/group/1/result/9/grevnp_revnp, /0, /vadc/0/group/1/result_adv/0/grevnp_revnp, /0, /vadc/0/group/1/result_adv/1/grevnp_revnp, /0, /vadc/0/group/1/result_adv/2/grevnp_revnp, /0, /vadc/0/group/1/result_adv/3/grevnp_revnp, /0, /vadc/0/group/1/result_filter/15/grevnp_revnp, /0, /vadc/0/group/1/result_filter/7/grevnp_revnp, /0, /vadc/0/group/1/scan/gasctrl_xtsel, /0, /vadc/0/group/1/scan/gasctrl_gtsel, /0, /vadc/0/group/1/scan/gsevnp_sev1np, /0, /vadc/0/group/1/sync/gsynctr_stsel, /0, /vadc/0/group/1/sync/gsynctr_evalr1, /0, /vadc/0/group/1/sync/gsynctr_evalr2, /0, /vadc/0/group/1/sync/gsynctr_evalr3, /0]
+
+
+Jul 25, 2017 11:32:47 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getFeasiblePins() : Tue Jul 25 11:32:47 CEST 2017
+
+
+Jul 25, 2017 11:32:47 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(ask_feasible_mapping([reserved([p,DIGITAL_IO0sv0,pad,_],'digital_io$01238362304$0'),
+reserved([devicepackage,0,_],'digital_io$0567432502$0'),
+uri([devicepackage,0,21],'digital_io$0567432502$0'),
+reserved([p,DIGITAL_IO1sv0,pad,_],'digital_io$01748896481$1'),
+reserved([devicepackage,0,_],'digital_io$1689478505$1'),
+uri([devicepackage,0,22],'digital_io$1689478505$1'),
+reserved([scu,0,dco,_],'clock_xmc1$1911737770$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$01005053461$0'),
+reserved([usic,_,channel,_],'uart$426864790$0'),
+reserved([p,_,pad,_],'uart$1687104611$0'),
+reserved([p,_,pad,_],'uart$1687104673$0'),
+reserved([devicepackage,0,_],'uart$01114417107$0'),
+reserved([devicepackage,0,_],'uart$01114417045$0'),
+signal('digital_io$01238362304$0',swreg_out,'digital_io$01238362304$0$swreg_out'),
+signal('digital_io$01238362304$0',pad,'digital_io$01238362304$0$pad'),
+signal('digital_io$0567432502$0',pin,'digital_io$0567432502$0$pin'),
+signal('digital_io$01748896481$1',swreg_out,'digital_io$01748896481$1$swreg_out'),
+signal('digital_io$01748896481$1',pad,'digital_io$01748896481$1$pad'),
+signal('digital_io$1689478505$1',pin,'digital_io$1689478505$1$pin'),
+signal('clock_xmc1$1911737770$0',clkout,'clock_xmc1$1911737770$0$clkout'),
+signal('clock_xmc1$01005053461$0',frtc,'clock_xmc1$01005053461$0$frtc'),
+signal('uart$426864790$0',dx0ins,'uart$426864790$0$dx0ins'),
+signal('uart$426864790$0',dx3ins,'uart$426864790$0$dx3ins'),
+signal('uart$426864790$0',dout0,'uart$426864790$0$dout0'),
+signal('uart$1687104611$0',pad,'uart$1687104611$0$pad'),
+signal('uart$1687104673$0',pad,'uart$1687104673$0$pad'),
+signal('uart$426864790$0',transmit_buffer_int,'uart$426864790$0$transmit_buffer_int'),
+signal('uart$426864790$0',protocol_specific_int,'uart$426864790$0$protocol_specific_int'),
+signal('uart$426864790$0',standard_receive_buffer_int,'uart$426864790$0$standard_receive_buffer_int'),
+signal('uart$426864790$0',alternate_receive_buffer_int,'uart$426864790$0$alternate_receive_buffer_int'),
+signal('uart$01114417107$0',pin,'uart$01114417107$0$pin'),
+signal('uart$01114417045$0',pin,'uart$01114417045$0$pin'),
+connected('digital_io$0567432502$0$pin','digital_io$01238362304$0$pad',1),
+connected('digital_io$01238362304$0$pad','digital_io$0567432502$0$pin',1),
+connected('digital_io$1689478505$1$pin','digital_io$01748896481$1$pad',1),
+connected('digital_io$01748896481$1$pad','digital_io$1689478505$1$pin',1),
+connected('clock_xmc1$1911737770$0$clkout','clock_xmc1$01005053461$0$frtc',1),
+connected('uart$01114417107$0$pin','uart$1687104611$0$pad',1),
+connected('uart$01114417045$0$pin','uart$1687104673$0$pad',1),
+connected('uart$426864790$0$dout0','uart$1687104673$0$pad',1),
+connected('uart$1687104611$0$pad','uart$01114417107$0$pin',1),
+connected('uart$1687104611$0$pad','uart$426864790$0$dx0ins',1),
+connected('uart$1687104673$0$pad','uart$01114417045$0$pin',1),
+uri_element_range(DIGITAL_IO1sv0,[0, 1, 2, 3, 4]),
+register_value('digital_io$01748896481$1',iocr_oe,1),
+register_value('uart$426864790$0',ccr_hpcen,0),
+register_value('uart$426864790$0',tbctr_size,0),
+register_value('uart$426864790$0',rbctr_size,5),
+uri_element_range(DIGITAL_IO0sv0,[0, 1, 2, 3, 4]),
+register_value('digital_io$01238362304$0',iocr_oe,1)],'uart$01114417107$0',Result),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Jul 25, 2017 11:32:47 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getFeasiblePins() :  Difference in ms 55
+
+
+Jul 25, 2017 11:32:47 AM java.util.logging.LogManager$RootLogger log
+INFO: [/devicepackage/0/19, /devicepackage/0/18, /devicepackage/0/17, /devicepackage/0/16, /devicepackage/0/39, /devicepackage/0/11, /devicepackage/0/30, /devicepackage/0/12, /devicepackage/0/10, /devicepackage/0/29, /devicepackage/0/40, /devicepackage/0/20, /devicepackage/0/6, /devicepackage/0/7, /devicepackage/0/8, /devicepackage/0/9, /devicepackage/0/2, /devicepackage/0/3, /devicepackage/0/4, /devicepackage/0/5, /devicepackage/0/1]
+
+
+Jul 25, 2017 11:32:53 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getSolution() : Tue Jul 25 11:32:53 CEST 2017
+
+
+Jul 25, 2017 11:32:53 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(solve_mapping_problem([ 
+reserved([p,DIGITAL_IO0sv0,pad,_],'digital_io$01238362304$0'),
+reserved([devicepackage,0,_],'digital_io$0567432502$0'),
+uri([devicepackage,0,21],'digital_io$0567432502$0'),
+reserved([p,DIGITAL_IO1sv0,pad,_],'digital_io$01748896481$1'),
+reserved([devicepackage,0,_],'digital_io$1689478505$1'),
+uri([devicepackage,0,22],'digital_io$1689478505$1'),
+reserved([scu,0,dco,_],'clock_xmc1$1911737770$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$01005053461$0'),
+reserved([usic,_,channel,_],'uart$426864790$0'),
+reserved([p,_,pad,_],'uart$1687104611$0'),
+reserved([p,_,pad,_],'uart$1687104673$0'),
+reserved([devicepackage,0,_],'uart$01114417107$0'),
+uri([devicepackage,0,18],'uart$01114417107$0'),
+reserved([devicepackage,0,_],'uart$01114417045$0'),
+signal('digital_io$01238362304$0',swreg_out,'digital_io$01238362304$0$swreg_out'),
+signal('digital_io$01238362304$0',pad,'digital_io$01238362304$0$pad'),
+signal('digital_io$0567432502$0',pin,'digital_io$0567432502$0$pin'),
+signal('digital_io$01748896481$1',swreg_out,'digital_io$01748896481$1$swreg_out'),
+signal('digital_io$01748896481$1',pad,'digital_io$01748896481$1$pad'),
+signal('digital_io$1689478505$1',pin,'digital_io$1689478505$1$pin'),
+signal('clock_xmc1$1911737770$0',clkout,'clock_xmc1$1911737770$0$clkout'),
+signal('clock_xmc1$01005053461$0',frtc,'clock_xmc1$01005053461$0$frtc'),
+signal('uart$426864790$0',dx0ins,'uart$426864790$0$dx0ins'),
+signal('uart$426864790$0',dx3ins,'uart$426864790$0$dx3ins'),
+signal('uart$426864790$0',dout0,'uart$426864790$0$dout0'),
+signal('uart$1687104611$0',pad,'uart$1687104611$0$pad'),
+signal('uart$1687104673$0',pad,'uart$1687104673$0$pad'),
+signal('uart$426864790$0',transmit_buffer_int,'uart$426864790$0$transmit_buffer_int'),
+signal('uart$426864790$0',protocol_specific_int,'uart$426864790$0$protocol_specific_int'),
+signal('uart$426864790$0',standard_receive_buffer_int,'uart$426864790$0$standard_receive_buffer_int'),
+signal('uart$426864790$0',alternate_receive_buffer_int,'uart$426864790$0$alternate_receive_buffer_int'),
+signal('uart$01114417107$0',pin,'uart$01114417107$0$pin'),
+signal('uart$01114417045$0',pin,'uart$01114417045$0$pin'),
+connected('digital_io$0567432502$0$pin','digital_io$01238362304$0$pad',1),
+connected('digital_io$01238362304$0$pad','digital_io$0567432502$0$pin',1),
+connected('digital_io$1689478505$1$pin','digital_io$01748896481$1$pad',1),
+connected('digital_io$01748896481$1$pad','digital_io$1689478505$1$pin',1),
+connected('clock_xmc1$1911737770$0$clkout','clock_xmc1$01005053461$0$frtc',1),
+connected('uart$01114417107$0$pin','uart$1687104611$0$pad',1),
+connected('uart$01114417045$0$pin','uart$1687104673$0$pad',1),
+connected('uart$426864790$0$dout0','uart$1687104673$0$pad',1),
+connected('uart$1687104611$0$pad','uart$01114417107$0$pin',1),
+connected('uart$1687104611$0$pad','uart$426864790$0$dx0ins',1),
+connected('uart$1687104673$0$pad','uart$01114417045$0$pin',1),
+uri_element_range(DIGITAL_IO1sv0,[0, 1, 2, 3, 4]),
+register_value('digital_io$01748896481$1',iocr_oe,1),
+register_value('uart$426864790$0',ccr_hpcen,0),
+register_value('uart$426864790$0',tbctr_size,0),
+register_value('uart$426864790$0',rbctr_size,5),
+uri_element_range(DIGITAL_IO0sv0,[0, 1, 2, 3, 4]),
+register_value('digital_io$01238362304$0',iocr_oe,1)
+ ],Vars,Regs,Appslocalvars),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Jul 25, 2017 11:32:53 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getSolution() :  Difference in ms 125
+
+
+Jul 25, 2017 11:32:56 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getFeasiblePins() : Tue Jul 25 11:32:56 CEST 2017
+
+
+Jul 25, 2017 11:32:56 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(ask_feasible_mapping([reserved([p,DIGITAL_IO0sv0,pad,_],'digital_io$01238362304$0'),
+reserved([devicepackage,0,_],'digital_io$0567432502$0'),
+uri([devicepackage,0,21],'digital_io$0567432502$0'),
+reserved([p,DIGITAL_IO1sv0,pad,_],'digital_io$01748896481$1'),
+reserved([devicepackage,0,_],'digital_io$1689478505$1'),
+uri([devicepackage,0,22],'digital_io$1689478505$1'),
+reserved([scu,0,dco,_],'clock_xmc1$1911737770$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$01005053461$0'),
+reserved([usic,_,channel,_],'uart$426864790$0'),
+reserved([p,_,pad,_],'uart$1687104611$0'),
+reserved([p,_,pad,_],'uart$1687104673$0'),
+reserved([devicepackage,0,_],'uart$01114417107$0'),
+uri([devicepackage,0,18],'uart$01114417107$0'),
+reserved([devicepackage,0,_],'uart$01114417045$0'),
+signal('digital_io$01238362304$0',swreg_out,'digital_io$01238362304$0$swreg_out'),
+signal('digital_io$01238362304$0',pad,'digital_io$01238362304$0$pad'),
+signal('digital_io$0567432502$0',pin,'digital_io$0567432502$0$pin'),
+signal('digital_io$01748896481$1',swreg_out,'digital_io$01748896481$1$swreg_out'),
+signal('digital_io$01748896481$1',pad,'digital_io$01748896481$1$pad'),
+signal('digital_io$1689478505$1',pin,'digital_io$1689478505$1$pin'),
+signal('clock_xmc1$1911737770$0',clkout,'clock_xmc1$1911737770$0$clkout'),
+signal('clock_xmc1$01005053461$0',frtc,'clock_xmc1$01005053461$0$frtc'),
+signal('uart$426864790$0',dx0ins,'uart$426864790$0$dx0ins'),
+signal('uart$426864790$0',dx3ins,'uart$426864790$0$dx3ins'),
+signal('uart$426864790$0',dout0,'uart$426864790$0$dout0'),
+signal('uart$1687104611$0',pad,'uart$1687104611$0$pad'),
+signal('uart$1687104673$0',pad,'uart$1687104673$0$pad'),
+signal('uart$426864790$0',transmit_buffer_int,'uart$426864790$0$transmit_buffer_int'),
+signal('uart$426864790$0',protocol_specific_int,'uart$426864790$0$protocol_specific_int'),
+signal('uart$426864790$0',standard_receive_buffer_int,'uart$426864790$0$standard_receive_buffer_int'),
+signal('uart$426864790$0',alternate_receive_buffer_int,'uart$426864790$0$alternate_receive_buffer_int'),
+signal('uart$01114417107$0',pin,'uart$01114417107$0$pin'),
+signal('uart$01114417045$0',pin,'uart$01114417045$0$pin'),
+connected('digital_io$0567432502$0$pin','digital_io$01238362304$0$pad',1),
+connected('digital_io$01238362304$0$pad','digital_io$0567432502$0$pin',1),
+connected('digital_io$1689478505$1$pin','digital_io$01748896481$1$pad',1),
+connected('digital_io$01748896481$1$pad','digital_io$1689478505$1$pin',1),
+connected('clock_xmc1$1911737770$0$clkout','clock_xmc1$01005053461$0$frtc',1),
+connected('uart$01114417107$0$pin','uart$1687104611$0$pad',1),
+connected('uart$01114417045$0$pin','uart$1687104673$0$pad',1),
+connected('uart$426864790$0$dout0','uart$1687104673$0$pad',1),
+connected('uart$1687104611$0$pad','uart$01114417107$0$pin',1),
+connected('uart$1687104611$0$pad','uart$426864790$0$dx0ins',1),
+connected('uart$1687104673$0$pad','uart$01114417045$0$pin',1),
+uri_element_range(DIGITAL_IO1sv0,[0, 1, 2, 3, 4]),
+register_value('digital_io$01748896481$1',iocr_oe,1),
+register_value('uart$426864790$0',ccr_hpcen,0),
+register_value('uart$426864790$0',tbctr_size,0),
+register_value('uart$426864790$0',rbctr_size,5),
+uri_element_range(DIGITAL_IO0sv0,[0, 1, 2, 3, 4]),
+register_value('digital_io$01238362304$0',iocr_oe,1)],'uart$01114417045$0',Result),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Jul 25, 2017 11:32:56 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getFeasiblePins() :  Difference in ms 62
+
+
+Jul 25, 2017 11:32:56 AM java.util.logging.LogManager$RootLogger log
+INFO: [/devicepackage/0/19, /devicepackage/0/17, /devicepackage/0/16, /devicepackage/0/39, /devicepackage/0/11, /devicepackage/0/30, /devicepackage/0/12, /devicepackage/0/29, /devicepackage/0/40, /devicepackage/0/20, /devicepackage/0/2, /devicepackage/0/1]
+
+
+Jul 25, 2017 11:33:00 AM java.util.logging.LogManager$RootLogger log
+INFO: Start of solver :getSolution() : Tue Jul 25 11:33:00 CEST 2017
+
+
+Jul 25, 2017 11:33:00 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+timeout(solve_mapping_problem([ 
+reserved([p,DIGITAL_IO0sv0,pad,_],'digital_io$01238362304$0'),
+reserved([devicepackage,0,_],'digital_io$0567432502$0'),
+uri([devicepackage,0,21],'digital_io$0567432502$0'),
+reserved([p,DIGITAL_IO1sv0,pad,_],'digital_io$01748896481$1'),
+reserved([devicepackage,0,_],'digital_io$1689478505$1'),
+uri([devicepackage,0,22],'digital_io$1689478505$1'),
+reserved([scu,0,dco,_],'clock_xmc1$1911737770$0'),
+reserved([scu,0,ccu,config],'clock_xmc1$01005053461$0'),
+reserved([usic,_,channel,_],'uart$426864790$0'),
+reserved([p,_,pad,_],'uart$1687104611$0'),
+reserved([p,_,pad,_],'uart$1687104673$0'),
+reserved([devicepackage,0,_],'uart$01114417107$0'),
+uri([devicepackage,0,18],'uart$01114417107$0'),
+reserved([devicepackage,0,_],'uart$01114417045$0'),
+uri([devicepackage,0,17],'uart$01114417045$0'),
+signal('digital_io$01238362304$0',swreg_out,'digital_io$01238362304$0$swreg_out'),
+signal('digital_io$01238362304$0',pad,'digital_io$01238362304$0$pad'),
+signal('digital_io$0567432502$0',pin,'digital_io$0567432502$0$pin'),
+signal('digital_io$01748896481$1',swreg_out,'digital_io$01748896481$1$swreg_out'),
+signal('digital_io$01748896481$1',pad,'digital_io$01748896481$1$pad'),
+signal('digital_io$1689478505$1',pin,'digital_io$1689478505$1$pin'),
+signal('clock_xmc1$1911737770$0',clkout,'clock_xmc1$1911737770$0$clkout'),
+signal('clock_xmc1$01005053461$0',frtc,'clock_xmc1$01005053461$0$frtc'),
+signal('uart$426864790$0',dx0ins,'uart$426864790$0$dx0ins'),
+signal('uart$426864790$0',dx3ins,'uart$426864790$0$dx3ins'),
+signal('uart$426864790$0',dout0,'uart$426864790$0$dout0'),
+signal('uart$1687104611$0',pad,'uart$1687104611$0$pad'),
+signal('uart$1687104673$0',pad,'uart$1687104673$0$pad'),
+signal('uart$426864790$0',transmit_buffer_int,'uart$426864790$0$transmit_buffer_int'),
+signal('uart$426864790$0',protocol_specific_int,'uart$426864790$0$protocol_specific_int'),
+signal('uart$426864790$0',standard_receive_buffer_int,'uart$426864790$0$standard_receive_buffer_int'),
+signal('uart$426864790$0',alternate_receive_buffer_int,'uart$426864790$0$alternate_receive_buffer_int'),
+signal('uart$01114417107$0',pin,'uart$01114417107$0$pin'),
+signal('uart$01114417045$0',pin,'uart$01114417045$0$pin'),
+connected('digital_io$0567432502$0$pin','digital_io$01238362304$0$pad',1),
+connected('digital_io$01238362304$0$pad','digital_io$0567432502$0$pin',1),
+connected('digital_io$1689478505$1$pin','digital_io$01748896481$1$pad',1),
+connected('digital_io$01748896481$1$pad','digital_io$1689478505$1$pin',1),
+connected('clock_xmc1$1911737770$0$clkout','clock_xmc1$01005053461$0$frtc',1),
+connected('uart$01114417107$0$pin','uart$1687104611$0$pad',1),
+connected('uart$01114417045$0$pin','uart$1687104673$0$pad',1),
+connected('uart$426864790$0$dout0','uart$1687104673$0$pad',1),
+connected('uart$1687104611$0$pad','uart$01114417107$0$pin',1),
+connected('uart$1687104611$0$pad','uart$426864790$0$dx0ins',1),
+connected('uart$1687104673$0$pad','uart$01114417045$0$pin',1),
+uri_element_range(DIGITAL_IO1sv0,[0, 1, 2, 3, 4]),
+register_value('digital_io$01748896481$1',iocr_oe,1),
+register_value('uart$426864790$0',ccr_hpcen,0),
+register_value('uart$426864790$0',tbctr_size,0),
+register_value('uart$426864790$0',rbctr_size,5),
+uri_element_range(DIGITAL_IO0sv0,[0, 1, 2, 3, 4]),
+register_value('digital_io$01238362304$0',iocr_oe,1)
+ ],Vars,Regs,Appslocalvars),15,writeln(timeout),all_solution, Timer, Due, Remainder).
+
+
+
+Jul 25, 2017 11:33:00 AM java.util.logging.LogManager$RootLogger log
+INFO: 
+End of solver : getSolution() :  Difference in ms 122
+
+
+Jul 25, 2017 11:33:02 AM java.util.logging.LogManager$RootLogger log
+INFO: [/scu/0/ccu/config, /clock_xmc1$01005053461$0, /scu/0/dco/2, /clock_xmc1$1911737770$0, /p/1/pad/1, /digital_io$01238362304$0, /p/1/pad/0, /digital_io$01748896481$1, /devicepackage/0/21, /digital_io$0567432502$0, /devicepackage/0/22, /digital_io$1689478505$1, /devicepackage/0/17, /uart$01114417045$0, /devicepackage/0/18, /uart$01114417107$0, /p/1/pad/4, /uart$1687104611$0, /p/1/pad/5, /uart$1687104673$0, /usic/0/channel/0, /uart$426864790$0]
+
+
+Jul 25, 2017 11:33:02 AM java.util.logging.LogManager$RootLogger log
+INFO: [/p/1/pad/0/iocr_pcr, /0, /p/1/pad/0/iocr_oe, /1, /p/1/pad/0/hwsel_hw, /0, /p/1/pad/1/iocr_pcr, /0, /p/1/pad/1/iocr_oe, /1, /p/1/pad/1/hwsel_hw, /0, /p/1/pad/2/iocr_pcr, /0, /p/1/pad/2/iocr_oe, /0, /p/1/pad/2/hwsel_hw, /0, /p/1/pad/3/iocr_pcr, /0, /p/1/pad/3/iocr_oe, /0, /p/1/pad/3/hwsel_hw, /0, /p/1/pad/4/iocr_pcr, /0, /p/1/pad/4/iocr_oe, /0, /p/1/pad/4/hwsel_hw, /0, /p/1/pad/5/iocr_pcr, /2, /p/1/pad/5/iocr_oe, /1, /p/1/pad/5/hwsel_hw, /0, /p/1/pad/6/iocr_pcr, /0, /p/1/pad/6/iocr_oe, /0, /p/1/pad/6/hwsel_hw, /0, /p/2/pad/2/iocr_pcr, /0, /p/2/pad/2/iocr_oe, /0, /p/2/pad/2/hwsel_hw, /0, /p/2/pad/2/pdisc_pdis, /1, /p/2/pad/3/iocr_pcr, /0, /p/2/pad/3/iocr_oe, /0, /p/2/pad/3/pdisc_pdis, /1, /p/2/pad/4/iocr_pcr, /0, /p/2/pad/4/iocr_oe, /0, /p/2/pad/4/hwsel_hw, /0, /p/2/pad/4/pdisc_pdis, /1, /p/2/pad/5/iocr_pcr, /0, /p/2/pad/5/iocr_oe, /0, /p/2/pad/5/pdisc_pdis, /1, /p/2/pad/6/iocr_pcr, /0, /p/2/pad/6/iocr_oe, /0, /p/2/pad/6/hwsel_hw, /0, /p/2/pad/6/pdisc_pdis, /1, /p/2/pad/7/iocr_pcr, /0, /p/2/pad/7/iocr_oe, /0, /p/2/pad/7/hwsel_hw, /0, /p/2/pad/7/pdisc_pdis, /1, /p/2/pad/8/iocr_pcr, /0, /p/2/pad/8/iocr_oe, /0, /p/2/pad/8/hwsel_hw, /0, /p/2/pad/8/pdisc_pdis, /1, /p/2/pad/9/iocr_pcr, /0, /p/2/pad/9/iocr_oe, /0, /p/2/pad/9/hwsel_hw, /0, /p/2/pad/9/pdisc_pdis, /1, /p/0/pad/0/iocr_pcr, /0, /p/0/pad/0/iocr_oe, /0, /p/0/pad/0/hwsel_hw, /0, /p/0/pad/1/iocr_pcr, /0, /p/0/pad/1/iocr_oe, /0, /p/0/pad/1/hwsel_hw, /0, /p/0/pad/10/iocr_pcr, /0, /p/0/pad/10/iocr_oe, /0, /p/0/pad/10/hwsel_hw, /0, /p/0/pad/11/iocr_pcr, /0, /p/0/pad/11/iocr_oe, /0, /p/0/pad/11/hwsel_hw, /0, /p/0/pad/12/iocr_pcr, /0, /p/0/pad/12/iocr_oe, /0, /p/0/pad/12/hwsel_hw, /0, /p/0/pad/13/iocr_pcr, /0, /p/0/pad/13/iocr_oe, /0, /p/0/pad/13/hwsel_hw, /0, /p/0/pad/14/iocr_pcr, /0, /p/0/pad/14/iocr_oe, /0, /p/0/pad/14/hwsel_hw, /0, /p/0/pad/15/iocr_pcr, /0, /p/0/pad/15/iocr_oe, /0, /p/0/pad/15/hwsel_hw, /0, /p/0/pad/2/iocr_pcr, /0, /p/0/pad/2/iocr_oe, /0, /p/0/pad/2/hwsel_hw, /0, /p/0/pad/3/iocr_pcr, /0, /p/0/pad/3/iocr_oe, /0, /p/0/pad/3/hwsel_hw, /0, /p/0/pad/4/iocr_pcr, /0, /p/0/pad/4/iocr_oe, /0, /p/0/pad/4/hwsel_hw, /0, /p/0/pad/5/iocr_pcr, /0, /p/0/pad/5/iocr_oe, /0, /p/0/pad/5/hwsel_hw, /0, /p/0/pad/6/iocr_pcr, /0, /p/0/pad/6/iocr_oe, /0, /p/0/pad/6/hwsel_hw, /0, /p/0/pad/7/iocr_pcr, /0, /p/0/pad/7/iocr_oe, /0, /p/0/pad/7/hwsel_hw, /0, /p/0/pad/8/iocr_pcr, /0, /p/0/pad/8/iocr_oe, /0, /p/0/pad/8/hwsel_hw, /0, /p/0/pad/9/iocr_pcr, /0, /p/0/pad/9/iocr_oe, /0, /p/0/pad/9/hwsel_hw, /0, /p/2/pad/0/iocr_pcr, /0, /p/2/pad/0/iocr_oe, /0, /p/2/pad/0/hwsel_hw, /0, /p/2/pad/0/pdisc_pdis, /1, /p/2/pad/1/iocr_pcr, /0, /p/2/pad/1/iocr_oe, /0, /p/2/pad/1/hwsel_hw, /0, /p/2/pad/1/pdisc_pdis, /1, /p/2/pad/10/iocr_pcr, /0, /p/2/pad/10/iocr_oe, /0, /p/2/pad/10/hwsel_hw, /0, /p/2/pad/10/pdisc_pdis, /1, /p/2/pad/11/iocr_pcr, /0, /p/2/pad/11/iocr_oe, /0, /p/2/pad/11/hwsel_hw, /0, /p/2/pad/11/pdisc_pdis, /1, /bccu/0/channel/0/chconfig_dsel, /0, /bccu/0/channel/1/chconfig_dsel, /0, /bccu/0/channel/2/chconfig_dsel, /0, /bccu/0/channel/3/chconfig_dsel, /0, /bccu/0/channel/4/chconfig_dsel, /0, /bccu/0/channel/5/chconfig_dsel, /0, /bccu/0/channel/6/chconfig_dsel, /0, /bccu/0/channel/7/chconfig_dsel, /0, /bccu/0/channel/8/chconfig_dsel, /0, /bccu/0/packer_fifo_event/evier_eien, /0, /bccu/0/packer_fifo_event/evier_fien, /0, /bccu/0/trap/evier_tpien, /0, /bccu/0/trap/globcon_trapis, /0, /bccu/0/trigger/evier_t0ien, /0, /bccu/0/trigger/evier_t1ien, /0, /ccu4/0/cc4/0/ins_ev1is, /0, /ccu4/0/cc4/0/ins_ev0is, /0, /ccu4/0/cc4/0/ins_ev2is, /0, /ccu4/0/cc4/0/srs_cmsr, /0, /ccu4/0/cc4/0/srs_e0sr, /0, /ccu4/0/cc4/0/srs_e1sr, /0, /ccu4/0/cc4/0/srs_e2sr, /0, /ccu4/0/cc4/0/srs_posr, /0, /ccu4/0/cc4/1/ins_ev1is, /0, /ccu4/0/cc4/1/ins_ev0is, /0, /ccu4/0/cc4/1/ins_ev2is, /0, /ccu4/0/cc4/1/srs_cmsr, /0, /ccu4/0/cc4/1/cmc_tce, /0, /ccu4/0/cc4/1/srs_e0sr, /0, /ccu4/0/cc4/1/srs_e1sr, /0, /ccu4/0/cc4/1/srs_e2sr, /0, /ccu4/0/cc4/1/srs_posr, /0, /ccu4/0/cc4/2/ins_ev1is, /0, /ccu4/0/cc4/2/ins_ev0is, /0, /ccu4/0/cc4/2/ins_ev2is, /0, /ccu4/0/cc4/2/srs_cmsr, /0, /ccu4/0/cc4/2/cmc_tce, /0, /ccu4/0/cc4/2/srs_e0sr, /0, /ccu4/0/cc4/2/srs_e1sr, /0, /ccu4/0/cc4/2/srs_e2sr, /0, /ccu4/0/cc4/2/srs_posr, /0, /ccu4/0/cc4/3/ins_ev1is, /0, /ccu4/0/cc4/3/ins_ev0is, /0, /ccu4/0/cc4/3/ins_ev2is, /0, /ccu4/0/cc4/3/srs_cmsr, /0, /ccu4/0/cc4/3/cmc_tce, /0, /ccu4/0/cc4/3/srs_e0sr, /0, /ccu4/0/cc4/3/srs_e1sr, /0, /ccu4/0/cc4/3/srs_e2sr, /0, /ccu4/0/cc4/3/srs_posr, /0, /ccu4/0/global/gctrl_pcis, /0, /ccu8/0/cc8/1/ins_ev1is, /0, /ccu8/0/cc8/1/ins_ev0is, /0, /ccu8/0/cc8/1/ins_ev2is, /0, /ccu8/0/cc8/1/cmc_tce, /0, /ccu8/0/cc8/1/srs_e0sr, /0, /ccu8/0/cc8/1/srs_e1sr, /0, /ccu8/0/cc8/1/srs_e2sr, /0, /ccu8/0/cc8/1/srs_posr, /0, /ccu8/0/cc8/1/srs_cm1sr, /0, /ccu8/0/cc8/1/srs_cm2sr, /0, /ccu8/0/cc8/0/ins_ev1is, /0, /ccu8/0/cc8/0/ins_ev0is, /0, /ccu8/0/cc8/0/ins_ev2is, /0, /ccu8/0/cc8/0/srs_e0sr, /0, /ccu8/0/cc8/0/srs_e1sr, /0, /ccu8/0/cc8/0/srs_e2sr, /0, /ccu8/0/cc8/0/srs_posr, /0, /ccu8/0/cc8/0/srs_cm1sr, /0, /ccu8/0/cc8/0/srs_cm2sr, /0, /ccu8/0/cc8/3/ins_ev1is, /0, /ccu8/0/cc8/3/ins_ev0is, /0, /ccu8/0/cc8/3/ins_ev2is, /0, /ccu8/0/cc8/3/cmc_tce, /0, /ccu8/0/cc8/3/srs_e0sr, /0, /ccu8/0/cc8/3/srs_e1sr, /0, /ccu8/0/cc8/3/srs_e2sr, /0, /ccu8/0/cc8/3/srs_posr, /0, /ccu8/0/cc8/3/srs_cm1sr, /0, /ccu8/0/cc8/3/srs_cm2sr, /0, /ccu8/0/cc8/2/ins_ev1is, /0, /ccu8/0/cc8/2/ins_ev0is, /0, /ccu8/0/cc8/2/ins_ev2is, /0, /ccu8/0/cc8/2/cmc_tce, /0, /ccu8/0/cc8/2/srs_e0sr, /0, /ccu8/0/cc8/2/srs_e1sr, /0, /ccu8/0/cc8/2/srs_e2sr, /0, /ccu8/0/cc8/2/srs_posr, /0, /ccu8/0/cc8/2/srs_cm1sr, /0, /ccu8/0/cc8/2/srs_cm2sr, /0, /ccu8/0/global/gctrl_pcis, /0, /cpu/0/nvic/interrupt/0/iser_setena, /0, /cpu/0/nvic/interrupt/1/iser_setena, /0, /cpu/0/nvic/interrupt/10/iser_setena, /0, /cpu/0/nvic/interrupt/11/iser_setena, /0, /cpu/0/nvic/interrupt/12/iser_setena, /0, /cpu/0/nvic/interrupt/13/iser_setena, /0, /cpu/0/nvic/interrupt/14/iser_setena, /0, /cpu/0/nvic/interrupt/15/iser_setena, /0, /cpu/0/nvic/interrupt/16/iser_setena, /0, /cpu/0/nvic/interrupt/17/iser_setena, /0, /cpu/0/nvic/interrupt/18/iser_setena, /0, /cpu/0/nvic/interrupt/19/iser_setena, /0, /cpu/0/nvic/interrupt/2/iser_setena, /0, /cpu/0/nvic/interrupt/20/iser_setena, /0, /cpu/0/nvic/interrupt/21/iser_setena, /0, /cpu/0/nvic/interrupt/22/iser_setena, /0, /cpu/0/nvic/interrupt/23/iser_setena, /0, /cpu/0/nvic/interrupt/24/iser_setena, /0, /cpu/0/nvic/interrupt/25/iser_setena, /0, /cpu/0/nvic/interrupt/26/iser_setena, /0, /cpu/0/nvic/interrupt/27/iser_setena, /0, /cpu/0/nvic/interrupt/28/iser_setena, /0, /cpu/0/nvic/interrupt/29/iser_setena, /0, /cpu/0/nvic/interrupt/3/iser_setena, /0, /cpu/0/nvic/interrupt/30/iser_setena, /0, /cpu/0/nvic/interrupt/31/iser_setena, /0, /cpu/0/nvic/interrupt/4/iser_setena, /0, /cpu/0/nvic/interrupt/5/iser_setena, /0, /cpu/0/nvic/interrupt/6/iser_setena, /0, /cpu/0/nvic/interrupt/7/iser_setena, /0, /cpu/0/nvic/interrupt/9/iser_setena, /0, /eru/0/ers_etl/0/exicon_pe, /0, /eru/0/ers_etl/0/exicon_ocs, /0, /eru/0/ers_etl/0/exisel_exsxa, /0, /eru/0/ers_etl/0/exisel_exsxb, /0, /eru/0/ers_etl/1/exicon_pe, /0, /eru/0/ers_etl/1/exicon_ocs, /0, /eru/0/ers_etl/1/exisel_exsxa, /0, /eru/0/ers_etl/1/exisel_exsxb, /0, /eru/0/ers_etl/2/exicon_pe, /0, /eru/0/ers_etl/2/exicon_ocs, /0, /eru/0/ers_etl/2/exisel_exsxa, /0, /eru/0/ers_etl/2/exisel_exsxb, /0, /eru/0/ers_etl/3/exicon_pe, /0, /eru/0/ers_etl/3/exicon_ocs, /0, /eru/0/ers_etl/3/exisel_exsxa, /0, /eru/0/ers_etl/3/exisel_exsxb, /0, /eru/0/ogu/0/exocon_iss, /0, /eru/0/ogu/0/exocon_ipen0, /0, /eru/0/ogu/0/exocon_ipen1, /0, /eru/0/ogu/0/exocon_ipen2, /0, /eru/0/ogu/0/exocon_ipen3, /0, /eru/0/ogu/1/exocon_iss, /0, /eru/0/ogu/1/exocon_ipen0, /0, /eru/0/ogu/1/exocon_ipen1, /0, /eru/0/ogu/1/exocon_ipen2, /0, /eru/0/ogu/1/exocon_ipen3, /0, /eru/0/ogu/2/exocon_iss, /0, /eru/0/ogu/2/exocon_ipen0, /0, /eru/0/ogu/2/exocon_ipen1, /0, /eru/0/ogu/2/exocon_ipen2, /0, /eru/0/ogu/2/exocon_ipen3, /0, /eru/0/ogu/3/exocon_iss, /0, /eru/0/ogu/3/exocon_ipen0, /0, /eru/0/ogu/3/exocon_ipen1, /0, /eru/0/ogu/3/exocon_ipen2, /0, /eru/0/ogu/3/exocon_ipen3, /0, /posif/0/posif/hsc_qd/pconf_dsel, /0, /posif/0/posif/hsc_qd/pconf_ewis, /0, /posif/0/posif/hsc_qd/pconf_insel0, /0, /posif/0/posif/hsc_qd/pconf_insel1, /0, /posif/0/posif/hsc_qd/pconf_insel2, /0, /posif/0/posif/hsc_qd/pflge_eche, /0, /posif/0/posif/hsc_qd/pflge_chesel, /0, /posif/0/posif/hsc_qd/pflge_cnte, /0, /posif/0/posif/hsc_qd/pflge_cntsel, /0, /posif/0/posif/hsc_qd/pflge_dire, /0, /posif/0/posif/hsc_qd/pflge_dirsel, /0, /posif/0/posif/hsc_qd/pflge_erre, /0, /posif/0/posif/hsc_qd/pflge_errsel, /0, /posif/0/posif/hsc_qd/pflge_ehie, /0, /posif/0/posif/hsc_qd/pflge_hiesel, /0, /posif/0/posif/hsc_qd/pflge_indxe, /0, /posif/0/posif/hsc_qd/pflge_indsel, /0, /posif/0/posif/hsc_qd/pflge_pclke, /0, /posif/0/posif/hsc_qd/pflge_pclsel, /0, /posif/0/posif/hsc_qd/pflge_ewhe, /0, /posif/0/posif/hsc_qd/pflge_whesel, /0, /posif/0/posif/mcm/pconf_msets, /0, /posif/0/posif/mcm/pconf_msyns, /0, /posif/0/posif/mcm/pflge_emst, /0, /posif/0/posif/mcm/pflge_mstsel, /0, /scu/0/ccu/config/clkcr_rtcclksel, /0, /usic/0/channel/0/ccr_hpcen, /0, /usic/0/channel/0/dx1cr_dsel, /0, /usic/0/channel/0/dx0cr_dsel, /6, /usic/0/channel/0/dx5cr_dsel, /4, /usic/0/channel/0/dx3cr_dsel, /5, /usic/0/channel/0/dx4cr_dsel, /0, /usic/0/channel/0/dx2cr_dsel, /0, /usic/0/channel/0/rbctr_arbien, /0, /usic/0/channel/0/rbctr_arbinp, /0, /usic/0/channel/0/ccr_aien, /0, /usic/0/channel/0/inpr_ainp, /0, /usic/0/channel/0/ccr_brgien, /0, /usic/0/channel/0/inpr_pinp, /0, /usic/0/channel/0/ccr_dlien, /0, /usic/0/channel/0/rbctr_rberien, /0, /usic/0/channel/0/ccr_rsien, /0, /usic/0/channel/0/inpr_tbinp, /0, /usic/0/channel/0/rbctr_srbien, /0, /usic/0/channel/0/rbctr_srbinp, /0, /usic/0/channel/0/ccr_rien, /0, /usic/0/channel/0/inpr_rinp, /0, /usic/0/channel/0/tbctr_stbien, /0, /usic/0/channel/0/tbctr_stbinp, /0, /usic/0/channel/0/tbctr_tberien, /0, /usic/0/channel/0/tbctr_atbinp, /0, /usic/0/channel/0/ccr_tbien, /0, /usic/0/channel/0/ccr_tsien, /0, /usic/0/channel/0/inpr_tsinp, /0, /usic/0/channel/0/rbctr_dptr, /0, /usic/0/channel/0/rbctr_size, /5, /usic/0/channel/0/tbctr_dptr, /0, /usic/0/channel/0/tbctr_size, /0, /usic/0/channel/1/ccr_hpcen, /0, /usic/0/channel/1/dx1cr_dsel, /0, /usic/0/channel/1/dx0cr_dsel, /0, /usic/0/channel/1/dx5cr_dsel, /0, /usic/0/channel/1/dx3cr_dsel, /0, /usic/0/channel/1/dx4cr_dsel, /0, /usic/0/channel/1/dx2cr_dsel, /0, /usic/0/channel/1/rbctr_arbien, /0, /usic/0/channel/1/rbctr_arbinp, /0, /usic/0/channel/1/ccr_aien, /0, /usic/0/channel/1/inpr_ainp, /0, /usic/0/channel/1/ccr_brgien, /0, /usic/0/channel/1/inpr_pinp, /0, /usic/0/channel/1/ccr_dlien, /0, /usic/0/channel/1/rbctr_rberien, /0, /usic/0/channel/1/ccr_rsien, /0, /usic/0/channel/1/inpr_tbinp, /0, /usic/0/channel/1/rbctr_srbien, /0, /usic/0/channel/1/rbctr_srbinp, /0, /usic/0/channel/1/ccr_rien, /0, /usic/0/channel/1/inpr_rinp, /0, /usic/0/channel/1/tbctr_stbien, /0, /usic/0/channel/1/tbctr_stbinp, /0, /usic/0/channel/1/tbctr_tberien, /0, /usic/0/channel/1/tbctr_atbinp, /0, /usic/0/channel/1/ccr_tbien, /0, /usic/0/channel/1/ccr_tsien, /0, /usic/0/channel/1/inpr_tsinp, /0, /usic/0/channel/1/rbctr_dptr, /0, /usic/0/channel/1/rbctr_size, /0, /usic/0/channel/1/tbctr_dptr, /0, /usic/0/channel/1/tbctr_size, /0, /vadc/0/backgnd/brsctrl_xtsel, /0, /vadc/0/backgnd/brsctrl_gtsel, /0, /vadc/0/backgnd/globevnp_sev0np, /0, /vadc/0/emux/0/emuxsel_emuxgrp, /0, /vadc/0/emux/1/emuxsel_emuxgrp, /0, /vadc/0/global_result/globevnp_revnp, /0, /vadc/0/group/0/ch/0/gchctr_iclsel, /0, /vadc/0/group/0/ch/0/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/0/gchctr_resreg, /0, /vadc/0/group/0/ch/0/galias_alias0, /0, /vadc/0/group/0/ch/1/gchctr_iclsel, /0, /vadc/0/group/0/ch/1/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/1/gchctr_resreg, /0, /vadc/0/group/0/ch/1/galias_alias1, /0, /vadc/0/group/0/ch/2/gchctr_iclsel, /0, /vadc/0/group/0/ch/2/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/2/gchctr_resreg, /0, /vadc/0/group/0/ch/3/gchctr_iclsel, /0, /vadc/0/group/0/ch/3/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/3/gchctr_resreg, /0, /vadc/0/group/0/ch/4/gchctr_iclsel, /0, /vadc/0/group/0/ch/4/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/4/gchctr_resreg, /0, /vadc/0/group/0/ch/5/gchctr_iclsel, /0, /vadc/0/group/0/ch/5/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/5/gchctr_resreg, /0, /vadc/0/group/0/ch/6/gchctr_iclsel, /0, /vadc/0/group/0/ch/6/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/6/gchctr_resreg, /0, /vadc/0/group/0/ch/7/gchctr_iclsel, /0, /vadc/0/group/0/ch/7/gcevnp0_cevnp, /0, /vadc/0/group/0/ch/7/gchctr_resreg, /0, /vadc/0/group/0/queue/gqctrl0_xtsel, /0, /vadc/0/group/0/queue/gqctrl0_gtsel, /0, /vadc/0/group/0/queue/gsevnp_sev0np, /0, /vadc/0/group/0/result/10/grevnp_revnp, /0, /vadc/0/group/0/result/11/grevnp_revnp, /0, /vadc/0/group/0/result/12/grevnp_revnp, /0, /vadc/0/group/0/result/13/grevnp_revnp, /0, /vadc/0/group/0/result/14/grevnp_revnp, /0, /vadc/0/group/0/result/4/grevnp_revnp, /0, /vadc/0/group/0/result/5/grevnp_revnp, /0, /vadc/0/group/0/result/6/grevnp_revnp, /0, /vadc/0/group/0/result/8/grevnp_revnp, /0, /vadc/0/group/0/result/9/grevnp_revnp, /0, /vadc/0/group/0/result_adv/0/grevnp_revnp, /0, /vadc/0/group/0/result_adv/1/grevnp_revnp, /0, /vadc/0/group/0/result_adv/2/grevnp_revnp, /0, /vadc/0/group/0/result_adv/3/grevnp_revnp, /0, /vadc/0/group/0/result_filter/15/grevnp_revnp, /0, /vadc/0/group/0/result_filter/7/grevnp_revnp, /0, /vadc/0/group/0/scan/gasctrl_xtsel, /0, /vadc/0/group/0/scan/gasctrl_gtsel, /0, /vadc/0/group/0/scan/gsevnp_sev1np, /0, /vadc/0/group/0/sync/gsynctr_stsel, /0, /vadc/0/group/0/sync/gsynctr_evalr1, /0, /vadc/0/group/0/sync/gsynctr_evalr2, /0, /vadc/0/group/0/sync/gsynctr_evalr3, /0, /vadc/0/group/1/ch/0/gchctr_iclsel, /0, /vadc/0/group/1/ch/0/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/0/gchctr_resreg, /0, /vadc/0/group/1/ch/0/galias_alias0, /0, /vadc/0/group/1/ch/1/gchctr_iclsel, /0, /vadc/0/group/1/ch/1/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/1/gchctr_resreg, /0, /vadc/0/group/1/ch/1/galias_alias1, /0, /vadc/0/group/1/ch/2/gchctr_iclsel, /0, /vadc/0/group/1/ch/2/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/2/gchctr_resreg, /0, /vadc/0/group/1/ch/3/gchctr_iclsel, /0, /vadc/0/group/1/ch/3/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/3/gchctr_resreg, /0, /vadc/0/group/1/ch/4/gchctr_iclsel, /0, /vadc/0/group/1/ch/4/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/4/gchctr_resreg, /0, /vadc/0/group/1/ch/5/gchctr_iclsel, /0, /vadc/0/group/1/ch/5/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/5/gchctr_resreg, /0, /vadc/0/group/1/ch/6/gchctr_iclsel, /0, /vadc/0/group/1/ch/6/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/6/gchctr_resreg, /0, /vadc/0/group/1/ch/7/gchctr_iclsel, /0, /vadc/0/group/1/ch/7/gcevnp0_cevnp, /0, /vadc/0/group/1/ch/7/gchctr_resreg, /0, /vadc/0/group/1/queue/gqctrl0_xtsel, /0, /vadc/0/group/1/queue/gqctrl0_gtsel, /0, /vadc/0/group/1/queue/gsevnp_sev0np, /0, /vadc/0/group/1/result/10/grevnp_revnp, /0, /vadc/0/group/1/result/11/grevnp_revnp, /0, /vadc/0/group/1/result/12/grevnp_revnp, /0, /vadc/0/group/1/result/13/grevnp_revnp, /0, /vadc/0/group/1/result/14/grevnp_revnp, /0, /vadc/0/group/1/result/4/grevnp_revnp, /0, /vadc/0/group/1/result/5/grevnp_revnp, /0, /vadc/0/group/1/result/6/grevnp_revnp, /0, /vadc/0/group/1/result/8/grevnp_revnp, /0, /vadc/0/group/1/result/9/grevnp_revnp, /0, /vadc/0/group/1/result_adv/0/grevnp_revnp, /0, /vadc/0/group/1/result_adv/1/grevnp_revnp, /0, /vadc/0/group/1/result_adv/2/grevnp_revnp, /0, /vadc/0/group/1/result_adv/3/grevnp_revnp, /0, /vadc/0/group/1/result_filter/15/grevnp_revnp, /0, /vadc/0/group/1/result_filter/7/grevnp_revnp, /0, /vadc/0/group/1/scan/gasctrl_xtsel, /0, /vadc/0/group/1/scan/gasctrl_gtsel, /0, /vadc/0/group/1/scan/gsevnp_sev1np, /0, /vadc/0/group/1/sync/gsynctr_stsel, /0, /vadc/0/group/1/sync/gsynctr_evalr1, /0, /vadc/0/group/1/sync/gsynctr_evalr2, /0, /vadc/0/group/1/sync/gsynctr_evalr3, /0]
+
+
